@@ -1,0 +1,59 @@
+name: Daily English
+
+on:
+  schedule:
+    - cron: '0 10 * * *'  # 6 AM EDT (UTC-4), 夏令时适用
+  workflow_dispatch:
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Send daily English dialogue
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          CHAT_ID: "499402645"
+        run: |
+          python3 << 'EOF'
+          import json, datetime, os, subprocess
+
+          with open("dialogues.json", "r") as f:
+              dialogues = json.load(f)
+
+          day_index = int(datetime.date.today().strftime("%j")) % len(dialogues)
+          d = dialogues[day_index]
+
+          lines = []
+          lines.append(f"📚 每日英语 Day {d['day']}/60")
+          lines.append(f"🎬 场景：{d['scene']}")
+          lines.append("")
+          lines.append("💬 对话：")
+          for item in d["dialogue"]:
+              for speaker, text in item.items():
+                  lines.append(f"  {speaker}: {text}")
+          lines.append("")
+          lines.append("🌏 翻译：")
+          for item in d["translation"]:
+              for speaker, text in item.items():
+                  lines.append(f"  {speaker}: {text}")
+          lines.append("")
+          lines.append("⭐ 今日必记：")
+          for phrase in d["key_phrases"]:
+              lines.append(f"  • {phrase}")
+          lines.append("")
+          lines.append("📝 举一反三：")
+          for ex in d["examples"]:
+              lines.append(f"  → {ex}")
+          lines.append("")
+          lines.append(f"💡 小贴士：{d['tip']}")
+
+          msg = "\n".join(lines)
+          with open("/tmp/msg.txt", "w") as f:
+              f.write(msg)
+          EOF
+
+          curl -s "https://api.telegram.org/bot${TELEGRAM_TOKEN}/sendMessage" \
+            -d "chat_id=${CHAT_ID}" \
+            --data-urlencode "text@/tmp/msg.txt"
