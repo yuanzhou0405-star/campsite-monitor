@@ -25,30 +25,26 @@ jobs:
                   "https://www.theverge.com/rss/index.xml",
               ],
               "💼 OPERATIONS": [
-                  "https://hbr.org/resources/rss/hbr-topic-rss.xml?topic=managing-people",
                   "https://feeds.feedburner.com/entrepreneur/latest",
               ],
               "🛂 IMMIGRATION": [
-                  "https://www.uscis.gov/news/rss",
                   "https://immigrationimpact.com/feed/",
+                  "https://www.uscis.gov/news/rss",
               ],
               "🏥 HEALTH": [
                   "https://www.healthline.com/rss/health-news",
               ],
               "🇺🇸 US NEWS": [
                   "https://feeds.npr.org/1001/rss.xml",
-                  "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
               ],
               "💰 FINANCE": [
-                  "https://feeds.bloomberg.com/markets/news.rss",
-                  "https://www.wsj.com/xml/rss/3_7085.xml",
+                  "https://feeds.content.dowjones.io/public/rss/mw_realtimeheadlines",
               ],
               "🌍 WORLD": [
                   "http://feeds.bbci.co.uk/news/world/rss.xml",
               ],
           }
 
-          # How many articles per category
           CATEGORY_COUNTS = {
               "💼 TECH": 2,
               "💼 OPERATIONS": 1,
@@ -71,24 +67,38 @@ jobs:
               items = []
               try:
                   root = ET.fromstring(xml_data)
-                  ns = {"atom": "http://www.w3.org/2005/Atom"}
-                  # RSS 2.0
                   for item in root.findall(".//item")[:3]:
-                      title = item.findtext("title", "").strip()
-                      link = item.findtext("link", "").strip()
+                      title = (item.findtext("title") or "").strip()
+                      link = (item.findtext("link") or "").strip()
+                      desc = (item.findtext("description") or "").strip()
+                      desc = re.sub(r'<[^>]+>', '', desc)[:200]
                       if title and link:
-                          items.append({"title": title, "link": link})
-                  # Atom
+                          items.append({"title": title, "link": link, "desc": desc})
                   if not items:
                       for entry in root.findall(".//{http://www.w3.org/2005/Atom}entry")[:3]:
-                          title = entry.findtext("{http://www.w3.org/2005/Atom}title", "").strip()
+                          title = (entry.findtext("{http://www.w3.org/2005/Atom}title") or "").strip()
                           link_el = entry.find("{http://www.w3.org/2005/Atom}link")
                           link = link_el.get("href", "") if link_el is not None else ""
+                          summary = entry.find("{http://www.w3.org/2005/Atom}summary")
+                          desc = re.sub(r'<[^>]+>', '', (summary.text or "") if summary is not None else "")[:200]
                           if title and link:
-                              items.append({"title": title, "link": link})
+                              items.append({"title": title, "link": link, "desc": desc})
               except:
                   pass
               return items
+
+          def translate(text):
+              if not text.strip():
+                  return ""
+              try:
+                  text = text[:300]
+                  url = "https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-CN&dt=t&q=" + urllib.parse.quote(text)
+                  req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+                  with urllib.request.urlopen(req, timeout=8) as r:
+                      data = json.loads(r.read().decode())
+                      return "".join(part[0] for part in data[0] if part[0])
+              except:
+                  return ""
 
           def clean(text):
               return re.sub(r'<[^>]+>', '', text).strip()
@@ -107,36 +117,37 @@ jobs:
 
           # Build Lark card
           elements = []
-
           elements.append({
               "tag": "div",
-              "text": {
-                  "tag": "lark_md",
-                  "content": f"每天10条精选 · 英语+资讯双丰收 · 点标题看原文"
-              }
+              "text": {"tag": "lark_md", "content": "每天10条精选 · 中英对照 · **点标题跳转原文**"}
           })
           elements.append({"tag": "hr"})
 
           total = 0
           for category, articles in all_articles.items():
-              if not articles:
-                  continue
               for article in articles:
                   total += 1
-                  title = clean(article["title"])
+                  title_en = clean(article["title"])
+                  title_cn = translate(title_en)
+                  desc_en = clean(article["desc"])
+                  desc_cn = translate(desc_en) if desc_en else ""
                   link = article["link"]
-                  elements.append({
-                      "tag": "div",
-                      "text": {
-                          "tag": "lark_md",
-                          "content": f"**{total}. {category}**\n[📌 {title}]({link})"
-                      }
-                  })
+
+                  content = f"**{total}. {category}**\n"
+                  content += f"[📌 {title_en}]({link})\n"
+                  if title_cn:
+                      content += f"　　{title_cn}\n"
+                  if desc_en:
+                      content += f"\n💬 {desc_en}\n"
+                  if desc_cn:
+                      content += f"　　{desc_cn}"
+
+                  elements.append({"tag": "div", "text": {"tag": "lark_md", "content": content}})
                   elements.append({"tag": "hr"})
 
           elements.append({
               "tag": "note",
-              "elements": [{"tag": "plain_text", "content": f"📡 RSS实时抓取 | {TODAY} 更新"}]
+              "elements": [{"tag": "plain_text", "content": f"📡 RSS实时抓取 + Google翻译 | {TODAY} | 共{total}条"}]
           })
 
           card = {
@@ -151,13 +162,7 @@ jobs:
           }
 
           data = json.dumps(card).encode()
-          req = urllib.request.Request(
-              WEBHOOK,
-              data=data,
-              headers={"Content-Type": "application/json"},
-              method="POST"
-          )
+          req = urllib.request.Request(WEBHOOK, data=data, headers={"Content-Type": "application/json"}, method="POST")
           with urllib.request.urlopen(req) as resp:
-              result = json.loads(resp.read().decode())
-              print(f"Lark response: {result}")
+              print(f"Lark: {resp.read().decode()}")
           EOF
