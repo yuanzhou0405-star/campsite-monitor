@@ -1,0 +1,3305 @@
+[
+  {
+    "day": 1,
+    "scene": "☕ 点咖啡",
+    "dialogue": [
+      {
+        "A": "Hi, what can I get for you?"
+      },
+      {
+        "B": "Can I get a medium latte, please?"
+      },
+      {
+        "A": "Sure! Would you like that hot or iced?"
+      },
+      {
+        "B": "Iced, please. And can I add an extra shot?"
+      },
+      {
+        "A": "Of course. Name for the order?"
+      },
+      {
+        "B": "It's Joshua. Thanks!"
+      }
+    ],
+    "translation": [
+      {
+        "A": "你好，请问要点什么？"
+      },
+      {
+        "B": "我要一杯中杯拿铁，谢谢。"
+      },
+      {
+        "A": "好的！你要热的还是冰的？"
+      },
+      {
+        "B": "冰的，谢谢。可以多加一份浓缩吗？"
+      },
+      {
+        "A": "当然可以。请问怎么称呼？"
+      },
+      {
+        "B": "Joshua，谢谢！"
+      }
+    ],
+    "key_phrases": [
+      "Can I get a ~, please? = 我要一个～（点单万能句）",
+      "Would you like ~ hot or iced? = 你要热的还是冰的？",
+      "Can I add ~? = 可以加～吗？"
+    ],
+    "tip": "点单时说 'Can I get' 比 'I want' 更礼貌自然。",
+    "examples": [
+      "Can I get a window seat, please?（我要一个靠窗座位）",
+      "Can I add oat milk instead?（可以换燕麦奶吗）",
+      "Would you like that for here or to go?（在这吃还是带走？）"
+    ]
+  },
+  {
+    "day": 2,
+    "scene": "🍽️ 餐厅订位",
+    "dialogue": [
+      {
+        "A": "Thank you for calling Olive Garden. How can I help you?"
+      },
+      {
+        "B": "Hi, I'd like to make a reservation for two, please."
+      },
+      {
+        "A": "Sure! What date and time were you thinking?"
+      },
+      {
+        "B": "This Saturday at 7 PM."
+      },
+      {
+        "A": "Perfect. Can I get your name and phone number?"
+      },
+      {
+        "B": "It's Joshua Song, and my number is 301-555-0192."
+      }
+    ],
+    "translation": [
+      {
+        "A": "感谢致电Olive Garden，请问有什么可以帮您？"
+      },
+      {
+        "B": "你好，我想预订两人座位。"
+      },
+      {
+        "A": "好的！您考虑哪天几点？"
+      },
+      {
+        "B": "本周六晚上7点。"
+      },
+      {
+        "A": "好的。请问您的姓名和电话？"
+      },
+      {
+        "B": "Joshua Song，电话301-555-0192。"
+      }
+    ],
+    "key_phrases": [
+      "I'd like to make a reservation for ~ = 我想预订～人的位置",
+      "What date and time were you thinking? = 您考虑哪天几点？",
+      "Can I get your name? = 请问您的姓名？"
+    ],
+    "tip": "'I'd like to' 比 'I want to' 更有礼貌，打电话订位时常用。",
+    "examples": [
+      "I'd like to make a reservation for four.（我想订四人位）",
+      "What time were you thinking for dinner?（你想几点吃晚饭？）",
+      "Can I get your phone number?（请问您的电话？）"
+    ]
+  },
+  {
+    "day": 3,
+    "scene": "🗺️ 问路",
+    "dialogue": [
+      {
+        "A": "Excuse me, is there a pharmacy nearby?"
+      },
+      {
+        "B": "Yes! There's a CVS about two blocks down on your right."
+      },
+      {
+        "A": "Two blocks down and turn right?"
+      },
+      {
+        "B": "No, just go straight — it's on the right side of the street."
+      },
+      {
+        "A": "Got it. How long does it take to walk?"
+      },
+      {
+        "B": "Maybe five minutes."
+      }
+    ],
+    "translation": [
+      {
+        "A": "打扰一下，附近有药店吗？"
+      },
+      {
+        "B": "有！前面两个街区右手边有一家CVS。"
+      },
+      {
+        "A": "走两个街区然后右转？"
+      },
+      {
+        "B": "不，直走就行，在街道右侧。"
+      },
+      {
+        "A": "明白了，走路大概要多久？"
+      },
+      {
+        "B": "大概5分钟。"
+      }
+    ],
+    "key_phrases": [
+      "Excuse me, is there a ~ nearby? = 打扰一下，附近有～吗？",
+      "Two blocks down = 往前两个街区",
+      "On your right/left = 在你右/左手边"
+    ],
+    "tip": "问路时先说 'Excuse me' 是基本礼貌，美国人很乐意帮忙。",
+    "examples": [
+      "Excuse me, is there a gas station nearby?（附近有加油站吗？）",
+      "Go straight for three blocks, then turn left.（直走三个街区然后左转）",
+      "It's on your left, next to the bank.（在你左手边，银行旁边）"
+    ]
+  },
+  {
+    "day": 4,
+    "scene": "🛒 超市购物",
+    "dialogue": [
+      {
+        "A": "Did you find everything okay today?"
+      },
+      {
+        "B": "Almost — I couldn't find the almond milk."
+      },
+      {
+        "A": "It's in aisle 7, next to the regular milk."
+      },
+      {
+        "B": "Oh great, thanks! Also, do you have any coupons for this?"
+      },
+      {
+        "A": "Let me check... Yes, there's a 20% off deal in the app."
+      },
+      {
+        "B": "Perfect, I'll use that. Thanks so much!"
+      }
+    ],
+    "translation": [
+      {
+        "A": "今天找到所有东西了吗？"
+      },
+      {
+        "B": "差不多，但杏仁奶没找到。"
+      },
+      {
+        "A": "在第7排，普通牛奶旁边。"
+      },
+      {
+        "B": "太好了，谢谢！这个有优惠券吗？"
+      },
+      {
+        "A": "我看看……app里有个八折优惠。"
+      },
+      {
+        "B": "完美，我用那个，太感谢了！"
+      }
+    ],
+    "key_phrases": [
+      "Did you find everything okay? = 您找到所有东西了吗？（收银员常说）",
+      "I couldn't find ~ = 我找不到～",
+      "It's in aisle ~ = 在第～排"
+    ],
+    "tip": "在美国超市，收银员常问 'Did you find everything okay?' 回答 'Yes, thanks!' 就够了。",
+    "examples": [
+      "Did you find everything okay today?（今天找到所有东西了吗？）",
+      "I couldn't find the pasta sauce.（我找不到意面酱）",
+      "It's in aisle 3, near the back.（在第3排，靠近里面）"
+    ]
+  },
+  {
+    "day": 5,
+    "scene": "🏥 看医生",
+    "dialogue": [
+      {
+        "A": "What brings you in today?"
+      },
+      {
+        "B": "I've had a sore throat and a fever since yesterday."
+      },
+      {
+        "A": "Any coughing or trouble swallowing?"
+      },
+      {
+        "B": "Some coughing, but swallowing is okay."
+      },
+      {
+        "A": "Let me take a look. Open wide and say 'Ahh'."
+      },
+      {
+        "B": "Ahh..."
+      }
+    ],
+    "translation": [
+      {
+        "A": "今天来看什么问题？"
+      },
+      {
+        "B": "我从昨天开始喉咙痛、发烧。"
+      },
+      {
+        "A": "有咳嗽或者吞咽困难吗？"
+      },
+      {
+        "B": "有点咳嗽，但吞咽没问题。"
+      },
+      {
+        "A": "我来看一下，嘴巴张开说'啊'。"
+      },
+      {
+        "B": "啊……"
+      }
+    ],
+    "key_phrases": [
+      "What brings you in today? = 您今天来看什么？（医生常用开场白）",
+      "I've had ~ since ~ = 我从～开始就有～",
+      "Any ~ ? = 有没有～？（医生问症状）"
+    ],
+    "tip": "描述症状时用 'I've had + 症状 + since + 时间' 结构非常清晰。",
+    "examples": [
+      "I've had a headache since this morning.（我从今早就头痛）",
+      "Any nausea or dizziness?（有恶心或头晕吗？）",
+      "I've had this rash since last week.（我从上周就有这个疹子）"
+    ]
+  },
+  {
+    "day": 6,
+    "scene": "📞 接听工作电话",
+    "dialogue": [
+      {
+        "A": "Hello, this is Sarah from ABC Company. May I speak with Joshua?"
+      },
+      {
+        "B": "This is Joshua speaking."
+      },
+      {
+        "A": "Hi Joshua! I'm calling about the proposal you sent over."
+      },
+      {
+        "B": "Of course. Is there anything you'd like to clarify?"
+      },
+      {
+        "A": "Yes, could you walk me through the pricing section?"
+      },
+      {
+        "B": "Sure, happy to. So the base price is..."
+      }
+    ],
+    "translation": [
+      {
+        "A": "您好，我是ABC公司的Sarah，请问Joshua在吗？"
+      },
+      {
+        "B": "我就是Joshua。"
+      },
+      {
+        "A": "Joshua你好！我是关于你发来的方案打电话的。"
+      },
+      {
+        "B": "当然，有什么需要说明的吗？"
+      },
+      {
+        "A": "是的，你能带我过一遍定价部分吗？"
+      },
+      {
+        "B": "当然，很乐意。基础价格是……"
+      }
+    ],
+    "key_phrases": [
+      "This is ~ speaking = 我就是～（接电话报名字）",
+      "I'm calling about ~ = 我打电话是关于～",
+      "Could you walk me through ~? = 你能带我过一遍～吗？"
+    ],
+    "tip": "接电话说 'This is Joshua speaking' 比 'I am Joshua' 更专业地道。",
+    "examples": [
+      "This is Sarah speaking, how can I help?（我是Sarah，有什么可以帮您？）",
+      "I'm calling about your job application.（我打电话是关于您的求职申请）",
+      "Could you walk me through the timeline?（你能带我过一遍时间线吗？）"
+    ]
+  },
+  {
+    "day": 7,
+    "scene": "✈️ 机场安检",
+    "dialogue": [
+      {
+        "A": "Boarding pass and ID, please."
+      },
+      {
+        "B": "Here you go."
+      },
+      {
+        "A": "Please remove your shoes and place all items in the bin."
+      },
+      {
+        "B": "Can I leave my laptop in my bag?"
+      },
+      {
+        "A": "No, laptops need to go in a separate bin."
+      },
+      {
+        "B": "Got it, sorry about that."
+      }
+    ],
+    "translation": [
+      {
+        "A": "请出示登机牌和证件。"
+      },
+      {
+        "B": "给您。"
+      },
+      {
+        "A": "请脱鞋，所有物品放进筐里。"
+      },
+      {
+        "B": "我的笔记本可以放在包里吗？"
+      },
+      {
+        "A": "不行，笔记本需要单独放一个筐。"
+      },
+      {
+        "B": "明白了，不好意思。"
+      }
+    ],
+    "key_phrases": [
+      "Here you go = 给您（递东西时说）",
+      "Place all items in the bin = 把所有物品放进筐里",
+      "Sorry about that = 不好意思（轻微道歉）"
+    ],
+    "tip": "'Here you go' 是递东西给别人时最自然的说法，比 'Here it is' 更常用。",
+    "examples": [
+      "Here you go, have a great flight!（给您，祝飞行愉快！）",
+      "Please place all liquids in a separate bin.（请把所有液体单独放一个筐）",
+      "Sorry about that, I'll fix it right away.（不好意思，我马上解决）"
+    ]
+  },
+  {
+    "day": 8,
+    "scene": "🏨 酒店入住",
+    "dialogue": [
+      {
+        "A": "Welcome! Do you have a reservation?"
+      },
+      {
+        "B": "Yes, under the name Joshua Song."
+      },
+      {
+        "A": "Let me pull that up... Got it! King room, two nights?"
+      },
+      {
+        "B": "That's right. Is early check-in available?"
+      },
+      {
+        "A": "Your room is actually ready. I'll just need a credit card for incidentals."
+      },
+      {
+        "B": "Sure, here's my Visa."
+      }
+    ],
+    "translation": [
+      {
+        "A": "欢迎！请问有预订吗？"
+      },
+      {
+        "B": "有，名字是Joshua Song。"
+      },
+      {
+        "A": "我查一下……找到了！大床房，住两晚？"
+      },
+      {
+        "B": "对的。可以提前入住吗？"
+      },
+      {
+        "A": "您的房间已经准备好了。我需要一张信用卡作为押金。"
+      },
+      {
+        "B": "好的，这是我的Visa卡。"
+      }
+    ],
+    "key_phrases": [
+      "Under the name ~ = 名字是～（报预订名字）",
+      "Let me pull that up = 我来查一下（查记录常用）",
+      "For incidentals = 作为押金/杂费保证"
+    ],
+    "tip": "酒店check-in时常被要求提供信用卡 'for incidentals'，就是以防万一的押金，退房时退还。",
+    "examples": [
+      "Reservation under the name Johnson.（预订名字是Johnson）",
+      "Let me pull up your account.（我来调出您的账户）",
+      "We'll need a card for incidentals.（我们需要一张卡作为押金）"
+    ]
+  },
+  {
+    "day": 9,
+    "scene": "🚗 租车",
+    "dialogue": [
+      {
+        "A": "Hi, I have a reservation. Last name Song."
+      },
+      {
+        "B": "Got it! You reserved a mid-size sedan for three days."
+      },
+      {
+        "A": "That's right. Does it come with GPS?"
+      },
+      {
+        "B": "It has Apple CarPlay and Android Auto built in."
+      },
+      {
+        "A": "Great. Do I need to return it with a full tank?"
+      },
+      {
+        "B": "Yes, or we charge a refueling fee."
+      }
+    ],
+    "translation": [
+      {
+        "A": "你好，我有预订，姓Song。"
+      },
+      {
+        "B": "找到了！您预订了一辆中型轿车，租三天。"
+      },
+      {
+        "A": "对。车上有导航吗？"
+      },
+      {
+        "B": "内置了Apple CarPlay和Android Auto。"
+      },
+      {
+        "A": "好的。还车时需要加满油吗？"
+      },
+      {
+        "B": "需要，否则我们会收加油费。"
+      }
+    ],
+    "key_phrases": [
+      "Does it come with ~? = 它带有～吗？",
+      "Built in = 内置的",
+      "Return it with a full tank = 加满油还车"
+    ],
+    "tip": "租车还车前记得加满油，否则租车公司加的油费比加油站贵很多。",
+    "examples": [
+      "Does it come with insurance?（包含保险吗？）",
+      "It has a built-in backup camera.（内置倒车摄像头）",
+      "Do I need to return it with a full tank?（还车需要加满油吗？）"
+    ]
+  },
+  {
+    "day": 10,
+    "scene": "💼 工作会议开场",
+    "dialogue": [
+      {
+        "A": "Alright, let's get started. Thanks everyone for joining."
+      },
+      {
+        "B": "Before we begin, can we get a quick update from the dev team?"
+      },
+      {
+        "A": "Sure. We're on track to launch by Friday."
+      },
+      {
+        "B": "That's great to hear. Any blockers?"
+      },
+      {
+        "A": "Just one — we're waiting on the final design assets."
+      },
+      {
+        "B": "I'll follow up with the design team right after this."
+      }
+    ],
+    "translation": [
+      {
+        "A": "好了，我们开始吧。感谢大家参加。"
+      },
+      {
+        "B": "开始之前，可以先听开发团队的进度更新吗？"
+      },
+      {
+        "A": "当然。我们预计周五可以按时上线。"
+      },
+      {
+        "B": "很高兴听到这个。有什么阻碍吗？"
+      },
+      {
+        "A": "就一个——我们在等最终的设计素材。"
+      },
+      {
+        "B": "会议结束后我马上跟设计团队跟进。"
+      }
+    ],
+    "key_phrases": [
+      "Let's get started = 我们开始吧",
+      "On track to ~ = 预计按时～",
+      "Any blockers? = 有什么阻碍吗？（开发团队常用）"
+    ],
+    "tip": "'Any blockers?' 是科技公司会议中超高频的问法，意思是有没有什么卡住进度的问题。",
+    "examples": [
+      "Let's get started — we have a lot to cover.（我们开始吧，有很多要讲）",
+      "We're on track for the Q3 launch.（我们Q3上线进度正常）",
+      "Any blockers from the design side?（设计那边有什么阻碍吗？）"
+    ]
+  },
+  {
+    "day": 11,
+    "scene": "🏦 银行开户",
+    "dialogue": [
+      {
+        "A": "Hi, how can I help you today?"
+      },
+      {
+        "B": "I'd like to open a checking account."
+      },
+      {
+        "A": "Of course. Do you have a government-issued ID with you?"
+      },
+      {
+        "B": "Yes, I have my passport."
+      },
+      {
+        "A": "Perfect. And will this be an individual or joint account?"
+      },
+      {
+        "B": "Individual, just for me."
+      }
+    ],
+    "translation": [
+      {
+        "A": "你好，请问今天有什么可以帮您？"
+      },
+      {
+        "B": "我想开一个支票账户。"
+      },
+      {
+        "A": "当然。您带了政府颁发的证件吗？"
+      },
+      {
+        "B": "有，我带了护照。"
+      },
+      {
+        "A": "好的。这是个人账户还是联名账户？"
+      },
+      {
+        "B": "个人账户，只有我自己的。"
+      }
+    ],
+    "key_phrases": [
+      "I'd like to open a ~ account = 我想开一个～账户",
+      "Government-issued ID = 政府颁发的证件",
+      "Individual vs joint account = 个人账户 vs 联名账户"
+    ],
+    "tip": "在美国银行开户通常需要护照或驾照 + 社会安全号（SSN）或ITIN。",
+    "examples": [
+      "I'd like to open a savings account.（我想开一个储蓄账户）",
+      "Do you have a government-issued ID?（您有政府颁发的证件吗？）",
+      "Will this be individual or joint?（这是个人还是联名账户？）"
+    ]
+  },
+  {
+    "day": 12,
+    "scene": "💊 药店取药",
+    "dialogue": [
+      {
+        "A": "Hi, I'm here to pick up a prescription."
+      },
+      {
+        "B": "Last name?"
+      },
+      {
+        "A": "Song, S-O-N-G."
+      },
+      {
+        "B": "Date of birth?"
+      },
+      {
+        "A": "April 5th, 1986."
+      },
+      {
+        "B": "Got it. Your copay is $10 today."
+      }
+    ],
+    "translation": [
+      {
+        "A": "你好，我来取药。"
+      },
+      {
+        "B": "请问贵姓？"
+      },
+      {
+        "A": "Song，S-O-N-G。"
+      },
+      {
+        "B": "出生日期？"
+      },
+      {
+        "A": "1986年4月5日。"
+      },
+      {
+        "B": "好的。今天您需要支付10美元自付额。"
+      }
+    ],
+    "key_phrases": [
+      "I'm here to pick up a prescription = 我来取处方药",
+      "Copay = 自付额（保险后自己付的部分）",
+      "Spelling out your name = 拼出姓名字母（容易混淆时用）"
+    ],
+    "tip": "美国药店取药需要报姓名和出生日期来核实身份，不需要出示证件。",
+    "examples": [
+      "I'm here to pick up a prescription for Song.（我来取Song的处方药）",
+      "Your copay today is $25.（今天您的自付额是25美元）",
+      "Date of birth, please?（请问出生日期？）"
+    ]
+  },
+  {
+    "day": 13,
+    "scene": "🤝 初次见面",
+    "dialogue": [
+      {
+        "A": "Hi, I don't think we've met. I'm David."
+      },
+      {
+        "B": "Hey David, I'm Joshua. Nice to meet you!"
+      },
+      {
+        "A": "Nice to meet you too. How do you know the host?"
+      },
+      {
+        "B": "We went to college together. What about you?"
+      },
+      {
+        "A": "We're coworkers. Have you been to one of these before?"
+      },
+      {
+        "B": "First time! It's a great place."
+      }
+    ],
+    "translation": [
+      {
+        "A": "你好，我们好像还没见过，我是David。"
+      },
+      {
+        "B": "David你好，我是Joshua，很高兴认识你！"
+      },
+      {
+        "A": "我也是，你和主人是怎么认识的？"
+      },
+      {
+        "B": "我们是大学同学，你呢？"
+      },
+      {
+        "A": "我们是同事。你以前来过这里吗？"
+      },
+      {
+        "B": "第一次！这里真的很不错。"
+      }
+    ],
+    "key_phrases": [
+      "I don't think we've met = 我想我们还没见过（开启对话）",
+      "How do you know the host? = 你和主人怎么认识的？（派对破冰常用）",
+      "First time! = 第一次！（简洁有力的回答）"
+    ],
+    "tip": "美国社交场合主动打招呼很正常，'I don't think we've met' 是最自然的开场白。",
+    "examples": [
+      "I don't think we've met — I'm Mike.（我想我们还没见过，我是Mike）",
+      "How do you know the birthday girl?（你和今天的寿星怎么认识的？）",
+      "First time at this bar! It's really cool.（第一次来这个酒吧，真的很棒）"
+    ]
+  },
+  {
+    "day": 14,
+    "scene": "🏋️ 健身房咨询",
+    "dialogue": [
+      {
+        "A": "Hi, I'm interested in signing up for a membership."
+      },
+      {
+        "B": "Great! We have a few options. Are you looking for just gym access or classes too?"
+      },
+      {
+        "A": "Probably both. What's the most popular plan?"
+      },
+      {
+        "B": "Most people go with the All-Access plan — $45 a month."
+      },
+      {
+        "A": "Is there a sign-up fee?"
+      },
+      {
+        "B": "We're waiving it this week, so you'd just pay the monthly rate."
+      }
+    ],
+    "translation": [
+      {
+        "A": "你好，我想办会员。"
+      },
+      {
+        "B": "好的！我们有几个方案。您只需要用健身房还是也想上课？"
+      },
+      {
+        "A": "可能都要。最受欢迎的方案是什么？"
+      },
+      {
+        "B": "大多数人选全能方案，每月45美元。"
+      },
+      {
+        "A": "有入会费吗？"
+      },
+      {
+        "B": "这周我们免收入会费，您只需支付月费。"
+      }
+    ],
+    "key_phrases": [
+      "I'm interested in ~ = 我有兴趣～（表达意向）",
+      "Are you looking for ~? = 您是在找～吗？",
+      "We're waiving ~ = 我们免收～"
+    ],
+    "tip": "'We're waiving the fee' 意思是免收费用，健身房、银行常用这个说法谈优惠。",
+    "examples": [
+      "I'm interested in signing up for yoga.（我想报名瑜伽课）",
+      "Are you looking for morning or evening classes?（您想要早上还是晚上的课？）",
+      "We're waiving the enrollment fee this month.（这个月我们免收报名费）"
+    ]
+  },
+  {
+    "day": 15,
+    "scene": "🍕 叫外卖",
+    "dialogue": [
+      {
+        "A": "Thank you for calling Domino's. Is this for delivery or carryout?"
+      },
+      {
+        "B": "Delivery, please."
+      },
+      {
+        "A": "Can I get your address?"
+      },
+      {
+        "B": "It's 123 Main Street, Apartment 4B."
+      },
+      {
+        "A": "And what would you like to order?"
+      },
+      {
+        "B": "One large pepperoni pizza and a two-liter Coke."
+      }
+    ],
+    "translation": [
+      {
+        "A": "感谢致电Domino's，请问是外送还是自取？"
+      },
+      {
+        "B": "外送，谢谢。"
+      },
+      {
+        "A": "请问您的地址？"
+      },
+      {
+        "B": "Main Street 123号，4B公寓。"
+      },
+      {
+        "A": "请问要点什么？"
+      },
+      {
+        "B": "一个大号意式香肠披萨和一瓶两升可乐。"
+      }
+    ],
+    "key_phrases": [
+      "Delivery or carryout? = 外送还是自取？",
+      "Apartment 4B = 4B公寓（说地址格式）",
+      "Two-liter = 两升装（饮料常用规格）"
+    ],
+    "tip": "美国说公寓门牌号时直接说 'Apartment 4B'，不说 'Room'。",
+    "examples": [
+      "Delivery to 45 Maple Street.（送到Maple Street 45号）",
+      "One large veggie pizza, please.（一个大号蔬菜披萨）",
+      "How long is the wait for delivery?（外送大概要等多久？）"
+    ]
+  },
+  {
+    "day": 16,
+    "scene": "🔧 报修",
+    "dialogue": [
+      {
+        "A": "Hi, I need to report a maintenance issue in my apartment."
+      },
+      {
+        "B": "Sure, what's going on?"
+      },
+      {
+        "A": "The kitchen faucet is leaking. It's been dripping all night."
+      },
+      {
+        "B": "I'll put in a work order. Can we come by tomorrow morning?"
+      },
+      {
+        "A": "Morning works. I'll be home until noon."
+      },
+      {
+        "B": "Perfect. We'll be there between 9 and 11."
+      }
+    ],
+    "translation": [
+      {
+        "A": "你好，我需要报告公寓里的维修问题。"
+      },
+      {
+        "B": "好的，什么情况？"
+      },
+      {
+        "A": "厨房水龙头漏水，滴了一整晚了。"
+      },
+      {
+        "B": "我来提交工单，明天早上可以来吗？"
+      },
+      {
+        "A": "早上可以，我在家到中午。"
+      },
+      {
+        "B": "好的，我们9点到11点之间到。"
+      }
+    ],
+    "key_phrases": [
+      "I need to report a ~ issue = 我需要报告一个～问题",
+      "Put in a work order = 提交工单",
+      "I'll be home until ~ = 我在家到～点"
+    ],
+    "tip": "租房遇到维修问题要告诉房东/物业 'put in a work order'，这是标准流程说法。",
+    "examples": [
+      "I need to report a broken heater.（我需要报告暖气坏了）",
+      "Can I put in a work order for the bathroom?（能帮我提交浴室维修工单吗？）",
+      "I'll be home until 3 PM tomorrow.（我明天下午3点前都在家）"
+    ]
+  },
+  {
+    "day": 17,
+    "scene": "👔 工作面试",
+    "dialogue": [
+      {
+        "A": "Tell me a little bit about yourself."
+      },
+      {
+        "B": "Sure! I have about five years of experience in data analysis, mainly in the retail sector."
+      },
+      {
+        "A": "What made you interested in this role?"
+      },
+      {
+        "B": "I love that this company is data-driven, and I think my background is a strong fit."
+      },
+      {
+        "A": "Great. Where do you see yourself in five years?"
+      },
+      {
+        "B": "I'd love to grow into a team lead role and mentor junior analysts."
+      }
+    ],
+    "translation": [
+      {
+        "A": "请简单介绍一下你自己。"
+      },
+      {
+        "B": "好的！我有大约五年的数据分析经验，主要在零售行业。"
+      },
+      {
+        "A": "是什么让你对这个职位感兴趣？"
+      },
+      {
+        "B": "我很欣赏这家公司以数据驱动，我觉得我的背景非常匹配。"
+      },
+      {
+        "A": "很好。你对未来五年有什么规划？"
+      },
+      {
+        "B": "我希望成长为团队负责人，并指导初级分析师。"
+      }
+    ],
+    "key_phrases": [
+      "Tell me about yourself = 面试最常见的开场问题",
+      "Strong fit = 非常匹配",
+      "Grow into ~ role = 成长为～的职位"
+    ],
+    "tip": "面试回答 'Tell me about yourself' 时，公式是：过去经历 → 现在技能 → 未来目标，控制在1分钟内。",
+    "examples": [
+      "I have three years of marketing experience.（我有三年市场营销经验）",
+      "I think my background is a strong fit for this role.（我觉得我的背景非常匹配这个职位）",
+      "I'd love to grow into a leadership position.（我希望成长为管理职位）"
+    ]
+  },
+  {
+    "day": 18,
+    "scene": "🚌 问公交",
+    "dialogue": [
+      {
+        "A": "Excuse me, does this bus go to downtown?"
+      },
+      {
+        "B": "Yes, but you'll need to transfer at Central Station."
+      },
+      {
+        "A": "How many stops is that from here?"
+      },
+      {
+        "B": "About four stops. It's a ten-minute ride."
+      },
+      {
+        "A": "Do I pay when I get on?"
+      },
+      {
+        "B": "Yes, exact change or a transit card. The driver doesn't make change."
+      }
+    ],
+    "translation": [
+      {
+        "A": "打扰一下，这辆公交去市中心吗？"
+      },
+      {
+        "B": "去，但是您需要在中央站换乘。"
+      },
+      {
+        "A": "从这里到那里几站？"
+      },
+      {
+        "B": "大约四站，大概十分钟。"
+      },
+      {
+        "A": "上车时付款吗？"
+      },
+      {
+        "B": "是的，需要零钱或交通卡，司机不找零。"
+      }
+    ],
+    "key_phrases": [
+      "Does this bus go to ~? = 这辆公交去～吗？",
+      "Transfer at ~ = 在～换乘",
+      "The driver doesn't make change = 司机不找零"
+    ],
+    "tip": "美国很多城市公交不找零，建议提前准备零钱或购买交通卡（Metro Card等）。",
+    "examples": [
+      "Does this bus go to the airport?（这辆公交去机场吗？）",
+      "You'll need to transfer at Park Street.（您需要在Park Street换乘）",
+      "The driver doesn't make change, so bring exact fare.（司机不找零，请准备好零钱）"
+    ]
+  },
+  {
+    "day": 19,
+    "scene": "📬 邮局寄包裹",
+    "dialogue": [
+      {
+        "A": "Hi, I'd like to send this package to California."
+      },
+      {
+        "B": "Sure. Would you like Priority Mail or regular?"
+      },
+      {
+        "A": "What's the difference?"
+      },
+      {
+        "B": "Priority takes 2-3 days, regular is 5-7 days. Priority is $12, regular is $7."
+      },
+      {
+        "A": "I'll go with Priority, please."
+      },
+      {
+        "B": "Okay, I'll need you to fill out this customs form."
+      }
+    ],
+    "translation": [
+      {
+        "A": "你好，我想把这个包裹寄到加州。"
+      },
+      {
+        "B": "好的。您要优先邮件还是普通邮件？"
+      },
+      {
+        "A": "有什么区别？"
+      },
+      {
+        "B": "优先2-3天，普通5-7天。优先12美元，普通7美元。"
+      },
+      {
+        "A": "我选优先，谢谢。"
+      },
+      {
+        "B": "好的，需要您填一下这张报关单。"
+      }
+    ],
+    "key_phrases": [
+      "I'd like to send this package to ~ = 我想把包裹寄到～",
+      "What's the difference? = 有什么区别？（万能问法）",
+      "Fill out this form = 填写这张表格"
+    ],
+    "tip": "'What's the difference?' 是日常最实用的问句之一，任何场景都能用。",
+    "examples": [
+      "I'd like to send this to New York.（我想把这个寄到纽约）",
+      "What's the difference between the two options?（这两个选项有什么区别？）",
+      "Please fill out this customs form.（请填写这张报关单）"
+    ]
+  },
+  {
+    "day": 20,
+    "scene": "🎉 婉拒邀请",
+    "dialogue": [
+      {
+        "A": "Hey, are you coming to the party Saturday?"
+      },
+      {
+        "B": "I really wish I could, but I already have plans."
+      },
+      {
+        "A": "Aw, that's too bad. What are you up to?"
+      },
+      {
+        "B": "My parents are visiting from out of town."
+      },
+      {
+        "A": "Oh, that's totally understandable. Next time!"
+      },
+      {
+        "B": "Definitely! Have a great time."
+      }
+    ],
+    "translation": [
+      {
+        "A": "嘿，周六派对你来吗？"
+      },
+      {
+        "B": "真的很想去，但我已经有安排了。"
+      },
+      {
+        "A": "哦太可惜了，你有什么事？"
+      },
+      {
+        "B": "我父母从外地来看我。"
+      },
+      {
+        "A": "哦，完全理解，下次吧！"
+      },
+      {
+        "B": "一定！祝你们玩得开心。"
+      }
+    ],
+    "key_phrases": [
+      "I really wish I could, but ~ = 真的很想，但是～（礼貌婉拒）",
+      "I already have plans = 我已经有安排了",
+      "From out of town = 从外地来"
+    ],
+    "tip": "婉拒时说 'I really wish I could' 比直接说 'I can't' 更有礼貌，不会让人觉得你不想去。",
+    "examples": [
+      "I really wish I could, but I have a prior commitment.（真的很想去，但我之前有约）",
+      "My family is visiting from out of town this weekend.（我家人这周末从外地来）",
+      "I already have plans, but let's do it next time!（我已经有安排了，但下次一定！）"
+    ]
+  },
+  {
+    "day": 21,
+    "scene": "🔄 退换货",
+    "dialogue": [
+      {
+        "A": "Hi, I'd like to return this jacket."
+      },
+      {
+        "B": "Of course. Do you have your receipt?"
+      },
+      {
+        "A": "Yes, here it is. I bought it last week."
+      },
+      {
+        "B": "What's the reason for the return?"
+      },
+      {
+        "A": "It doesn't fit quite right. Can I exchange it for a larger size?"
+      },
+      {
+        "B": "Absolutely. Let me check if we have your size in stock."
+      }
+    ],
+    "translation": [
+      {
+        "A": "你好，我想退这件夹克。"
+      },
+      {
+        "B": "当然。您有收据吗？"
+      },
+      {
+        "A": "有，在这里，我上周买的。"
+      },
+      {
+        "B": "请问退货原因是什么？"
+      },
+      {
+        "A": "尺码不太合适，可以换一件大一号的吗？"
+      },
+      {
+        "B": "当然可以，我查一下有没有您的尺码。"
+      }
+    ],
+    "key_phrases": [
+      "I'd like to return/exchange this ~ = 我想退/换这个～",
+      "It doesn't fit quite right = 尺码不太合适",
+      "In stock = 有库存"
+    ],
+    "tip": "美国大部分商店退货政策很宽松，30天内凭收据基本都能退，不用给太多解释。",
+    "examples": [
+      "I'd like to return this sweater — it shrunk.（我想退这件毛衣，它缩水了）",
+      "Do you have a larger size in stock?（有没有大一号的库存？）",
+      "Can I exchange it or get store credit?（可以换货或者退成购物券吗？）"
+    ]
+  },
+  {
+    "day": 22,
+    "scene": "🌧️ 聊天气",
+    "dialogue": [
+      {
+        "A": "Can you believe this weather?"
+      },
+      {
+        "B": "I know, it came out of nowhere!"
+      },
+      {
+        "A": "I didn't even bring an umbrella."
+      },
+      {
+        "B": "Here, I have an extra one. Take it."
+      },
+      {
+        "A": "Really? That's so kind of you!"
+      },
+      {
+        "B": "No worries. Looks like it'll clear up by afternoon anyway."
+      }
+    ],
+    "translation": [
+      {
+        "A": "这天气真的难以置信！"
+      },
+      {
+        "B": "可不是，毫无预兆就变了！"
+      },
+      {
+        "A": "我连伞都没带。"
+      },
+      {
+        "B": "来，我有多余的，拿去吧。"
+      },
+      {
+        "A": "真的吗？你太好心了！"
+      },
+      {
+        "B": "没事的。下午看起来会晴开的。"
+      }
+    ],
+    "key_phrases": [
+      "Can you believe this weather? = 这天气真不敢相信！（开启闲聊）",
+      "It came out of nowhere = 毫无预兆，突然就来了",
+      "Clear up = （天气）放晴"
+    ],
+    "tip": "天气是美国人最爱的小聊话题，'Can you believe this weather?' 是万能开场白。",
+    "examples": [
+      "Can you believe how hot it's been?（这天气热得真不敢相信！）",
+      "It came out of nowhere — one minute sunny, next minute raining.（毫无预兆，一会晴一会下雨）",
+      "Looks like it'll clear up by evening.（看起来晚上会放晴）"
+    ]
+  },
+  {
+    "day": 23,
+    "scene": "🏠 看房租房",
+    "dialogue": [
+      {
+        "A": "Hi, I saw the listing online. Is the one-bedroom still available?"
+      },
+      {
+        "B": "It is! Would you like to schedule a showing?"
+      },
+      {
+        "A": "Yes, please. What's the monthly rent?"
+      },
+      {
+        "B": "It's $1,800 a month, utilities not included."
+      },
+      {
+        "A": "Is parking included?"
+      },
+      {
+        "B": "One spot is included. Additional spots are $50 a month."
+      }
+    ],
+    "translation": [
+      {
+        "A": "你好，我在网上看到了这个房源，单卧室还有吗？"
+      },
+      {
+        "B": "有的！您想约时间来看房吗？"
+      },
+      {
+        "A": "好的，请问月租是多少？"
+      },
+      {
+        "B": "每月1800美元，不含水电。"
+      },
+      {
+        "A": "停车位包含在内吗？"
+      },
+      {
+        "B": "包含一个车位，额外车位每月50美元。"
+      }
+    ],
+    "key_phrases": [
+      "Is the ~ still available? = ～还有吗？",
+      "Schedule a showing = 预约看房",
+      "Utilities not included = 不含水电费"
+    ],
+    "tip": "租房时一定要问清楚 'utilities included or not'（水电是否包含），这会大幅影响实际费用。",
+    "examples": [
+      "Is the two-bedroom still available?（两室一厅还有吗？）",
+      "Is parking included in the rent?（停车位包含在租金里吗？）",
+      "Are utilities included?（水电费包含在内吗？）"
+    ]
+  },
+  {
+    "day": 24,
+    "scene": "😤 礼貌投诉",
+    "dialogue": [
+      {
+        "A": "Excuse me, I think there's a mistake on my bill."
+      },
+      {
+        "B": "Let me take a look. What seems to be the issue?"
+      },
+      {
+        "A": "I was charged twice for the appetizer."
+      },
+      {
+        "B": "Oh, you're right. I'm so sorry about that."
+      },
+      {
+        "A": "No worries, it happens. Can you fix it?"
+      },
+      {
+        "B": "Absolutely. I'll have the corrected bill out in a moment."
+      }
+    ],
+    "translation": [
+      {
+        "A": "打扰一下，我觉得账单有误。"
+      },
+      {
+        "B": "我来看一下，是什么问题？"
+      },
+      {
+        "A": "前菜被收了两次费用。"
+      },
+      {
+        "B": "哦，您说得对，非常抱歉。"
+      },
+      {
+        "A": "没关系，这种事难免，能帮我改一下吗？"
+      },
+      {
+        "B": "当然，我马上给您出一张更正后的账单。"
+      }
+    ],
+    "key_phrases": [
+      "I think there's a mistake on my bill = 我觉得账单有误（礼貌投诉）",
+      "I was charged twice for ~ = ～被收了两次费用",
+      "I'll have ~ out in a moment = 我马上给您～"
+    ],
+    "tip": "投诉时用 'I think' 而不是 'You made a mistake'，语气更平和，对方更愿意帮你解决。",
+    "examples": [
+      "I think there's a mistake — I ordered the salmon, not the steak.（我觉得有误，我点的是三文鱼，不是牛排）",
+      "I was charged for a drink I didn't order.（有一杯我没点的饮料被收费了）",
+      "I'll have the corrected receipt for you shortly.（我马上给您一张更正后的收据）"
+    ]
+  },
+  {
+    "day": 25,
+    "scene": "🎓 请教同事",
+    "dialogue": [
+      {
+        "A": "Hey, do you have a minute?"
+      },
+      {
+        "B": "Sure, what's up?"
+      },
+      {
+        "A": "I'm stuck on this report. Can you walk me through how you did yours last quarter?"
+      },
+      {
+        "B": "Of course! Pull up your spreadsheet and I'll show you."
+      },
+      {
+        "A": "Thanks so much. I really appreciate it."
+      },
+      {
+        "B": "Happy to help. We've all been there!"
+      }
+    ],
+    "translation": [
+      {
+        "A": "嘿，你有一分钟吗？"
+      },
+      {
+        "B": "有，什么事？"
+      },
+      {
+        "A": "我在这份报告上卡住了。你能带我过一遍你上季度怎么做的吗？"
+      },
+      {
+        "B": "当然！把你的表格打开，我来演示给你看。"
+      },
+      {
+        "A": "非常感谢，真的很感激。"
+      },
+      {
+        "B": "乐意帮忙，我们都经历过这个！"
+      }
+    ],
+    "key_phrases": [
+      "Do you have a minute? = 你有一分钟吗？（请求帮助的礼貌开场）",
+      "I'm stuck on ~ = 我在～上卡住了",
+      "We've all been there = 我们都经历过（表达理解和共情）"
+    ],
+    "tip": "'Do you have a minute?' 是办公室最常用的请求帮助开场白，比直接问问题更礼貌。",
+    "examples": [
+      "Hey, do you have a minute to review this?（嘿，你有空帮我看一下这个吗？）",
+      "I'm stuck on the budget section.（我在预算部分卡住了）",
+      "No worries — we've all been there with this software!（没关系，我们都在这个软件上栽过！）"
+    ]
+  },
+  {
+    "day": 26,
+    "scene": "🚑 拨打急救",
+    "dialogue": [
+      {
+        "A": "911, what's your emergency?"
+      },
+      {
+        "B": "My friend fell and hit his head. He's unconscious."
+      },
+      {
+        "A": "Okay, I'm sending help. What's your address?"
+      },
+      {
+        "B": "We're at 456 Oak Avenue, second floor."
+      },
+      {
+        "A": "Is he breathing?"
+      },
+      {
+        "B": "Yes, he is. Please hurry!"
+      }
+    ],
+    "translation": [
+      {
+        "A": "911，请说明您的紧急情况。"
+      },
+      {
+        "B": "我朋友摔倒撞到头了，他失去意识了。"
+      },
+      {
+        "A": "好的，我正在派人过去，您的地址是？"
+      },
+      {
+        "B": "我们在Oak大道456号，二楼。"
+      },
+      {
+        "A": "他还在呼吸吗？"
+      },
+      {
+        "B": "有，在呼吸，请快点！"
+      }
+    ],
+    "key_phrases": [
+      "What's your emergency? = 您的紧急情况是什么？（911开场白）",
+      "He's unconscious = 他失去意识了",
+      "Is he breathing? = 他还在呼吸吗？"
+    ],
+    "tip": "打911要保持冷静，先说清楚发生了什么、在哪里，回答接线员的问题，不要先挂电话。",
+    "examples": [
+      "My neighbor fell down the stairs.（我邻居从楼梯上摔下来了）",
+      "She's conscious but in a lot of pain.（她有意识但非常痛）",
+      "We're at the corner of Main and 5th.（我们在Main和5th街的路口）"
+    ]
+  },
+  {
+    "day": 27,
+    "scene": "🎁 送礼道谢",
+    "dialogue": [
+      {
+        "A": "Here, this is for you. A little thank-you gift."
+      },
+      {
+        "B": "Oh wow, you didn't have to do that!"
+      },
+      {
+        "A": "I wanted to. You really helped me out last month."
+      },
+      {
+        "B": "I'm just glad it worked out. Should I open it now?"
+      },
+      {
+        "A": "Please do!"
+      },
+      {
+        "B": "Oh, I love it. This is so thoughtful, thank you!"
+      }
+    ],
+    "translation": [
+      {
+        "A": "给你，这是给你的，小小的感谢礼物。"
+      },
+      {
+        "B": "哇，你不用这样的！"
+      },
+      {
+        "A": "我想给的，上个月你真的帮了我大忙。"
+      },
+      {
+        "B": "只要结果好就行。我现在可以打开吗？"
+      },
+      {
+        "A": "当然！"
+      },
+      {
+        "B": "哦，我很喜欢，你真的太细心了，谢谢！"
+      }
+    ],
+    "key_phrases": [
+      "You didn't have to do that! = 你不用这样的！（收礼物时的标准反应）",
+      "You really helped me out = 你真的帮了我大忙",
+      "This is so thoughtful = 你真的太细心/贴心了"
+    ],
+    "tip": "美国人收礼物一般会当场打开，并说 'This is so thoughtful!' 这是最常见的称赞礼物方式。",
+    "examples": [
+      "Here, this is just a small thank-you.（给你，这只是一点小心意）",
+      "You really helped me out last week — I can't thank you enough.（你上周真的帮了我大忙，我非常感激）",
+      "This is so thoughtful — I love it!（你真的太细心了，我很喜欢！）"
+    ]
+  },
+  {
+    "day": 28,
+    "scene": "📱 手机套餐咨询",
+    "dialogue": [
+      {
+        "A": "Hi, I'm looking to switch carriers. What plans do you have?"
+      },
+      {
+        "B": "We have three main plans. The unlimited plan is our most popular at $45 a month."
+      },
+      {
+        "A": "Does that include international texting?"
+      },
+      {
+        "B": "Yes, free texts to over 200 countries."
+      },
+      {
+        "A": "What about data roaming?"
+      },
+      {
+        "B": "That's an add-on — $10 a day when you're abroad."
+      }
+    ],
+    "translation": [
+      {
+        "A": "你好，我想换运营商，你们有什么套餐？"
+      },
+      {
+        "B": "我们有三个主要套餐，无限流量套餐最受欢迎，每月45美元。"
+      },
+      {
+        "A": "包含国际短信吗？"
+      },
+      {
+        "B": "包含，可以免费发短信到200多个国家。"
+      },
+      {
+        "A": "国际漫游数据怎么收费？"
+      },
+      {
+        "B": "那是附加服务，在国外每天10美元。"
+      }
+    ],
+    "key_phrases": [
+      "Switch carriers = 换运营商",
+      "Unlimited plan = 无限套餐",
+      "Add-on = 附加服务/附加费"
+    ],
+    "tip": "'Add-on' 是附加服务的意思，办套餐时要仔细问清楚哪些是包含的，哪些是 add-on 另收费。",
+    "examples": [
+      "I'm thinking of switching to a cheaper plan.（我在考虑换一个便宜一点的套餐）",
+      "Does the plan include international calling?（套餐包含国际通话吗？）",
+      "Is hotspot included, or is that an add-on?（热点包含在内吗，还是附加服务？）"
+    ]
+  },
+  {
+    "day": 29,
+    "scene": "🧹 保洁服务",
+    "dialogue": [
+      {
+        "A": "Hi, I'd like to book a house cleaning service."
+      },
+      {
+        "B": "Of course. How large is your home?"
+      },
+      {
+        "A": "It's a two-bedroom, one-bathroom apartment."
+      },
+      {
+        "B": "And is this a one-time clean or recurring?"
+      },
+      {
+        "A": "One-time for now, but maybe biweekly if I like the service."
+      },
+      {
+        "B": "Great. We have availability this Thursday or Saturday."
+      }
+    ],
+    "translation": [
+      {
+        "A": "你好，我想预约家庭保洁服务。"
+      },
+      {
+        "B": "好的，您的房子有多大？"
+      },
+      {
+        "A": "两室一卫的公寓。"
+      },
+      {
+        "B": "这是一次性清洁还是定期的？"
+      },
+      {
+        "A": "目前是一次，如果满意的话可能改为每两周一次。"
+      },
+      {
+        "B": "好的，本周四或周六有空档。"
+      }
+    ],
+    "key_phrases": [
+      "One-time vs recurring = 一次性 vs 定期",
+      "Biweekly = 每两周一次",
+      "Availability = 空档/可预约时间"
+    ],
+    "tip": "注意：'biweekly' 在美式英语中可以表示'每两周一次'也可以表示'每周两次'，使用时最好说清楚 'every two weeks'。",
+    "examples": [
+      "I'd like to book a deep clean for my apartment.（我想预约公寓深度清洁）",
+      "Do you offer biweekly service?（你们有每两周一次的服务吗？）",
+      "We have availability this Friday afternoon.（本周五下午有空档）"
+    ]
+  },
+  {
+    "day": 30,
+    "scene": "🚿 报告邻居噪音",
+    "dialogue": [
+      {
+        "A": "Hi, this is Joshua in Apartment 4B. I need to report a noise complaint."
+      },
+      {
+        "B": "I'm sorry to hear that. What's going on?"
+      },
+      {
+        "A": "The neighbors upstairs have been playing loud music since midnight."
+      },
+      {
+        "B": "I'll give them a call right away."
+      },
+      {
+        "A": "I'd really appreciate that. I have work tomorrow morning."
+      },
+      {
+        "B": "Of course. I'll take care of it. Sorry for the trouble."
+      }
+    ],
+    "translation": [
+      {
+        "A": "你好，我是4B公寓的Joshua，我要投诉噪音问题。"
+      },
+      {
+        "B": "很抱歉听到这个，是什么情况？"
+      },
+      {
+        "A": "楼上的邻居从午夜开始一直在大声放音乐。"
+      },
+      {
+        "B": "我马上给他们打电话。"
+      },
+      {
+        "A": "真的非常感谢，我明天早上要上班。"
+      },
+      {
+        "B": "当然，我来处理，给您带来不便很抱歉。"
+      }
+    ],
+    "key_phrases": [
+      "Noise complaint = 噪音投诉",
+      "Since midnight = 从午夜开始",
+      "I'll take care of it = 我来处理这件事"
+    ],
+    "tip": "投诉时说清楚自己是谁、住在哪里、具体情况，对方才能快速处理。礼貌投诉往往比情绪化更有效。",
+    "examples": [
+      "This is Unit 3A — I need to report a noise complaint.（这里是3A，我要投诉噪音问题）",
+      "The music has been going on since 11 PM.（音乐从晚上11点就开始了）",
+      "I have work tomorrow — I'd really appreciate your help.（我明天要上班，非常希望您能帮忙处理）"
+    ]
+  },
+  {
+    "day": 31,
+    "scene": "🎬 约朋友看电影",
+    "dialogue": [
+      {
+        "A": "Hey, are you free this weekend?"
+      },
+      {
+        "B": "Saturday afternoon should work. What did you have in mind?"
+      },
+      {
+        "A": "There's a new Marvel movie out. Want to check it out?"
+      },
+      {
+        "B": "I'm in! What time works for you?"
+      },
+      {
+        "A": "The 3 o'clock showing?"
+      },
+      {
+        "B": "Perfect. I'll grab the tickets online."
+      }
+    ],
+    "translation": [
+      {
+        "A": "嘿，这周末有空吗？"
+      },
+      {
+        "B": "周六下午应该可以，你有什么打算？"
+      },
+      {
+        "A": "新的漫威电影上映了，要去看吗？"
+      },
+      {
+        "B": "我去！你什么时候方便？"
+      },
+      {
+        "A": "3点场？"
+      },
+      {
+        "B": "好的，我在网上买票。"
+      }
+    ],
+    "key_phrases": [
+      "What did you have in mind? = 你有什么打算/想法？",
+      "I'm in! = 我参加！（表示愿意）",
+      "I'll grab the tickets = 我来买票"
+    ],
+    "tip": "'I'm in!' 是非常口语化的表达，意思是'我参加/我同意'，比 'Yes, I want to go' 更地道。",
+    "examples": [
+      "What did you have in mind for tonight?（你今晚有什么打算？）",
+      "I'm totally in — sounds like fun!（我完全参加！听起来很有趣！）",
+      "I'll grab the popcorn, you get the tickets.（我买爆米花，你买票）"
+    ]
+  },
+  {
+    "day": 32,
+    "scene": "🏪 便利店",
+    "dialogue": [
+      {
+        "A": "Is this everything for you?"
+      },
+      {
+        "B": "Yes, and can I get a pack of gum?"
+      },
+      {
+        "A": "Which kind?"
+      },
+      {
+        "B": "Whatever's minty. Also, can I pay with card?"
+      },
+      {
+        "A": "Minimum $5 for card."
+      },
+      {
+        "B": "That's fine, this is over $5."
+      }
+    ],
+    "translation": [
+      {
+        "A": "就这些了吗？"
+      },
+      {
+        "B": "是的，再给我一包口香糖。"
+      },
+      {
+        "A": "要哪种？"
+      },
+      {
+        "B": "薄荷味的就行，还有，可以刷卡吗？"
+      },
+      {
+        "A": "刷卡最低消费5美元。"
+      },
+      {
+        "B": "没问题，这些超过5美元了。"
+      }
+    ],
+    "key_phrases": [
+      "Is this everything for you? = 就这些了吗？（收银常用）",
+      "Whatever's minty = 薄荷味的就行（'whatever' 表示随便）",
+      "Minimum $5 for card = 刷卡最低消费5美元"
+    ],
+    "tip": "'Whatever works' / 'whatever's fine' 是表示'随便'的地道口语，比 'anything is okay' 更自然。",
+    "examples": [
+      "Is this everything for you today?（今天就这些了吗？）",
+      "Whatever's cheapest is fine.（最便宜的就行）",
+      "The minimum for card is $10 here.（这里刷卡最低消费10美元）"
+    ]
+  },
+  {
+    "day": 33,
+    "scene": "🧑‍⚕️ 牙医预约",
+    "dialogue": [
+      {
+        "A": "Good morning, Dr. Lee's office. How can I help you?"
+      },
+      {
+        "B": "Hi, I'd like to schedule a cleaning."
+      },
+      {
+        "A": "Are you a new or existing patient?"
+      },
+      {
+        "B": "Existing. My name is Joshua Song."
+      },
+      {
+        "A": "Great. We have an opening next Tuesday at 10 AM."
+      },
+      {
+        "B": "That works perfectly. See you then!"
+      }
+    ],
+    "translation": [
+      {
+        "A": "早上好，Lee医生诊所，请问有什么可以帮您？"
+      },
+      {
+        "B": "你好，我想预约洗牙。"
+      },
+      {
+        "A": "请问是新患者还是老患者？"
+      },
+      {
+        "B": "老患者，我叫Joshua Song。"
+      },
+      {
+        "A": "好的，下周二上午10点有空档。"
+      },
+      {
+        "B": "完美，到时见！"
+      }
+    ],
+    "key_phrases": [
+      "Schedule a cleaning = 预约洗牙",
+      "New or existing patient? = 新患者还是老患者？",
+      "We have an opening ~ = 我们～有空档"
+    ],
+    "tip": "牙医诊所叫洗牙是 'cleaning'，不叫 'teeth washing'。预约检查叫 'checkup' 或 'exam'。",
+    "examples": [
+      "I'd like to schedule a checkup and cleaning.（我想预约体检和洗牙）",
+      "Are you a new patient with us?（您是我们这里的新患者吗？）",
+      "We have an opening Thursday at 2 PM.（周四下午2点有空档）"
+    ]
+  },
+  {
+    "day": 34,
+    "scene": "🚗 加油站",
+    "dialogue": [
+      {
+        "A": "Hi, pump number 4, please. Fill it up with regular."
+      },
+      {
+        "B": "Will that be cash or credit?"
+      },
+      {
+        "A": "Credit."
+      },
+      {
+        "B": "Go ahead and swipe at the pump."
+      },
+      {
+        "A": "Oh, the machine's not taking my card."
+      },
+      {
+        "B": "Try swiping it again slower. If not, come back in and I'll run it."
+      }
+    ],
+    "translation": [
+      {
+        "A": "你好，4号泵，请加满，普通汽油。"
+      },
+      {
+        "B": "现金还是刷卡？"
+      },
+      {
+        "A": "刷卡。"
+      },
+      {
+        "B": "去泵那边刷卡就可以了。"
+      },
+      {
+        "A": "哦，机器不接受我的卡。"
+      },
+      {
+        "B": "试着慢一点刷，不行的话进来我帮你刷。"
+      }
+    ],
+    "key_phrases": [
+      "Fill it up with regular = 加满，普通汽油",
+      "Swipe at the pump = 在加油机上刷卡",
+      "Run it = 刷卡/处理付款（口语）"
+    ],
+    "tip": "美国加油站汽油分 Regular（普通）、Mid-grade（中级）、Premium（高级），大多数车用Regular就够了。",
+    "examples": [
+      "Fill it up with premium, please — pump 7.（7号泵，加满高级汽油）",
+      "The card reader at the pump isn't working.（泵上的读卡机不工作）",
+      "Try inserting it slowly — sometimes that helps.（试试慢慢插入，有时管用）"
+    ]
+  },
+  {
+    "day": 35,
+    "scene": "📧 工作邮件跟进",
+    "dialogue": [
+      {
+        "A": "Hey, just wanted to follow up on the email I sent last week."
+      },
+      {
+        "B": "Oh, I'm so sorry — it got buried in my inbox."
+      },
+      {
+        "A": "No worries at all. I was just wondering if you had a chance to review the proposal."
+      },
+      {
+        "B": "I'll look at it today, I promise."
+      },
+      {
+        "A": "Great, no rush. Just let me know if you have any questions."
+      },
+      {
+        "B": "Will do. Thanks for the nudge!"
+      }
+    ],
+    "translation": [
+      {
+        "A": "嘿，想跟进一下我上周发的邮件。"
+      },
+      {
+        "B": "哦，真抱歉，被埋在收件箱里了。"
+      },
+      {
+        "A": "完全没关系，只是想问一下你有没有机会看提案。"
+      },
+      {
+        "B": "我今天就看，保证。"
+      },
+      {
+        "A": "好的，不急，有任何问题随时告诉我。"
+      },
+      {
+        "B": "好的！谢谢你提醒！"
+      }
+    ],
+    "key_phrases": [
+      "Just wanted to follow up = 只是想跟进一下（邮件追踪万能句）",
+      "It got buried in my inbox = 被埋在收件箱了（解释没回复）",
+      "Thanks for the nudge! = 谢谢你提醒！"
+    ],
+    "tip": "'Just wanted to follow up on ~' 是职场中跟进事项最礼貌的说法，不会显得催促。",
+    "examples": [
+      "Just wanted to follow up on our meeting last week.（只是想跟进一下上周我们的会议）",
+      "No worries — it got buried in my inbox too.（没关系，我的收件箱里也埋着很多）",
+      "Thanks for the nudge — I'll get back to you today.（谢谢提醒，我今天给你回复）"
+    ]
+  },
+  {
+    "day": 36,
+    "scene": "🍺 朋友聚会点酒",
+    "dialogue": [
+      {
+        "A": "What can I get you guys?"
+      },
+      {
+        "B": "I'll have an IPA. What do you have on draft?"
+      },
+      {
+        "A": "We've got Goose Island, Blue Moon, and a local sour."
+      },
+      {
+        "B": "I'll go with the Goose Island."
+      },
+      {
+        "A": "And for you?"
+      },
+      {
+        "C": "Just a sparkling water for me, thanks."
+      }
+    ],
+    "translation": [
+      {
+        "A": "你们要点什么？"
+      },
+      {
+        "B": "我要一杯IPA，你们有哪些生啤？"
+      },
+      {
+        "A": "有Goose Island、Blue Moon和一款本地酸啤。"
+      },
+      {
+        "B": "我要Goose Island。"
+      },
+      {
+        "A": "您呢？"
+      },
+      {
+        "C": "我就要一杯气泡水，谢谢。"
+      }
+    ],
+    "key_phrases": [
+      "What do you have on draft? = 你们有哪些生啤？",
+      "I'll go with ~ = 我选～（做决定时常用）",
+      "Just a ~ for me = 我就要～（简单点单）"
+    ],
+    "tip": "'I'll go with ~' 是做选择时非常自然的表达，比 'I choose' 或 'I want' 更口语化。",
+    "examples": [
+      "What do you have on tap tonight?（今晚有哪些生啤？）",
+      "I'll go with the Blue Moon — sounds good.（我要Blue Moon，听起来不错）",
+      "Just a sparkling water for me, thanks.（我就要气泡水，谢谢）"
+    ]
+  },
+  {
+    "day": 37,
+    "scene": "🖨️ 办公室IT问题",
+    "dialogue": [
+      {
+        "A": "Hey, are you good with computers? My printer won't connect."
+      },
+      {
+        "B": "Let me take a look. Did you try restarting it?"
+      },
+      {
+        "A": "Yeah, twice."
+      },
+      {
+        "B": "Is it showing up in your devices list?"
+      },
+      {
+        "A": "No, that's the problem."
+      },
+      {
+        "B": "Try removing it and re-adding it. Sometimes that fixes it."
+      }
+    ],
+    "translation": [
+      {
+        "A": "嘿，你懂电脑吗？我的打印机连不上。"
+      },
+      {
+        "B": "我来看看，你重启过吗？"
+      },
+      {
+        "A": "重启过，两次了。"
+      },
+      {
+        "B": "设备列表里能看到它吗？"
+      },
+      {
+        "A": "看不到，这就是问题所在。"
+      },
+      {
+        "B": "试试先删除再重新添加，有时候这样能解决。"
+      }
+    ],
+    "key_phrases": [
+      "Are you good with computers? = 你懂电脑吗？",
+      "Let me take a look = 我来看看（主动帮忙）",
+      "That fixes it = 这样能解决（it指问题）"
+    ],
+    "tip": "'Are you good with ~?' 是问某人是否擅长某事的地道说法，比 'Do you know about ~?' 更自然。",
+    "examples": [
+      "Are you good with Excel? I'm totally lost.（你会Excel吗？我完全搞不懂）",
+      "Did you try restarting the app?（你试过重启应用吗？）",
+      "Try deleting it and reinstalling — that usually fixes it.（试试删掉重装，通常能解决）"
+    ]
+  },
+  {
+    "day": 38,
+    "scene": "🧳 机场托运行李",
+    "dialogue": [
+      {
+        "A": "Hi, I'm checking in for my flight to Miami."
+      },
+      {
+        "B": "Passport and booking reference, please."
+      },
+      {
+        "A": "Here you go. I have one bag to check."
+      },
+      {
+        "B": "Go ahead and place it on the scale. It's 52 pounds — that's over the limit."
+      },
+      {
+        "A": "Oh no. What's the overweight fee?"
+      },
+      {
+        "B": "$75 for bags over 50 pounds."
+      }
+    ],
+    "translation": [
+      {
+        "A": "你好，我要办理去迈阿密的登机手续。"
+      },
+      {
+        "B": "请出示护照和订单号。"
+      },
+      {
+        "A": "给您，我有一件托运行李。"
+      },
+      {
+        "B": "放到秤上来，52磅——超重了。"
+      },
+      {
+        "A": "哦不，超重费是多少？"
+      },
+      {
+        "B": "超过50磅的行李收75美元。"
+      }
+    ],
+    "key_phrases": [
+      "Checking in for my flight to ~ = 办理去～的登机手续",
+      "Bag to check = 要托运的行李",
+      "Overweight fee = 超重费"
+    ],
+    "tip": "美国航空公司托运行李通常限重50磅（约22.7公斤），超重费很贵，出发前最好在家称好。",
+    "examples": [
+      "I'm checking in for my flight to Seattle.（我要办理去西雅图的登机手续）",
+      "I have two bags to check.（我有两件托运行李）",
+      "The bag is 53 pounds — is there an overweight fee?（行李53磅，有超重费吗？）"
+    ]
+  },
+  {
+    "day": 39,
+    "scene": "🏡 和房东谈续租",
+    "dialogue": [
+      {
+        "A": "Hi, I wanted to talk about renewing my lease."
+      },
+      {
+        "B": "Sure! Your current lease ends July 31st. Are you looking to stay?"
+      },
+      {
+        "A": "Yes, I love it here. Will the rent be going up?"
+      },
+      {
+        "B": "We're planning a 5% increase. That would be $1,890."
+      },
+      {
+        "A": "Is there any flexibility on that?"
+      },
+      {
+        "B": "If you sign a two-year lease, I can keep it at $1,800."
+      }
+    ],
+    "translation": [
+      {
+        "A": "你好，我想谈谈续租的事。"
+      },
+      {
+        "B": "当然！您的租约7月31日到期，您打算继续住吗？"
+      },
+      {
+        "A": "是的，我很喜欢这里。租金会涨吗？"
+      },
+      {
+        "B": "我们计划涨5%，就是1890美元。"
+      },
+      {
+        "A": "有商量的余地吗？"
+      },
+      {
+        "B": "如果您签两年租约，我可以保持1800美元不变。"
+      }
+    ],
+    "key_phrases": [
+      "Renewing my lease = 续租",
+      "Is there any flexibility on that? = 有商量的余地吗？（价格谈判万能句）",
+      "Sign a two-year lease = 签两年租约"
+    ],
+    "tip": "'Is there any flexibility on that?' 是谈价格时最礼貌有效的问法，适用于租房、购物、谈薪水等场景。",
+    "examples": [
+      "I'd love to renew for another year.（我想再续租一年）",
+      "Is there any flexibility on the rent increase?（租金涨幅有商量的余地吗？）",
+      "If I sign a two-year lease, can we lock in the current rate?（如果我签两年，可以锁定现在的租金吗？）"
+    ]
+  },
+  {
+    "day": 40,
+    "scene": "🎊 祝贺同事升职",
+    "dialogue": [
+      {
+        "A": "Hey, I heard the news — congratulations on the promotion!"
+      },
+      {
+        "B": "Thank you so much! I'm still in shock, honestly."
+      },
+      {
+        "A": "You deserve it. You've worked so hard this year."
+      },
+      {
+        "B": "That means a lot coming from you."
+      },
+      {
+        "A": "We should celebrate. Drinks after work?"
+      },
+      {
+        "B": "I'd love that! Let's do it!"
+      }
+    ],
+    "translation": [
+      {
+        "A": "嘿，我听说了，恭喜你升职！"
+      },
+      {
+        "B": "非常感谢！说实话我还有点惊讶。"
+      },
+      {
+        "A": "你应得的，你今年真的很努力。"
+      },
+      {
+        "B": "从你嘴里听到这话真的很有意义。"
+      },
+      {
+        "A": "我们应该庆祝一下，下班后去喝一杯？"
+      },
+      {
+        "B": "当然好！走起！"
+      }
+    ],
+    "key_phrases": [
+      "Congratulations on ~ = 恭喜你～（具体事情）",
+      "You deserve it = 你应得的",
+      "That means a lot coming from you = 从你嘴里听到这话很有意义"
+    ],
+    "tip": "'That means a lot coming from you' 是表达感谢时特别有温度的一句话，说明对方的认可对你很重要。",
+    "examples": [
+      "Congratulations on the new baby!（恭喜你们迎来新宝宝！）",
+      "That's amazing news — you deserve this!（太棒了，你应得的！）",
+      "Drinks on me to celebrate!（我请客庆祝！）"
+    ]
+  },
+  {
+    "day": 41,
+    "scene": "🐕 宠物医院",
+    "dialogue": [
+      {
+        "A": "Hi, I have an appointment for my dog, Max."
+      },
+      {
+        "B": "What's Max coming in for today?"
+      },
+      {
+        "A": "Annual shots and a checkup."
+      },
+      {
+        "B": "Has he had any changes in eating or behavior lately?"
+      },
+      {
+        "A": "He's been scratching a lot more than usual."
+      },
+      {
+        "B": "We'll take a look at his skin too. Please have a seat."
+      }
+    ],
+    "translation": [
+      {
+        "A": "你好，我给我的狗Max预约了。"
+      },
+      {
+        "B": "Max今天来是为了什么？"
+      },
+      {
+        "A": "年度疫苗和体检。"
+      },
+      {
+        "B": "他最近饮食或行为有变化吗？"
+      },
+      {
+        "A": "他最近挠痒痒比平时多很多。"
+      },
+      {
+        "B": "我们也会检查他的皮肤，请先坐。"
+      }
+    ],
+    "key_phrases": [
+      "Annual shots = 年度疫苗",
+      "Changes in eating or behavior = 饮食或行为变化",
+      "Scratching more than usual = 比平时挠得多"
+    ],
+    "tip": "去宠物医院前想好要描述的症状，用 'more than usual'（比平时多/少）来量化很有帮助。",
+    "examples": [
+      "I have an appointment for my cat, Luna.（我给我的猫Luna预约了）",
+      "She's been eating less than usual.（她最近吃得比平时少）",
+      "Any changes in behavior recently?（最近行为有什么变化吗？）"
+    ]
+  },
+  {
+    "day": 42,
+    "scene": "🏊 社区活动报名",
+    "dialogue": [
+      {
+        "A": "Hi, I'd like to sign up for the adult swimming class."
+      },
+      {
+        "B": "Great! Are you a beginner or do you have some experience?"
+      },
+      {
+        "A": "I can swim a little, but I want to improve my technique."
+      },
+      {
+        "B": "Then the Intermediate class would be perfect. It starts June 10th."
+      },
+      {
+        "A": "How many sessions is it?"
+      },
+      {
+        "B": "Eight sessions, every Tuesday evening."
+      }
+    ],
+    "translation": [
+      {
+        "A": "你好，我想报名成人游泳课。"
+      },
+      {
+        "B": "好的！您是初学者还是有一些基础？"
+      },
+      {
+        "A": "我会一点，但想提高技术。"
+      },
+      {
+        "B": "那中级班很适合您，6月10日开始。"
+      },
+      {
+        "A": "一共有几节课？"
+      },
+      {
+        "B": "八节课，每周二晚上。"
+      }
+    ],
+    "key_phrases": [
+      "Sign up for ~ = 报名参加～",
+      "I want to improve my ~ = 我想提高我的～",
+      "How many sessions? = 一共几节课/几场？"
+    ],
+    "tip": "报名课程时问清楚 'How many sessions?' 和 'When does it start?' 是两个最重要的问题。",
+    "examples": [
+      "I'd like to sign up for the beginner pottery class.（我想报名初级陶艺课）",
+      "I have some experience, so I'd like intermediate.（我有一些基础，想上中级班）",
+      "How many sessions does the course include?（这个课程包含几节课？）"
+    ]
+  },
+  {
+    "day": 43,
+    "scene": "💻 居家办公网络问题",
+    "dialogue": [
+      {
+        "A": "Hey, can you hear me? My video keeps freezing."
+      },
+      {
+        "B": "You're breaking up a bit. Try turning off your camera."
+      },
+      {
+        "A": "Better?"
+      },
+      {
+        "B": "Yes, much better. Also, you might want to move closer to your router."
+      },
+      {
+        "A": "Good idea. Sorry about the connection issues."
+      },
+      {
+        "B": "No worries, happens to all of us."
+      }
+    ],
+    "translation": [
+      {
+        "A": "嘿，你能听到我吗？我的视频一直卡。"
+      },
+      {
+        "B": "你有点断断续续，试着关掉摄像头。"
+      },
+      {
+        "A": "好一点了吗？"
+      },
+      {
+        "B": "好多了，你也可以试着靠近路由器。"
+      },
+      {
+        "A": "好主意，网络问题抱歉了。"
+      },
+      {
+        "B": "没关系，大家都遇到过这种情况。"
+      }
+    ],
+    "key_phrases": [
+      "You're breaking up = 你的声音/画面断断续续",
+      "Try turning off your camera = 试着关掉摄像头",
+      "Move closer to your router = 靠近路由器"
+    ],
+    "tip": "视频会议中说 'You're breaking up' 表示对方信号不好，比 'Your connection is bad' 更口语。",
+    "examples": [
+      "Can everyone hear me okay?（大家都能听到我吗？）",
+      "You're breaking up — can you move closer to the router?（你断断续续，能靠近路由器一点吗？）",
+      "Try turning off your video to help the connection.（试着关掉视频，帮助改善网络）"
+    ]
+  },
+  {
+    "day": 44,
+    "scene": "🎈 儿童生日派对",
+    "dialogue": [
+      {
+        "A": "Thanks for coming! Can I get you something to drink?"
+      },
+      {
+        "B": "Sure, water would be great. The kids are having so much fun!"
+      },
+      {
+        "A": "Right? How old is yours turning?"
+      },
+      {
+        "B": "She's turning six. Yours?"
+      },
+      {
+        "A": "He's seven today. They grow up so fast!"
+      },
+      {
+        "B": "Tell me about it! Feels like yesterday he was born."
+      }
+    ],
+    "translation": [
+      {
+        "A": "谢谢来参加！给你拿点喝的吗？"
+      },
+      {
+        "B": "好的，水就好，孩子们玩得真开心！"
+      },
+      {
+        "A": "是啊，你家小朋友今天几岁？"
+      },
+      {
+        "B": "她六岁了，你家的呢？"
+      },
+      {
+        "A": "他今天七岁，孩子长得真快！"
+      },
+      {
+        "B": "可不是！感觉就像昨天才出生一样。"
+      }
+    ],
+    "key_phrases": [
+      "Can I get you something to drink? = 给你拿点喝的吗？（待客常用）",
+      "She's turning six = 她（快/就要）六岁了",
+      "Tell me about it! = 可不是！（强烈认同）"
+    ],
+    "tip": "'Tell me about it!' 不是让别人告诉你什么，而是表示'我太有共鸣了/可不是嘛！'，是地道的认同感叹。",
+    "examples": [
+      "Thanks so much for coming — can I get you a drink?（太感谢你来了，给你拿杯喝的？）",
+      "Your daughter is turning five already? Time flies!（你女儿已经5岁了？时间过得真快！）",
+      "Tell me about it — feels like yesterday!（可不是，感觉就像昨天！）"
+    ]
+  },
+  {
+    "day": 45,
+    "scene": "🔑 搬进新公寓",
+    "dialogue": [
+      {
+        "A": "Welcome! Here are your keys — two sets."
+      },
+      {
+        "B": "Thank you! Quick question: where do I put my trash?"
+      },
+      {
+        "A": "There's a trash room on each floor at the end of the hallway."
+      },
+      {
+        "B": "And what about recycling?"
+      },
+      {
+        "A": "Same room. Blue bins for recycling, green for compost."
+      },
+      {
+        "B": "Got it. And is there a package room?"
+      }
+    ],
+    "translation": [
+      {
+        "A": "欢迎！这是你的钥匙，两套。"
+      },
+      {
+        "B": "谢谢！快问一下，垃圾放哪里？"
+      },
+      {
+        "A": "每层走廊尽头都有一个垃圾间。"
+      },
+      {
+        "B": "回收垃圾呢？"
+      },
+      {
+        "A": "同一个房间，蓝色桶是回收，绿色是堆肥。"
+      },
+      {
+        "B": "明白了，有包裹室吗？"
+      }
+    ],
+    "key_phrases": [
+      "Quick question: ~ = 快问一下～（常用开场白）",
+      "At the end of the hallway = 在走廊尽头",
+      "Package room = 包裹室（放快递的地方）"
+    ],
+    "tip": "'Quick question' 是礼貌提问的开场白，暗示你的问题不复杂，对方不用花太多时间。",
+    "examples": [
+      "Quick question — where's the laundry room?（快问一下，洗衣房在哪？）",
+      "The trash room is at the end of the hall on the right.（垃圾间在走廊右边尽头）",
+      "Is there a package room for deliveries?（有存放快递的包裹室吗？）"
+    ]
+  },
+  {
+    "day": 46,
+    "scene": "🌮 食物过敏说明",
+    "dialogue": [
+      {
+        "A": "Are you ready to order?"
+      },
+      {
+        "B": "Yes, but I have a nut allergy. Is the pad thai made with peanuts?"
+      },
+      {
+        "A": "It does have peanuts on top, but we can leave those off."
+      },
+      {
+        "B": "Can you make sure the sauce doesn't have any peanut products?"
+      },
+      {
+        "A": "I'll check with the kitchen and let you know."
+      },
+      {
+        "B": "Thank you, I really appreciate that."
+      }
+    ],
+    "translation": [
+      {
+        "A": "您准备好点餐了吗？"
+      },
+      {
+        "B": "准备好了，但我对坚果过敏，泰式炒面有花生吗？"
+      },
+      {
+        "A": "上面有花生，但可以不加。"
+      },
+      {
+        "B": "能确保酱汁里没有任何花生成分吗？"
+      },
+      {
+        "A": "我去问一下厨房再告诉您。"
+      },
+      {
+        "B": "谢谢，真的很感激。"
+      }
+    ],
+    "key_phrases": [
+      "I have a ~ allergy = 我对～过敏",
+      "Can you make sure ~? = 能确保～吗？",
+      "I'll check with the kitchen = 我去问一下厨房"
+    ],
+    "tip": "有食物过敏一定要在点餐时明确告知，说 'I have a severe allergy'（严重过敏）可以让服务员更认真对待。",
+    "examples": [
+      "I have a gluten allergy — is the pasta gluten-free?（我对麸质过敏，意面是无麸质的吗？）",
+      "Can you make sure there's no shellfish in the dish?（能确保菜里没有贝类吗？）",
+      "I'll check with the kitchen to be safe.（为安全起见，我去问一下厨房）"
+    ]
+  },
+  {
+    "day": 47,
+    "scene": "📦 快递丢失",
+    "dialogue": [
+      {
+        "A": "Hi, I'm calling about a missing package."
+      },
+      {
+        "B": "I'm sorry to hear that. Can I get your order number?"
+      },
+      {
+        "A": "It's 74829-B. The tracking says delivered, but it's not here."
+      },
+      {
+        "B": "Let me look into that. Did you check with your neighbors?"
+      },
+      {
+        "A": "Yes, no one has it."
+      },
+      {
+        "B": "We'll open an investigation and get back to you within 24 hours."
+      }
+    ],
+    "translation": [
+      {
+        "A": "你好，我打电话是关于一个丢失的包裹。"
+      },
+      {
+        "B": "很抱歉听到这个，可以告诉我您的订单号吗？"
+      },
+      {
+        "A": "是74829-B，追踪显示已送达，但我没收到。"
+      },
+      {
+        "B": "我来查一下，您问过邻居了吗？"
+      },
+      {
+        "A": "问过了，没有人有。"
+      },
+      {
+        "B": "我们会发起调查，24小时内给您回复。"
+      }
+    ],
+    "key_phrases": [
+      "Missing package = 丢失的包裹",
+      "The tracking says delivered = 追踪显示已送达",
+      "Open an investigation = 发起调查"
+    ],
+    "tip": "快递丢失时，先查追踪记录，再问邻居，最后联系卖家/快递公司，提供订单号会大大加快处理速度。",
+    "examples": [
+      "I'm calling about a missing package — order number 98321.（我打电话关于丢失包裹，订单号98321）",
+      "The tracking says it was delivered two days ago.（追踪显示两天前已送达）",
+      "We'll open an investigation and follow up within 48 hours.（我们会发起调查，48小时内跟进）"
+    ]
+  },
+  {
+    "day": 48,
+    "scene": "🤒 请病假",
+    "dialogue": [
+      {
+        "A": "Hey, I just wanted to let you know I'm not feeling well today."
+      },
+      {
+        "B": "Oh no, what's going on?"
+      },
+      {
+        "A": "I woke up with a fever and a sore throat. I think it's best I stay home."
+      },
+      {
+        "B": "Of course, take care of yourself. Anything urgent we should cover for you?"
+      },
+      {
+        "A": "Just the 2 PM client call — could you take that?"
+      },
+      {
+        "B": "No problem. Feel better soon!"
+      }
+    ],
+    "translation": [
+      {
+        "A": "嘿，我想告诉你我今天身体不舒服。"
+      },
+      {
+        "B": "哦不，怎么了？"
+      },
+      {
+        "A": "我醒来就发烧喉咙痛，我觉得还是在家比较好。"
+      },
+      {
+        "B": "当然，注意休息，有什么紧急的需要我们帮你处理吗？"
+      },
+      {
+        "A": "只有下午2点的客户电话，你能代接吗？"
+      },
+      {
+        "B": "没问题，早日康复！"
+      }
+    ],
+    "key_phrases": [
+      "I'm not feeling well = 我身体不舒服（请假开场白）",
+      "It's best I stay home = 我觉得还是在家比较好",
+      "Feel better soon! = 早日康复！"
+    ],
+    "tip": "美国职场文化中，生病请假是正常且被鼓励的，不用过度道歉，简单说清楚情况即可。",
+    "examples": [
+      "Hey, I'm not feeling well — I'm going to work from home today.（嘿，我身体不舒服，今天在家办公）",
+      "I woke up with a fever, so it's best I stay home.（我醒来就发烧了，还是在家好）",
+      "Is there anything urgent I should handle from home?（有什么紧急的我可以在家处理吗？）"
+    ]
+  },
+  {
+    "day": 49,
+    "scene": "🚿 水管维修",
+    "dialogue": [
+      {
+        "A": "Hi, I'm here for the plumbing repair."
+      },
+      {
+        "B": "Thanks for coming so quickly! The kitchen sink is completely clogged."
+      },
+      {
+        "A": "Let me take a look. Have you tried any drain cleaner?"
+      },
+      {
+        "B": "Yes, but it didn't help."
+      },
+      {
+        "A": "I'll need to use a snake to clear it out. Should take about 30 minutes."
+      },
+      {
+        "B": "That's fine. Can I stay and watch?"
+      }
+    ],
+    "translation": [
+      {
+        "A": "你好，我是来修水管的。"
+      },
+      {
+        "B": "谢谢你来得这么快！厨房水槽完全堵了。"
+      },
+      {
+        "A": "我来看看，你用过疏通剂吗？"
+      },
+      {
+        "B": "用过，但没用。"
+      },
+      {
+        "A": "我需要用通管器疏通，大概30分钟。"
+      },
+      {
+        "B": "没问题，我可以在旁边看吗？"
+      }
+    ],
+    "key_phrases": [
+      "Completely clogged = 完全堵塞了",
+      "Drain cleaner = 管道疏通剂",
+      "Use a snake = 用通管器（plumber's snake）"
+    ],
+    "tip": "水管堵塞叫 'clogged'，修水管的工人叫 'plumber'，紧急水管维修可以搜索 'emergency plumber'。",
+    "examples": [
+      "Hi, I'm here for the electrical repair.（你好，我是来修电路的）",
+      "The bathroom drain is completely clogged.（浴室排水完全堵塞了）",
+      "It should take about 45 minutes to fix.（大概需要45分钟修好）"
+    ]
+  },
+  {
+    "day": 50,
+    "scene": "🏖️ 计划度假",
+    "dialogue": [
+      {
+        "A": "We should really take a vacation this summer."
+      },
+      {
+        "B": "Agreed! Where are you thinking?"
+      },
+      {
+        "A": "Maybe the beach? I've always wanted to go to the Outer Banks."
+      },
+      {
+        "B": "That sounds amazing. How long were you thinking?"
+      },
+      {
+        "A": "A week would be perfect. We could rent a house."
+      },
+      {
+        "B": "Let's start looking at dates. July works for me."
+      }
+    ],
+    "translation": [
+      {
+        "A": "今年夏天我们真的应该去度假。"
+      },
+      {
+        "B": "同意！你在想哪里？"
+      },
+      {
+        "A": "也许去海边？我一直想去Outer Banks。"
+      },
+      {
+        "B": "听起来很棒，你想去多久？"
+      },
+      {
+        "A": "一周就完美了，我们可以租一栋房子。"
+      },
+      {
+        "B": "我们来定日期吧，七月我可以。"
+      }
+    ],
+    "key_phrases": [
+      "Where are you thinking? = 你在想去哪里？",
+      "How long were you thinking? = 你想去多久？",
+      "Start looking at dates = 开始看日期/定日期"
+    ],
+    "tip": "美国人度假常说 'rent a house' 通过Airbnb/VRBO订整栋房子，比住酒店便宜，适合多人出行。",
+    "examples": [
+      "Where are you thinking for the trip?（你在想去哪里旅行？）",
+      "A week in Costa Rica sounds amazing.（去哥斯达黎加一周听起来很棒）",
+      "Let's start looking at flights for July.（我们开始找七月的机票吧）"
+    ]
+  },
+  {
+    "day": 51,
+    "scene": "💇 理发",
+    "dialogue": [
+      {
+        "A": "Hi, what are we doing today?"
+      },
+      {
+        "B": "Just a trim, please. About an inch off the top."
+      },
+      {
+        "A": "And the sides?"
+      },
+      {
+        "B": "Keep it the same length on the sides, just clean it up."
+      },
+      {
+        "A": "Got it. Any specific style you're going for?"
+      },
+      {
+        "B": "Nothing too dramatic. Just neat and professional."
+      }
+    ],
+    "translation": [
+      {
+        "A": "你好，今天要怎么剪？"
+      },
+      {
+        "B": "只是修剪一下，顶部剪掉大约一英寸。"
+      },
+      {
+        "A": "两侧呢？"
+      },
+      {
+        "B": "两侧保持同样长度，整理干净就好。"
+      },
+      {
+        "A": "明白了，有什么特别想要的风格吗？"
+      },
+      {
+        "B": "不要太大的变化，整洁、专业就行。"
+      }
+    ],
+    "key_phrases": [
+      "Just a trim = 只是修剪一下",
+      "About an inch off = 剪掉大约一英寸",
+      "Clean it up = 整理干净",
+      "Nothing too dramatic = 不要太大的变化"
+    ],
+    "tip": "'Just a trim' 是最常见的理发说法，意思是稍微剪短，不要大改变。",
+    "examples": [
+      "Just a trim — nothing too dramatic.（只是修剪，不要太大变化）",
+      "About half an inch off, please.（请剪掉大约半英寸）",
+      "Can you just clean up the sides?（两侧帮我整理干净就好吗？）"
+    ]
+  },
+  {
+    "day": 52,
+    "scene": "🎤 提出不同意见",
+    "dialogue": [
+      {
+        "A": "I think we should go with Option A for the launch."
+      },
+      {
+        "B": "I see your point, but I'm a little concerned about the timeline."
+      },
+      {
+        "A": "What's your worry?"
+      },
+      {
+        "B": "Option A needs two more weeks of testing. We might miss the deadline."
+      },
+      {
+        "A": "That's a fair point. What do you suggest?"
+      },
+      {
+        "B": "Maybe we go with Option B now and revisit A next quarter."
+      }
+    ],
+    "translation": [
+      {
+        "A": "我觉得我们应该选方案A来上线。"
+      },
+      {
+        "B": "我明白你的意思，但我有点担心时间线。"
+      },
+      {
+        "A": "你担心什么？"
+      },
+      {
+        "B": "方案A还需要两周测试，我们可能会错过截止日期。"
+      },
+      {
+        "A": "这是个合理的观点，你有什么建议？"
+      },
+      {
+        "B": "也许现在先用方案B，下季度再来考虑A。"
+      }
+    ],
+    "key_phrases": [
+      "I see your point, but ~ = 我明白你的意思，但是～（礼貌提出异议）",
+      "That's a fair point = 这是个合理的观点（认可对方）",
+      "Revisit ~ next quarter = 下季度再来讨论～"
+    ],
+    "tip": "'I see your point, but...' 是职场中最专业的反驳开场白，先认可再提出异议，避免直接冲突。",
+    "examples": [
+      "I see your point, but I'm worried about the cost.（我明白你的意思，但我担心费用）",
+      "That's a fair point — I hadn't thought of that.（这是个合理的观点，我没想到这个）",
+      "Maybe we table this and revisit next week?（也许我们先搁置，下周再来讨论？）"
+    ]
+  },
+  {
+    "day": 53,
+    "scene": "🌳 公园遛狗闲聊",
+    "dialogue": [
+      {
+        "A": "Your dog is adorable! What breed is he?"
+      },
+      {
+        "B": "He's a golden mix. His name is Mochi."
+      },
+      {
+        "A": "How old is he?"
+      },
+      {
+        "B": "About two years. Is yours a corgi?"
+      },
+      {
+        "A": "Yes! Her name is Daisy. They seem to like each other!"
+      },
+      {
+        "B": "They do! Do you come here often?"
+      }
+    ],
+    "translation": [
+      {
+        "A": "你的狗好可爱！它是什么品种？"
+      },
+      {
+        "B": "它是金毛混血，名字叫Mochi。"
+      },
+      {
+        "A": "它几岁了？"
+      },
+      {
+        "B": "大概两岁，你家的是柯基吗？"
+      },
+      {
+        "A": "对！她叫Daisy，它们好像挺投缘的！"
+      },
+      {
+        "B": "确实！你常来这里吗？"
+      }
+    ],
+    "key_phrases": [
+      "What breed is he/she? = 它是什么品种？",
+      "A golden mix = 金毛混血",
+      "Do you come here often? = 你常来这里吗？（建立熟识的问法）"
+    ],
+    "tip": "遛狗是美国社区最自然的社交场景，狗狗相互认识了，主人之间的对话就很自然了。",
+    "examples": [
+      "What breed is your dog? She's so cute!（你的狗是什么品种？好可爱！）",
+      "He's a husky mix — about three years old.（他是哈士奇混血，大概三岁）",
+      "They seem to really like each other — do you come here often?（它们好像很投缘，你常来这里吗？）"
+    ]
+  },
+  {
+    "day": 54,
+    "scene": "🏪 问商店营业时间",
+    "dialogue": [
+      {
+        "A": "Hi, are you still open?"
+      },
+      {
+        "B": "We close in about 20 minutes, at 9 PM."
+      },
+      {
+        "A": "Perfect. And what time do you open tomorrow?"
+      },
+      {
+        "B": "We open at 10 AM on Sundays."
+      },
+      {
+        "A": "Is that the same on holidays?"
+      },
+      {
+        "B": "We have reduced hours on holidays — usually noon to 6."
+      }
+    ],
+    "translation": [
+      {
+        "A": "你好，你们还开着吗？"
+      },
+      {
+        "B": "我们大概20分钟后关门，晚上9点。"
+      },
+      {
+        "A": "好的，明天几点开门？"
+      },
+      {
+        "B": "周日早上10点开。"
+      },
+      {
+        "A": "节假日也是一样吗？"
+      },
+      {
+        "B": "节假日营业时间缩短，通常是中午到6点。"
+      }
+    ],
+    "key_phrases": [
+      "Are you still open? = 你们还开着吗？",
+      "We close in ~ minutes = 我们～分钟后关门",
+      "Reduced hours = 缩短的营业时间"
+    ],
+    "tip": "美国节假日很多商店会有 'holiday hours'，最好提前查一下，免得扑空。",
+    "examples": [
+      "Are you still open? I know it's late.（你们还开着吗？我知道很晚了）",
+      "We close in ten minutes, but come on in.（我们十分钟后关门，但进来吧）",
+      "Do you have holiday hours posted somewhere?（你们的节假日营业时间贴在哪里了吗？）"
+    ]
+  },
+  {
+    "day": 55,
+    "scene": "🎓 问老师问题",
+    "dialogue": [
+      {
+        "A": "Professor, do you have a moment after class?"
+      },
+      {
+        "B": "Sure, what's on your mind?"
+      },
+      {
+        "A": "I'm struggling with the last assignment. I'm not sure I understood the prompt."
+      },
+      {
+        "B": "Let's take a look at it together. What part confused you?"
+      },
+      {
+        "A": "The second question — I wasn't sure what 'contextualize' meant in this case."
+      },
+      {
+        "B": "Good question. It means..."
+      }
+    ],
+    "translation": [
+      {
+        "A": "教授，下课后您有空吗？"
+      },
+      {
+        "B": "有，什么事？"
+      },
+      {
+        "A": "我在最后的作业上遇到了困难，不太理解题目要求。"
+      },
+      {
+        "B": "我们一起来看看，哪部分让你困惑了？"
+      },
+      {
+        "A": "第二题，我不太确定在这里'contextualize'是什么意思。"
+      },
+      {
+        "B": "好问题，它的意思是……"
+      }
+    ],
+    "key_phrases": [
+      "Do you have a moment? = 您有空吗？（礼貌请求时间）",
+      "I'm struggling with ~ = 我在～上遇到困难",
+      "I wasn't sure what ~ meant = 我不确定～是什么意思"
+    ],
+    "tip": "主动找老师/教授提问在美国学术文化中非常被鼓励，说明你认真学习，不会被认为是打扰。",
+    "examples": [
+      "Professor, do you have a moment after class?（教授，下课后您有空吗？）",
+      "I'm really struggling with Chapter 4.（我在第四章上真的很吃力）",
+      "I wasn't sure what 'empirical' meant in that context.（我不确定那个语境里'empirical'是什么意思）"
+    ]
+  },
+  {
+    "day": 56,
+    "scene": "🚘 路边停车",
+    "dialogue": [
+      {
+        "A": "Excuse me, is it okay to park here?"
+      },
+      {
+        "B": "There's a 2-hour limit on weekdays. See the sign?"
+      },
+      {
+        "A": "Oh, I didn't notice. What about weekends?"
+      },
+      {
+        "B": "Weekends are free parking, no limit."
+      },
+      {
+        "A": "Perfect. Is there a meter I need to pay?"
+      },
+      {
+        "B": "No meter here, but download the ParkMobile app just in case."
+      }
+    ],
+    "translation": [
+      {
+        "A": "打扰一下，这里可以停车吗？"
+      },
+      {
+        "B": "工作日有2小时限制，看到那个牌子了吗？"
+      },
+      {
+        "A": "哦，我没注意到，周末呢？"
+      },
+      {
+        "B": "周末免费停车，没有限制。"
+      },
+      {
+        "A": "好的，需要投币吗？"
+      },
+      {
+        "B": "这里没有停车表，但以防万一可以下载ParkMobile app。"
+      }
+    ],
+    "key_phrases": [
+      "Is it okay to park here? = 这里可以停车吗？",
+      "2-hour limit = 2小时停车限制",
+      "Just in case = 以防万一"
+    ],
+    "tip": "美国很多城市用ParkMobile或PayByPhone app缴停车费，比找零钱更方便，出行前可以提前下载。",
+    "examples": [
+      "Is it okay to park here after 6 PM?（晚上6点后这里可以停车吗？）",
+      "There's a two-hour limit on weekdays only.（只有工作日有两小时限制）",
+      "I'll download the app just in case.（我下载这个app以防万一）"
+    ]
+  },
+  {
+    "day": 57,
+    "scene": "🍳 邻居串门",
+    "dialogue": [
+      {
+        "A": "Hey! I made too much chili — want some?"
+      },
+      {
+        "B": "That's so thoughtful of you! I'd love some."
+      },
+      {
+        "A": "Here, take the whole container. I have more than I can eat."
+      },
+      {
+        "B": "Are you sure? This smells amazing."
+      },
+      {
+        "A": "Of course! Just return the container whenever."
+      },
+      {
+        "B": "I'll bring it back tomorrow. Thank you so much!"
+      }
+    ],
+    "translation": [
+      {
+        "A": "嘿！我做了太多辣肉酱，要来一些吗？"
+      },
+      {
+        "B": "你真的太贴心了！我当然要！"
+      },
+      {
+        "A": "拿着，把这整个容器都带走吧，我吃不完。"
+      },
+      {
+        "B": "你确定吗？闻起来好香。"
+      },
+      {
+        "A": "当然！容器随时还我就好。"
+      },
+      {
+        "B": "我明天送回来，太感谢了！"
+      }
+    ],
+    "key_phrases": [
+      "I made too much ~ = 我做了太多～",
+      "More than I can eat = 多过我能吃的量",
+      "Return it whenever = 随时还我就行"
+    ],
+    "tip": "美国邻里间分享食物是常见的友善之举，收到时说 'That's so thoughtful!' 是最合适的回应。",
+    "examples": [
+      "I made too much soup — want some for dinner?（我做了太多汤，晚饭要来一些吗？）",
+      "Take the whole pot — I have way more than I can eat.（把整锅带走，我真的吃不完）",
+      "I'll return the container this weekend, thank you!（我周末还给你容器，谢谢！）"
+    ]
+  },
+  {
+    "day": 58,
+    "scene": "📋 填写表格",
+    "dialogue": [
+      {
+        "A": "Please fill out this form completely."
+      },
+      {
+        "B": "Sure. For 'emergency contact,' can I put a family member?"
+      },
+      {
+        "A": "Yes, someone we can reach if we can't get ahold of you."
+      },
+      {
+        "B": "Got it. And for 'primary care physician' — I don't have one yet."
+      },
+      {
+        "A": "Just write 'N/A' for now."
+      },
+      {
+        "B": "Okay. And where do I sign?"
+      }
+    ],
+    "translation": [
+      {
+        "A": "请填写完整这张表格。"
+      },
+      {
+        "B": "好的，'紧急联系人'可以填家人吗？"
+      },
+      {
+        "A": "可以，就是联系不上您时我们能联络的人。"
+      },
+      {
+        "B": "明白了，'主治医生'这栏——我现在还没有。"
+      },
+      {
+        "A": "暂时写'N/A'就可以。"
+      },
+      {
+        "B": "好的，在哪里签名？"
+      }
+    ],
+    "key_phrases": [
+      "Emergency contact = 紧急联系人",
+      "Get ahold of you = 联系到您",
+      "Primary care physician = 主治医生/家庭医生",
+      "N/A (Not Applicable) = 不适用"
+    ],
+    "tip": "美国表格中 'N/A' 是非常常用的填写方式，表示'不适用'或'暂无'，不要空着不填。",
+    "examples": [
+      "Do I put my full legal name here?（这里填我的全名吗？）",
+      "For emergency contact, can I put a friend?（紧急联系人可以填朋友吗？）",
+      "I don't have a primary doctor yet — should I write N/A?（我还没有主治医生，写N/A可以吗？）"
+    ]
+  },
+  {
+    "day": 59,
+    "scene": "🧑‍🍳 和同事聊午饭",
+    "dialogue": [
+      {
+        "A": "Are you eating at your desk again?"
+      },
+      {
+        "B": "Yeah, I have a deadline this afternoon."
+      },
+      {
+        "A": "You should take a real break. It's good for your brain."
+      },
+      {
+        "B": "You're probably right. Where are you headed?"
+      },
+      {
+        "A": "There's a new Thai place around the corner. Come join us!"
+      },
+      {
+        "B": "Okay, five minutes. Let me just send this email."
+      }
+    ],
+    "translation": [
+      {
+        "A": "你又在座位上吃饭？"
+      },
+      {
+        "B": "对，今天下午有个截止日期。"
+      },
+      {
+        "A": "你应该好好休息一下，对大脑有好处。"
+      },
+      {
+        "B": "你说得可能对，你要去哪里？"
+      },
+      {
+        "A": "转角有一家新的泰国餐厅，来跟我们一起去吧！"
+      },
+      {
+        "B": "好的，五分钟，让我把这封邮件发完。"
+      }
+    ],
+    "key_phrases": [
+      "Eating at your desk = 在座位上吃饭",
+      "I have a deadline = 我有截止日期",
+      "Around the corner = 就在转角/附近"
+    ],
+    "tip": "'Around the corner' 字面意思是'转角处'，但常用来表示'就在附近'，不一定真的在转角。",
+    "examples": [
+      "Are you eating at your desk again? Come eat with us!（你又在座位上吃饭？来跟我们一起吃！）",
+      "There's a new ramen place around the corner.（转角有一家新的拉面店）",
+      "Just give me five minutes to finish this email.（给我五分钟把这封邮件发完）"
+    ]
+  },
+  {
+    "day": 60,
+    "scene": "🌙 道晚安",
+    "dialogue": [
+      {
+        "A": "It's getting late. I should head out."
+      },
+      {
+        "B": "Already? The night's still young!"
+      },
+      {
+        "A": "I have an early morning tomorrow. It was so great seeing you."
+      },
+      {
+        "B": "You too! Let's not wait so long next time."
+      },
+      {
+        "A": "Agreed! Drive safe."
+      },
+      {
+        "B": "You too. Text me when you get home!"
+      }
+    ],
+    "translation": [
+      {
+        "A": "不早了，我该走了。"
+      },
+      {
+        "B": "这就走？夜还长着呢！"
+      },
+      {
+        "A": "我明天一早有事，见到你真的很开心。"
+      },
+      {
+        "B": "我也是！下次别等这么久了。"
+      },
+      {
+        "A": "同意！开车小心。"
+      },
+      {
+        "B": "你也是，到家发消息给我！"
+      }
+    ],
+    "key_phrases": [
+      "I should head out = 我该走了",
+      "The night's still young! = 夜还长呢！（留客套话）",
+      "Let's not wait so long next time = 下次别等这么久了",
+      "Text me when you get home = 到家发消息给我"
+    ],
+    "tip": "'Text me when you get home' 是美国朋友间非常常见的道别语，表达关心，不是命令。",
+    "examples": [
+      "It's getting late — I should really head out.（不早了，我真的该走了）",
+      "Text me when you get home, okay?（到家发消息给我，好吗？）",
+      "Let's not wait six months to do this again!（我们别再等六个月才聚了！）"
+    ]
+  }
+]
