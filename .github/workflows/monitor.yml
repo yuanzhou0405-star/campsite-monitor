@@ -1,0 +1,45 @@
+name: Campsite Monitor
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check availability and notify
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          CHAT_ID: "499402645"
+        run: |
+          RESPONSE=$(curl -s "https://www.recreation.gov/api/camps/availability/campground/232507/month?start_date=2026-07-01T00%3A00%3A00.000Z" -H "User-Agent: Mozilla/5.0")
+
+          # Site IDs: G1=5780 G2=6487 G3=6488 G4=6489 G5=6490
+          AVAILABLE=""
+
+          for SITE in "G1:5780" "G2:6487" "G3:6488" "G4:6489"; do
+            NAME=$(echo $SITE | cut -d: -f1)
+            ID=$(echo $SITE | cut -d: -f2)
+            STATUS=$(echo $RESPONSE | python3 -c "import json,sys; d=json.load(sys.stdin); print(d['campsites']['$ID']['availabilities'].get('2026-07-10T00:00:00Z','N/A'))")
+            if [ "$STATUS" != "Reserved" ] && [ "$STATUS" != "N/A" ]; then
+              AVAILABLE="$AVAILABLE\n🏕️ $NAME 7月10日: $STATUS"
+            fi
+          done
+
+          for SITE in "G1:5780" "G2:6487" "G3:6488" "G4:6489" "G5:6490"; do
+            NAME=$(echo $SITE | cut -d: -f1)
+            ID=$(echo $SITE | cut -d: -f2)
+            STATUS=$(echo $RESPONSE | python3 -c "import json,sys; d=json.load(sys.stdin); print(d['campsites']['$ID']['availabilities'].get('2026-07-11T00:00:00Z','N/A'))")
+            if [ "$STATUS" != "Reserved" ] && [ "$STATUS" != "N/A" ]; then
+              AVAILABLE="$AVAILABLE\n🏕️ $NAME 7月11日: $STATUS"
+            fi
+          done
+
+          if [ -n "$AVAILABLE" ]; then
+            MSG="🚨 野马岛营地有空位！\n$AVAILABLE\n\n立刻预定：https://www.recreation.gov/camping/campgrounds/232507"
+            curl -s "https://api.telegram.org/bot${TELEGRAM_TOKEN}/sendMessage" \
+              -d "chat_id=${CHAT_ID}" \
+              --data-urlencode "text=${MSG}"
+          fi
