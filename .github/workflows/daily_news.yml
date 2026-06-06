@@ -21,15 +21,15 @@ jobs:
 
           RSS_SOURCES = {
               "💼 TECH": [
-                  "https://feeds.feedburner.com/TechCrunch",
-                  "https://www.theverge.com/rss/index.xml",
+                  "https://techcrunch.com/feed/",
+                  "https://feeds.arstechnica.com/arstechnica/index",
+                  "https://www.wired.com/feed/rss",
               ],
               "💼 OPERATIONS": [
-                  "https://feeds.feedburner.com/entrepreneur/latest",
+                  "https://www.inc.com/rss",
               ],
               "🛂 IMMIGRATION": [
                   "https://immigrationimpact.com/feed/",
-                  "https://www.uscis.gov/news/rss",
               ],
               "🏥 HEALTH": [
                   "https://www.healthline.com/rss/health-news",
@@ -38,7 +38,8 @@ jobs:
                   "https://feeds.npr.org/1001/rss.xml",
               ],
               "💰 FINANCE": [
-                  "https://feeds.content.dowjones.io/public/rss/mw_realtimeheadlines",
+                  "https://feeds.bloomberg.com/markets/news.rss",
+                  "https://www.cnbc.com/id/100003114/device/rss/rss.html",
               ],
               "🌍 WORLD": [
                   "http://feeds.bbci.co.uk/news/world/rss.xml",
