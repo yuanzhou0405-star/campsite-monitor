@@ -14,42 +14,22 @@ jobs:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           CHAT_ID: "499402645"
         run: |
-          RESPONSE=$(curl -s "https://www.recreation.gov/api/camps/availability/campground/232507/month?start_date=2026-07-01T00%3A00%3A00.000Z" -H "User-Agent: Mozilla/5.0")
+          RESPONSE=$(curl -s "https://www.recreation.gov/api/camps/availability/campground/232507/month?start_date=2026-08-01T00%3A00%3A00.000Z" -H "User-Agent: Mozilla/5.0")
 
           AVAILABLE=""
 
-          # 7月10日：G1-G4 Group Sites（已有G5）
-          for SITE in "G1:5780" "G2:6487" "G3:6488" "G4:6489"; do
+          # 8月14日：Group Sites G1-G5 + Loop 1 全部19个site
+          for SITE in "G1:5780" "G2:6487" "G3:6488" "G4:6489" "G5:6490" "L001:6467" "L002:5746" "L003:5747" "L004:5748" "L005:5749" "L006:6468" "L007:6469" "L008:5750" "L009:5751" "L010:5752" "L011:5753" "L012:5754" "L013:5755" "L014:6470" "L015:6471" "L016:6472" "L017:5756" "L018:5757" "L019:5758"; do
             NAME=$(echo $SITE | cut -d: -f1)
             ID=$(echo $SITE | cut -d: -f2)
-            STATUS=$(echo $RESPONSE | python3 -c "import json,sys; d=json.load(sys.stdin); print(d['campsites']['$ID']['availabilities'].get('2026-07-10T00:00:00Z','N/A'))")
+            STATUS=$(echo $RESPONSE | python3 -c "import json,sys; d=json.load(sys.stdin); print(d['campsites']['$ID']['availabilities'].get('2026-08-14T00:00:00Z','N/A'))")
             if [ "$STATUS" != "Reserved" ] && [ "$STATUS" != "N/A" ]; then
-              AVAILABLE="$AVAILABLE\n🏕️ Group $NAME 7月10日: $STATUS"
-            fi
-          done
-
-          # 7月10日：Loop 1 全部19个site
-          for SITE in "001:6467" "002:5746" "003:5747" "004:5748" "005:5749" "006:6468" "007:6469" "008:5750" "009:5751" "010:5752" "011:5753" "012:5754" "013:5755" "014:6470" "015:6471" "016:6472" "017:5756" "018:5757" "019:5758"; do
-            NAME=$(echo $SITE | cut -d: -f1)
-            ID=$(echo $SITE | cut -d: -f2)
-            STATUS=$(echo $RESPONSE | python3 -c "import json,sys; d=json.load(sys.stdin); print(d['campsites']['$ID']['availabilities'].get('2026-07-10T00:00:00Z','N/A'))")
-            if [ "$STATUS" != "Reserved" ] && [ "$STATUS" != "N/A" ]; then
-              AVAILABLE="$AVAILABLE\n⛺ Loop1 Site $NAME 7月10日: $STATUS"
-            fi
-          done
-
-          # 7月11日：G1-G5 全部Group Sites
-          for SITE in "G1:5780" "G2:6487" "G3:6488" "G4:6489" "G5:6490"; do
-            NAME=$(echo $SITE | cut -d: -f1)
-            ID=$(echo $SITE | cut -d: -f2)
-            STATUS=$(echo $RESPONSE | python3 -c "import json,sys; d=json.load(sys.stdin); print(d['campsites']['$ID']['availabilities'].get('2026-07-11T00:00:00Z','N/A'))")
-            if [ "$STATUS" != "Reserved" ] && [ "$STATUS" != "N/A" ]; then
-              AVAILABLE="$AVAILABLE\n🏕️ Group $NAME 7月11日: $STATUS"
+              AVAILABLE="$AVAILABLE\n⛺ $NAME 8月14日: $STATUS"
             fi
           done
 
           if [ -n "$AVAILABLE" ]; then
-            MSG="🚨 野马岛营地有空位！\n$AVAILABLE\n\n立刻预定：https://www.recreation.gov/camping/campgrounds/232507"
+            MSG="🚨 野马岛营地 8月14日 有空位！\n$AVAILABLE\n\n立刻预定：https://www.recreation.gov/camping/campgrounds/232507"
             curl -s "https://api.telegram.org/bot${TELEGRAM_TOKEN}/sendMessage" \
               -d "chat_id=${CHAT_ID}" \
               --data-urlencode "text=${MSG}"
