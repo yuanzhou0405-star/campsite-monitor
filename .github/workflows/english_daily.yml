@@ -26,7 +26,7 @@ jobs:
           d = dialogues[day_index]
 
           lines = []
-          lines.append(f"📚 每日英语 Day {d['day']}/60")
+          lines.append(f"📚 每日英语 Day {d['day']}/180")
           lines.append(f"🎬 场景：{d['scene']}")
           lines.append("")
           lines.append("💬 对话：")
