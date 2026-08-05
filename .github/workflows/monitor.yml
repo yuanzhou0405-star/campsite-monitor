@@ -2,35 +2,124 @@ name: Campsite Monitor
 
 on:
   schedule:
+    # GitHub 会丢弃大量计划运行（实测约每 90-100 分钟才真的启动一次），
+    # 所以每次运行会在内部自己循环 2 小时，靠这个把实际检查次数补回来。
     - cron: '*/5 * * * *'
   workflow_dispatch:
+    inputs:
+      duration_minutes:
+        description: '这次运行持续多少分钟（测试时填 0 = 只查一次就结束）'
+        required: false
+        default: '120'
+
+# 新的运行会取消还在跑的旧运行，这样 2 小时的窗口首尾相接、不重叠，
+# 避免同一个空位被两个并行的运行重复通知。
+concurrency:
+  group: campsite-monitor
+  cancel-in-progress: true
 
 jobs:
   check:
     runs-on: ubuntu-latest
+    timeout-minutes: 130
     steps:
-      - name: Check availability and notify
+      - name: 循环检查空位并发通知
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           CHAT_ID: "499402645"
+          DURATION_MINUTES: ${{ github.event.inputs.duration_minutes || '120' }}
+
+          CAMPGROUND_ID: "232507"
+          # 8月14日（周五）和 8月15日（周六）两晚
+          TARGET_DATES: "2026-08-14,2026-08-15"
+          # 监控的营位 ID：Group Sites G1-G5 + Oceanside Loop 1 全部 19 个
+          WATCH_IDS: "5780,6487,6488,6489,6490,6467,5746,5747,5748,5749,6468,6469,5750,5751,5752,5753,5754,5755,6470,6471,6472,5756,5757,5758"
+
         run: |
-          RESPONSE=$(curl -s "https://www.recreation.gov/api/camps/availability/campground/232507/month?start_date=2026-08-01T00%3A00%3A00.000Z" -H "User-Agent: Mozilla/5.0")
+          python3 - <<'PYEOF'
+          import json, os, time, urllib.request, urllib.parse
 
-          AVAILABLE=""
+          CAMPGROUND = os.environ["CAMPGROUND_ID"].strip()
+          DATES = [d.strip() for d in os.environ["TARGET_DATES"].split(",") if d.strip()]
+          WATCH = {i.strip() for i in os.environ["WATCH_IDS"].split(",") if i.strip()}
+          TOKEN = os.environ["TELEGRAM_TOKEN"]
+          CHAT = os.environ["CHAT_ID"]
+          DURATION = int(os.environ.get("DURATION_MINUTES") or 120)
+          INTERVAL = int(os.environ.get("CHECK_INTERVAL_SECONDS") or 300)
+          # 同一个营位+日期，30 分钟内不重复通知；超过 30 分钟还空着就再提醒一次
+          REMIND_AFTER = 1800
 
-          # 8月14日：Group Sites G1-G5 + Loop 1 全部19个site
-          for SITE in "G1:5780" "G2:6487" "G3:6488" "G4:6489" "G5:6490" "L001:6467" "L002:5746" "L003:5747" "L004:5748" "L005:5749" "L006:6468" "L007:6469" "L008:5750" "L009:5751" "L010:5752" "L011:5753" "L012:5754" "L013:5755" "L014:6470" "L015:6471" "L016:6472" "L017:5756" "L018:5757" "L019:5758"; do
-            NAME=$(echo $SITE | cut -d: -f1)
-            ID=$(echo $SITE | cut -d: -f2)
-            STATUS=$(echo $RESPONSE | python3 -c "import json,sys; d=json.load(sys.stdin); print(d['campsites']['$ID']['availabilities'].get('2026-08-14T00:00:00Z','N/A'))")
-            if [ "$STATUS" != "Reserved" ] && [ "$STATUS" != "N/A" ]; then
-              AVAILABLE="$AVAILABLE\n⛺ $NAME 8月14日: $STATUS"
-            fi
-          done
+          BOOK_URL = "https://www.recreation.gov/camping/campgrounds/" + CAMPGROUND
+          MONTHS = sorted({d[:7] + "-01" for d in DATES})
 
-          if [ -n "$AVAILABLE" ]; then
-            MSG="🚨 野马岛营地 8月14日 有空位！\n$AVAILABLE\n\n立刻预定：https://www.recreation.gov/camping/campgrounds/232507"
-            curl -s "https://api.telegram.org/bot${TELEGRAM_TOKEN}/sendMessage" \
-              -d "chat_id=${CHAT_ID}" \
-              --data-urlencode "text=${MSG}"
-          fi
+
+          def fetch(month):
+              """取一个月的数据，失败重试 3 次；仍失败则返回 None（跳过这一轮，不让整次运行挂掉）"""
+              stamp = urllib.parse.quote(month + "T00:00:00.000Z", safe="")
+              url = ("https://www.recreation.gov/api/camps/availability/campground/"
+                     + CAMPGROUND + "/month?start_date=" + stamp)
+              err = None
+              for attempt in range(3):
+                  try:
+                      req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+                      return json.load(urllib.request.urlopen(req, timeout=30))
+                  except Exception as e:
+                      err = e
+                      time.sleep(5 * (attempt + 1))
+              print("    取 recreation.gov 数据失败（已重试3次），跳过本轮：", err)
+              return None
+
+
+          def notify(text):
+              body = urllib.parse.urlencode({"chat_id": CHAT, "text": text}).encode()
+              err = None
+              for attempt in range(3):
+                  try:
+                      urllib.request.urlopen("https://api.telegram.org/bot" + TOKEN
+                                             + "/sendMessage", data=body, timeout=30).read()
+                      return True
+                  except Exception as e:
+                      err = e
+                      time.sleep(5)
+              print("    Telegram 发送失败（已重试3次）：", err)
+              return False
+
+
+          deadline = time.time() + DURATION * 60
+          alerted = {}
+          rounds = 0
+
+          while True:
+              rounds += 1
+              now = time.time()
+              hits = []
+              for month in MONTHS:
+                  data = fetch(month)
+                  if data is None:
+                      continue
+                  for cid, site in data.get("campsites", {}).items():
+                      if cid not in WATCH:
+                          continue
+                      for d in DATES:
+                          if site.get("availabilities", {}).get(d + "T00:00:00Z") == "Available":
+                              hits.append((d, site.get("site", "?"), site.get("loop", "")))
+
+              fresh = [h for h in hits if now - alerted.get((h[0], h[1]), 0) > REMIND_AFTER]
+              print("[第%d轮 %s UTC] 空位 %d 个，需通知 %d 个"
+                    % (rounds, time.strftime("%H:%M:%S", time.gmtime(now)), len(hits), len(fresh)))
+
+              if fresh:
+                  lines = ["⛺ %s  营位 %s  (%s)" % (d, s, lp) for d, s, lp in sorted(fresh)]
+                  msg = ("\U0001f6a8 野马岛营地有空位了！\n\n" + "\n".join(lines)
+                         + "\n\n立刻预定：" + BOOK_URL)
+                  print(msg)
+                  if notify(msg):
+                      for d, s, lp in fresh:
+                          alerted[(d, s)] = now
+
+              if time.time() + INTERVAL > deadline:
+                  break
+              time.sleep(INTERVAL)
+
+          print("本次运行结束，共检查 %d 轮" % rounds)
+          PYEOF
