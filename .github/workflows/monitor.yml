@@ -2,17 +2,22 @@ name: Campsite Monitor
 
 on:
   schedule:
-    # GitHub 会丢弃大量计划运行（实测约每 90-100 分钟才真的启动一次），
-    # 所以每次运行会在内部自己循环 2 小时，靠这个把实际检查次数补回来。
+    # GitHub 会丢弃大量计划运行（实测启动间隔中位 91 分钟、最长 216 分钟），
+    # 所以每次运行会在内部自己循环，靠这个把实际检查次数补回来。
     - cron: '*/5 * * * *'
   workflow_dispatch:
     inputs:
       duration_minutes:
         description: '这次运行持续多少分钟（测试时填 0 = 只查一次就结束）'
         required: false
-        default: '120'
+        default: '330'
 
-# 新的运行会取消还在跑的旧运行，这样 2 小时的窗口首尾相接、不重叠，
+# 单次运行时长设成 330 分钟（5.5 小时）而不是刚好够用的 240 分钟：
+# 观测到的最长启动间隔是 216 分钟，只要单次运行比它长，下一次启动前就一直有人看着，
+# 覆盖率 100%。330 留了余量，又低于 GitHub 单 job 上限 360 分钟。
+# 公开仓库运行时长不计费，所以跑久了不花钱——运行反正会被下一次启动取消。
+#
+# 新的运行会取消还在跑的旧运行，窗口首尾相接、不重叠，
 # 避免同一个空位被两个并行的运行重复通知。
 concurrency:
   group: campsite-monitor
@@ -21,13 +26,13 @@ concurrency:
 jobs:
   check:
     runs-on: ubuntu-latest
-    timeout-minutes: 130
+    timeout-minutes: 340
     steps:
       - name: 循环检查空位并发通知
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           CHAT_ID: "499402645"
-          DURATION_MINUTES: ${{ github.event.inputs.duration_minutes || '120' }}
+          DURATION_MINUTES: ${{ github.event.inputs.duration_minutes || '330' }}
 
           CAMPGROUND_ID: "232507"
           # 8月14日（周五）和 8月15日（周六）两晚
@@ -44,7 +49,7 @@ jobs:
           WATCH = {i.strip() for i in os.environ["WATCH_IDS"].split(",") if i.strip()}
           TOKEN = os.environ["TELEGRAM_TOKEN"]
           CHAT = os.environ["CHAT_ID"]
-          DURATION = int(os.environ.get("DURATION_MINUTES") or 120)
+          DURATION = int(os.environ.get("DURATION_MINUTES") or 330)
           INTERVAL = int(os.environ.get("CHECK_INTERVAL_SECONDS") or 300)
           # 同一个营位+日期，30 分钟内不重复通知；超过 30 分钟还空着就再提醒一次
           REMIND_AFTER = 1800
