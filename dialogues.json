@@ -13541,5 +13541,2206 @@
       "It's gotten easier each week.（每周都在变得容易一些）",
       "That's a good sign of progress.（这是进步的好迹象）"
     ]
+  },
+  {
+    "day": 221,
+    "scene": "💳 和银行协商账单分期付款",
+    "dialogue": [
+      {
+        "A": "Hi, I'm calling because I can't pay my full balance this month."
+      },
+      {
+        "B": "I understand. Would you like to set up a payment plan?"
+      },
+      {
+        "A": "Yes, is that possible without hurting my credit?"
+      },
+      {
+        "B": "As long as you make the minimum payment, your credit stays fine."
+      },
+      {
+        "A": "Okay, can we split the rest over three months?"
+      },
+      {
+        "B": "Sure, I'll set that up and send you the new due dates."
+      }
+    ],
+    "translation": [
+      {
+        "A": "你好，我这个月没法还清全部账单。"
+      },
+      {
+        "B": "理解，您想设置一个分期还款计划吗？"
+      },
+      {
+        "A": "好的，这样会影响我的信用吗？"
+      },
+      {
+        "B": "只要按时付最低还款额，信用就不会受影响。"
+      },
+      {
+        "A": "好，剩下的能分三个月还吗？"
+      },
+      {
+        "B": "可以，我帮您设置好，然后把新的到期日发给您。"
+      }
+    ],
+    "key_phrases": [
+      "set up a payment plan = 设置分期还款计划",
+      "make the minimum payment = 支付最低还款额",
+      "split the rest over ~ months = 把剩下的分～个月还"
+    ],
+    "tip": "主动打电话协商比逾期不还强得多，银行通常愿意配合，只要你先开口。",
+    "examples": [
+      "Can I set up a payment plan for this bill?（这笔账单能分期吗）",
+      "I'd like to split this over six months.（我想分六个月还）",
+      "Will this affect my credit score?（这会影响我的信用分吗）"
+    ]
+  },
+  {
+    "day": 222,
+    "scene": "⚠️ 信用卡异常交易争议",
+    "dialogue": [
+      {
+        "A": "I noticed a charge on my card I don't recognize."
+      },
+      {
+        "B": "Can you tell me the amount and the merchant name?"
+      },
+      {
+        "A": "It's $89.99 from a store I've never shopped at."
+      },
+      {
+        "B": "I'll flag this as a dispute and issue a temporary credit."
+      },
+      {
+        "A": "How long will the investigation take?"
+      },
+      {
+        "B": "Usually within 10 business days, we'll follow up by mail."
+      }
+    ],
+    "translation": [
+      {
+        "A": "我发现卡上有一笔不认识的消费。"
+      },
+      {
+        "B": "能告诉我金额和商户名称吗？"
+      },
+      {
+        "A": "是89.99美元，我从没在那家店买过东西。"
+      },
+      {
+        "B": "我帮您标记为争议交易，并先给您临时退款。"
+      },
+      {
+        "A": "调查需要多久？"
+      },
+      {
+        "B": "一般10个工作日内，我们会邮件跟进。"
+      }
+    ],
+    "key_phrases": [
+      "a charge I don't recognize = 一笔不认识的消费",
+      "flag this as a dispute = 把这个标记为争议交易",
+      "issue a temporary credit = 先给予临时退款"
+    ],
+    "tip": "发现可疑交易要尽快联系银行，大多数信用卡公司对欺诈交易有零责任保障。",
+    "examples": [
+      "I'd like to dispute this charge.（我想对这笔交易提出异议）",
+      "This wasn't authorized by me.（这不是我本人授权的）",
+      "Can you send me a new card just in case?（能先给我寄张新卡以防万一吗）"
+    ]
+  },
+  {
+    "day": 223,
+    "scene": "📈 咨询401k退休金账户",
+    "dialogue": [
+      {
+        "A": "I'd like to understand my 401k options better."
+      },
+      {
+        "B": "Sure, are you asking about contribution limits or investment choices?"
+      },
+      {
+        "A": "Both, and whether my employer matches contributions."
+      },
+      {
+        "B": "Your employer matches up to 4% of your salary."
+      },
+      {
+        "A": "Should I be contributing more than that?"
+      },
+      {
+        "B": "At minimum, contribute enough to get the full match — that's free money."
+      }
+    ],
+    "translation": [
+      {
+        "A": "我想更了解我的401k退休金选项。"
+      },
+      {
+        "B": "好的，您是想问供款上限还是投资选择？"
+      },
+      {
+        "A": "两个都想了解，还有公司是否有匹配供款。"
+      },
+      {
+        "B": "您的公司会匹配您工资的最多4%。"
+      },
+      {
+        "A": "我应该供款超过这个比例吗？"
+      },
+      {
+        "B": "至少要供到能拿满公司匹配的部分，那是白送的钱。"
+      }
+    ],
+    "key_phrases": [
+      "contribution limits = 供款上限",
+      "employer matches contributions = 公司匹配供款",
+      "get the full match = 拿到全额匹配"
+    ],
+    "tip": "“employer match”是免费的钱，至少供款到能拿满匹配比例，是最基本的理财建议。",
+    "examples": [
+      "What's the contribution limit this year?（今年的供款上限是多少）",
+      "Does my company offer a match?（我们公司有匹配供款吗）",
+      "I want to increase my contribution percentage.（我想提高供款比例）"
+    ]
+  },
+  {
+    "day": 224,
+    "scene": "📄 保险到期续保比价",
+    "dialogue": [
+      {
+        "A": "My auto insurance is up for renewal next month."
+      },
+      {
+        "B": "Have you checked if the rate went up this year?"
+      },
+      {
+        "A": "Yes, it increased by about 15%, so I'm shopping around."
+      },
+      {
+        "B": "I'd recommend comparing at least three quotes before deciding."
+      },
+      {
+        "A": "Good idea. Does bundling home and auto save money?"
+      },
+      {
+        "B": "Usually yes, it can bring the total down significantly."
+      }
+    ],
+    "translation": [
+      {
+        "A": "我的车险下个月要到期续保了。"
+      },
+      {
+        "B": "你查过今年保费有没有涨吗？"
+      },
+      {
+        "A": "有，涨了大概15%，所以我在到处比价。"
+      },
+      {
+        "B": "我建议至少比较三家的报价再决定。"
+      },
+      {
+        "A": "好主意。把房屋险和车险打包能省钱吗？"
+      },
+      {
+        "B": "一般可以，能明显降低总费用。"
+      }
+    ],
+    "key_phrases": [
+      "up for renewal = 到期需要续保",
+      "shopping around = 货比三家",
+      "bundling home and auto = 把房屋险和车险打包"
+    ],
+    "tip": "续保前比价能省不少钱，保险公司往往对新客户报价更低，老客户要主动问折扣。",
+    "examples": [
+      "Can I get a quote for bundling my policies?（能给我一个打包保险的报价吗）",
+      "Why did my premium go up this year?（为什么我今年的保费涨了）",
+      "Is there a discount for being claim-free?（没有理赔记录有折扣吗）"
+    ]
+  },
+  {
+    "day": 225,
+    "scene": "💳 申请新信用卡",
+    "dialogue": [
+      {
+        "A": "I'm interested in applying for this travel rewards card."
+      },
+      {
+        "B": "Great, do you know your approximate credit score?"
+      },
+      {
+        "A": "It's around 740, I believe."
+      },
+      {
+        "B": "That should qualify you. Would you like me to pull your application now?"
+      },
+      {
+        "A": "Yes, please. What's the annual fee?"
+      },
+      {
+        "B": "It's $95, waived for the first year."
+      }
+    ],
+    "translation": [
+      {
+        "A": "我对这张旅行返利信用卡感兴趣，想申请。"
+      },
+      {
+        "B": "好的，您大概知道自己的信用分吗？"
+      },
+      {
+        "A": "大概740分左右。"
+      },
+      {
+        "B": "那应该符合条件。要我现在帮您提交申请吗？"
+      },
+      {
+        "A": "好的，麻烦了。年费是多少？"
+      },
+      {
+        "B": "95美元，第一年免除。"
+      }
+    ],
+    "key_phrases": [
+      "pull your application = 提交/处理您的申请",
+      "annual fee waived = 年费被免除",
+      "qualify you = 符合（申请）条件"
+    ],
+    "tip": "申请信用卡前先问清楚年费是否首年减免、积分规则，别只看开卡礼。",
+    "examples": [
+      "Is the annual fee waived the first year?（第一年年费免除吗）",
+      "What's the sign-up bonus?（开卡奖励是什么）",
+      "How does this affect my credit score?（这会影响我的信用分吗）"
+    ]
+  },
+  {
+    "day": 226,
+    "scene": "🔒 处理身份盗用",
+    "dialogue": [
+      {
+        "A": "I think someone opened a credit card using my information."
+      },
+      {
+        "B": "I'm sorry to hear that. Let's start by freezing your credit."
+      },
+      {
+        "A": "How do I do that?"
+      },
+      {
+        "B": "You'll need to contact all three credit bureaus separately."
+      },
+      {
+        "A": "Should I also file a police report?"
+      },
+      {
+        "B": "Yes, that will help when disputing the fraudulent account."
+      }
+    ],
+    "translation": [
+      {
+        "A": "我觉得有人盗用我的信息开了张信用卡。"
+      },
+      {
+        "B": "很遗憾听到这个。我们先把您的信用冻结吧。"
+      },
+      {
+        "A": "我该怎么操作？"
+      },
+      {
+        "B": "您需要分别联系三大征信机构。"
+      },
+      {
+        "A": "我还需要报警吗？"
+      },
+      {
+        "B": "需要，这会帮助您在申诉欺诈账户时更有力。"
+      }
+    ],
+    "key_phrases": [
+      "freezing your credit = 冻结信用记录",
+      "credit bureaus = 征信机构",
+      "file a police report = 报警备案"
+    ],
+    "tip": "怀疑身份盗用时，冻结信用、报警、通知银行三件事要尽快一起做，越拖越难处理。",
+    "examples": [
+      "I need to report identity theft.（我需要报告身份盗用）",
+      "Can you place a fraud alert on my account?（能在我账户上设置欺诈警示吗）",
+      "I'd like to dispute this account entirely.（我想对这整个账户提出异议）"
+    ]
+  },
+  {
+    "day": 227,
+    "scene": "🎓 协商学生贷款还款计划",
+    "dialogue": [
+      {
+        "A": "My monthly student loan payment is too high right now."
+      },
+      {
+        "B": "Have you looked into income-driven repayment plans?"
+      },
+      {
+        "A": "Not yet, how does that work?"
+      },
+      {
+        "B": "Your payment is recalculated based on your income and family size."
+      },
+      {
+        "A": "Could that lower my payment significantly?"
+      },
+      {
+        "B": "Yes, for many borrowers it cuts the payment by half or more."
+      }
+    ],
+    "translation": [
+      {
+        "A": "我现在每月的学生贷款还款额太高了。"
+      },
+      {
+        "B": "您了解过按收入还款计划吗？"
+      },
+      {
+        "A": "还没有，那是怎么运作的？"
+      },
+      {
+        "B": "还款额会根据您的收入和家庭人口重新计算。"
+      },
+      {
+        "A": "那能大幅降低我的还款额吗？"
+      },
+      {
+        "B": "可以，对很多借款人来说能减少一半甚至更多。"
+      }
+    ],
+    "key_phrases": [
+      "income-driven repayment plan = 按收入还款计划",
+      "recalculated based on ~ = 根据～重新计算",
+      "cuts the payment by half = 把还款额减少一半"
+    ],
+    "tip": "还款压力大时先问有没有按收入调整的方案，不要默认只能硬扛固定月供。",
+    "examples": [
+      "Can I switch to an income-driven plan?（我能换成按收入还款的计划吗）",
+      "How is my payment calculated?（我的还款额是怎么算出来的）",
+      "Is there a grace period if I lose my job?（如果我失业有宽限期吗）"
+    ]
+  },
+  {
+    "day": 228,
+    "scene": "🏠 看房买房咨询贷款经纪",
+    "dialogue": [
+      {
+        "A": "We're looking to buy our first home, where do we start?"
+      },
+      {
+        "B": "First, let's get you pre-approved for a mortgage."
+      },
+      {
+        "A": "What do you need from us for that?"
+      },
+      {
+        "B": "Recent pay stubs, tax returns, and bank statements."
+      },
+      {
+        "A": "How much down payment do we typically need?"
+      },
+      {
+        "B": "It varies, but 20% avoids private mortgage insurance."
+      }
+    ],
+    "translation": [
+      {
+        "A": "我们想买第一套房，应该从哪里开始？"
+      },
+      {
+        "B": "首先，我们帮你们做贷款预批。"
+      },
+      {
+        "A": "这需要我们提供什么材料？"
+      },
+      {
+        "B": "最近的工资单、报税记录和银行流水。"
+      },
+      {
+        "A": "一般需要多少首付？"
+      },
+      {
+        "B": "因人而异，但20%的首付可以免掉私人抵押贷款保险。"
+      }
+    ],
+    "key_phrases": [
+      "get pre-approved for a mortgage = 做贷款预批",
+      "pay stubs = 工资单",
+      "private mortgage insurance = 私人抵押贷款保险"
+    ],
+    "tip": "买房前先做mortgage pre-approval，能让你清楚自己的预算上限，看房也更有底气。",
+    "examples": [
+      "How much can we qualify for?（我们能贷到多少）",
+      "What's the current interest rate?（目前的利率是多少）",
+      "Can we lock in this rate?（我们能锁定这个利率吗）"
+    ]
+  },
+  {
+    "day": 229,
+    "scene": "🛋️ 议价二手家具",
+    "dialogue": [
+      {
+        "A": "Is this sofa still available? I saw it posted online."
+      },
+      {
+        "B": "Yes, it is. Are you interested?"
+      },
+      {
+        "A": "I am, but the price seems a bit high for the wear on it."
+      },
+      {
+        "B": "I could come down to $150 if you can pick it up today."
+      },
+      {
+        "A": "Deal, I'll bring a truck this afternoon."
+      },
+      {
+        "B": "Sounds good, see you then."
+      }
+    ],
+    "translation": [
+      {
+        "A": "这张沙发还在卖吗？我在网上看到的。"
+      },
+      {
+        "B": "是的，还在。您感兴趣吗？"
+      },
+      {
+        "A": "感兴趣，不过看磨损程度，这个价格有点高。"
+      },
+      {
+        "B": "如果您今天能来取，我可以降到150美元。"
+      },
+      {
+        "A": "成交，我今天下午开车过来拿。"
+      },
+      {
+        "B": "好的，那到时候见。"
+      }
+    ],
+    "key_phrases": [
+      "come down to ~ = （价格）降到～",
+      "pick it up = 取货",
+      "seems a bit high for ~ = 考虑到～，这个价格有点高"
+    ],
+    "tip": "线上议价时提出具体理由（磨损、瑕疵）再给出数字，比直接说「能便宜点吗」更容易成功。",
+    "examples": [
+      "Would you take $100 for it?（100美元您卖吗）",
+      "Is the price negotiable?（这个价格可以谈吗）",
+      "I can pick it up today if that helps.（如果有帮助的话我今天就能来取）"
+    ]
+  },
+  {
+    "day": 230,
+    "scene": "🧾 朋友聚餐AA分摄账单",
+    "dialogue": [
+      {
+        "A": "Should we just split the bill evenly?"
+      },
+      {
+        "B": "I only had a salad and water, so maybe not evenly."
+      },
+      {
+        "A": "Fair point, let's use an app to split it by what we ordered."
+      },
+      {
+        "B": "Good idea, that's more accurate."
+      },
+      {
+        "A": "Okay, you owe $18, and I'll cover the rest."
+      },
+      {
+        "B": "Perfect, I'll send it to you right now."
+      }
+    ],
+    "translation": [
+      {
+        "A": "我们要不要就平分账单？"
+      },
+      {
+        "B": "我只点了沙拉和水，可能不该平分。"
+      },
+      {
+        "A": "有道理，我们用app按各自点的菜来分吧。"
+      },
+      {
+        "B": "好主意，这样更准确。"
+      },
+      {
+        "A": "好，你要付18美元，剩下的我来付。"
+      },
+      {
+        "B": "好的，我现在就转给你。"
+      }
+    ],
+    "key_phrases": [
+      "split the bill evenly = 平分账单",
+      "split it by what we ordered = 按各自点的菜来分",
+      "I'll send it to you = 我把钱转给你"
+    ],
+    "tip": "朋友聚餐分账单，直接提议用app按实际消费分更不容易尴尬，比含糊地说「随便分」更清楚。",
+    "examples": [
+      "Let's split it by what we ordered.（按各自点的分吧）",
+      "I'll Venmo you my share.（我用Venmo转我那份给你）",
+      "Don't worry about it, I've got this one.（别担心，这次我请）"
+    ]
+  },
+  {
+    "day": 231,
+    "scene": "🗳️ 选民登记",
+    "dialogue": [
+      {
+        "A": "I'd like to register to vote in this county."
+      },
+      {
+        "B": "Sure, do you have proof of residency with you?"
+      },
+      {
+        "A": "Yes, here's my lease and a utility bill."
+      },
+      {
+        "B": "Great, just fill out this form with your current address."
+      },
+      {
+        "A": "Is there a deadline for the upcoming election?"
+      },
+      {
+        "B": "Yes, registration closes 30 days before election day."
+      }
+    ],
+    "translation": [
+      {
+        "A": "我想在这个县登记投票。"
+      },
+      {
+        "B": "好的，您带了居住证明吗？"
+      },
+      {
+        "A": "带了，这是我的租约和一张水电账单。"
+      },
+      {
+        "B": "好的，填一下这张表，写上您现在的地址。"
+      },
+      {
+        "A": "即将到来的选举有登记截止日期吗？"
+      },
+      {
+        "B": "有，登记在选举日前30天截止。"
+      }
+    ],
+    "key_phrases": [
+      "register to vote = 登记投票",
+      "proof of residency = 居住证明",
+      "registration closes ~ before = 登记在～之前截止"
+    ],
+    "tip": "搬家或换州之后要重新登记投票，很多人忘了这一步导致选举日被拒投。",
+    "examples": [
+      "Can I register online instead?（我能在网上登记吗）",
+      "When is the registration deadline?（登记截止日期是什么时候）",
+      "Do I need to update my address?（我需要更新地址吗）"
+    ]
+  },
+  {
+    "day": 232,
+    "scene": "📝 更新驾照地址",
+    "dialogue": [
+      {
+        "A": "I recently moved and need to update my license address."
+      },
+      {
+        "B": "Do you have your new proof of address with you?"
+      },
+      {
+        "A": "Yes, a lease agreement and a bank statement."
+      },
+      {
+        "B": "Perfect, that works. There's a small fee for a new card."
+      },
+      {
+        "A": "How much is it, and will I get a temporary one today?"
+      },
+      {
+        "B": "It's $15, and yes, you'll get a paper one while the real one mails."
+      }
+    ],
+    "translation": [
+      {
+        "A": "我最近搬家了，需要更新驾照上的地址。"
+      },
+      {
+        "B": "您带了新的地址证明吗？"
+      },
+      {
+        "A": "带了，租约和一份银行对账单。"
+      },
+      {
+        "B": "好的，这些可以用。换新卡要收一点手续费。"
+      },
+      {
+        "A": "多少钱？今天能拿到临时的吗？"
+      },
+      {
+        "B": "15美元，可以，您会先拿到一张纸质临时驾照，正式的会寄过来。"
+      }
+    ],
+    "key_phrases": [
+      "update my license address = 更新驾照地址",
+      "proof of address = 地址证明",
+      "a temporary one = 一张临时的（证件）"
+    ],
+    "tip": "搬家后多数州要求在一定天数内更新驾照地址，拖太久续费或换证时可能被要求额外手续。",
+    "examples": [
+      "I need to change the address on my license.（我需要更改驾照上的地址）",
+      "What counts as proof of address?（什么能算作地址证明）",
+      "Will I get a temporary document today?（今天能拿到临时证件吗）"
+    ]
+  },
+  {
+    "day": 233,
+    "scene": "📘 申请/续签护照",
+    "dialogue": [
+      {
+        "A": "My passport expires in four months, should I renew now?"
+      },
+      {
+        "B": "Yes, several countries require six months of validity to enter."
+      },
+      {
+        "A": "What documents do I need to renew?"
+      },
+      {
+        "B": "Your current passport, a new photo, and the renewal form."
+      },
+      {
+        "A": "How long does standard processing take?"
+      },
+      {
+        "B": "Usually 6 to 8 weeks, or faster with expedited service."
+      }
+    ],
+    "translation": [
+      {
+        "A": "我的护照还有四个月就到期了，应该现在续签吗？"
+      },
+      {
+        "B": "是的，有些国家要求入境时护照至少还有六个月有效期。"
+      },
+      {
+        "A": "续签需要什么材料？"
+      },
+      {
+        "B": "您现有的护照、一张新照片，还有续签表格。"
+      },
+      {
+        "A": "普通办理需要多久？"
+      },
+      {
+        "B": "一般6到8周，加急服务会更快。"
+      }
+    ],
+    "key_phrases": [
+      "six months of validity = 六个月有效期",
+      "renewal form = 续签表格",
+      "expedited service = 加急服务"
+    ],
+    "tip": "很多国家有「六个月护照有效期」的入境规定，出国旅行前一定要提前查，别等到卡关才发现。",
+    "examples": [
+      "I'd like to renew my passport.（我想续签护照）",
+      "Can I pay extra for expedited processing?（我能加钱走加急吗）",
+      "Do I need a new photo?（我需要新拍一张照片吗）"
+    ]
+  },
+  {
+    "day": 234,
+    "scene": "📚 图书馆活动报名",
+    "dialogue": [
+      {
+        "A": "I saw there's a kids' story time program this Saturday."
+      },
+      {
+        "B": "Yes, it's for ages 3 to 6, and registration is required."
+      },
+      {
+        "A": "How do I sign my daughter up?"
+      },
+      {
+        "B": "You can register at the front desk or through our website."
+      },
+      {
+        "A": "Is there a limit on spots?"
+      },
+      {
+        "B": "Yes, only 20 spots, so I'd register soon."
+      }
+    ],
+    "translation": [
+      {
+        "A": "我看到这周六有个儿童故事会活动。"
+      },
+      {
+        "B": "是的，适合3到6岁，需要提前报名。"
+      },
+      {
+        "A": "我怎么帮我女儿报名？"
+      },
+      {
+        "B": "您可以在前台登记，也可以在我们网站上报名。"
+      },
+      {
+        "A": "名额有限制吗？"
+      },
+      {
+        "B": "有，只有20个名额，建议尽快报名。"
+      }
+    ],
+    "key_phrases": [
+      "registration is required = 需要提前报名",
+      "sign my daughter up = 帮我女儿报名",
+      "limit on spots = 名额限制"
+    ],
+    "tip": "社区图书馆活动经常免费但名额有限，看到合适的活动要第一时间报名，别拖。",
+    "examples": [
+      "How do I sign up for this event?（我怎么报名这个活动）",
+      "Is this program free?（这个活动是免费的吗）",
+      "Can I register two kids at once?（我能一次给两个孩子报名吗）"
+    ]
+  },
+  {
+    "day": 235,
+    "scene": "🌱 申请小区共享菜园",
+    "dialogue": [
+      {
+        "A": "I'd like to apply for a plot in the community garden."
+      },
+      {
+        "B": "Great, there's a small annual fee of $25 per plot."
+      },
+      {
+        "A": "Is there a waitlist right now?"
+      },
+      {
+        "B": "There is, but it usually moves within a season."
+      },
+      {
+        "A": "What are the rules about what we can plant?"
+      },
+      {
+        "B": "Mostly vegetables and flowers, no trees or invasive species."
+      }
+    ],
+    "translation": [
+      {
+        "A": "我想申请一块小区共享菜园的地块。"
+      },
+      {
+        "B": "好的，每块地每年有25美元的小额费用。"
+      },
+      {
+        "A": "现在有候补名单吗？"
+      },
+      {
+        "B": "有，不过通常一个季度内就能轮到。"
+      },
+      {
+        "A": "种植有什么规定吗？"
+      },
+      {
+        "B": "主要是蔬菜和花卉，不能种树或入侵物种。"
+      }
+    ],
+    "key_phrases": [
+      "apply for a plot = 申请一块地",
+      "on the waitlist = 在候补名单上",
+      "invasive species = 入侵物种"
+    ],
+    "tip": "申请社区菜园前先问清楚种植规则和浇水安排，很多社区对能种什么有具体限制。",
+    "examples": [
+      "How long is the waitlist?（候补名单要等多久）",
+      "What's included in the annual fee?（年费包含哪些）",
+      "Can I plant fruit trees?（我能种果树吗）"
+    ]
+  },
+  {
+    "day": 236,
+    "scene": "🚗 申请路边停车许可证",
+    "dialogue": [
+      {
+        "A": "I need a residential parking permit for my street."
+      },
+      {
+        "B": "Sure, do you have proof of address and your vehicle registration?"
+      },
+      {
+        "A": "Yes, both right here."
+      },
+      {
+        "B": "Great, the permit is $40 per year and renews annually."
+      },
+      {
+        "A": "Can I get a second permit for a visitor?"
+      },
+      {
+        "B": "Yes, visitor permits are available for an extra fee."
+      }
+    ],
+    "translation": [
+      {
+        "A": "我需要给我家那条街申请一个居民停车许可证。"
+      },
+      {
+        "B": "好的，您带了地址证明和车辆登记证吗？"
+      },
+      {
+        "A": "带了，都在这里。"
+      },
+      {
+        "B": "好的，许可证每年40美元，每年需要续签。"
+      },
+      {
+        "A": "我能再申请一张访客用的吗？"
+      },
+      {
+        "B": "可以，访客许可证需要额外付费。"
+      }
+    ],
+    "key_phrases": [
+      "residential parking permit = 居民停车许可证",
+      "vehicle registration = 车辆登记证",
+      "renews annually = 每年需要续签"
+    ],
+    "tip": "很多城市的居民区需要停车许可证才能长时间停车，没有可能被开罚单，搬进新家先查清楚。",
+    "examples": [
+      "Where can I apply for a parking permit?（我去哪里申请停车许可证）",
+      "Does this permit cover visitor parking?（这个许可证包含访客停车吗）",
+      "How often do I need to renew it?（多久需要续签一次）"
+    ]
+  },
+  {
+    "day": 237,
+    "scene": "🚨 向市政举报违建/噪音",
+    "dialogue": [
+      {
+        "A": "I'd like to report ongoing construction noise after hours."
+      },
+      {
+        "B": "Can you tell me the address and approximate times?"
+      },
+      {
+        "A": "It's next door, usually starting around 10 PM."
+      },
+      {
+        "B": "That's past the permitted hours. I'll send an inspector out."
+      },
+      {
+        "A": "Will they know it was me who reported it?"
+      },
+      {
+        "B": "No, all complaints are kept confidential."
+      }
+    ],
+    "translation": [
+      {
+        "A": "我想举报附近一直有晚上施工的噪音问题。"
+      },
+      {
+        "B": "能告诉我地址和大概时间吗？"
+      },
+      {
+        "A": "就在隔壁，通常晚上10点左右开始。"
+      },
+      {
+        "B": "那已经超过允许施工的时间了，我会派检查员过去。"
+      },
+      {
+        "A": "他们会知道是我举报的吗？"
+      },
+      {
+        "B": "不会，所有投诉都是保密的。"
+      }
+    ],
+    "key_phrases": [
+      "report ongoing noise = 举报持续的噪音",
+      "past the permitted hours = 超过允许的时间",
+      "kept confidential = 保密处理"
+    ],
+    "tip": "举报噪音或违建前先记录好具体时间和次数，有具体细节市政部门处理起来会更快。",
+    "examples": [
+      "I'd like to file a noise complaint.（我想投诉噪音）",
+      "Is this construction within legal hours?（这个施工时间合法吗）",
+      "Will my information stay anonymous?（我的信息会保密吗）"
+    ]
+  },
+  {
+    "day": 238,
+    "scene": "🏛️ 参加市政厅公开会议",
+    "dialogue": [
+      {
+        "A": "Is tonight's town hall meeting open to all residents?"
+      },
+      {
+        "B": "Yes, everyone is welcome, and public comment starts at 7."
+      },
+      {
+        "A": "How do I sign up to speak?"
+      },
+      {
+        "B": "Just write your name on the sign-up sheet at the entrance."
+      },
+      {
+        "A": "Is there a time limit per speaker?"
+      },
+      {
+        "B": "Yes, three minutes each to keep things moving."
+      }
+    ],
+    "translation": [
+      {
+        "A": "今晚的市政厅会议所有居民都能参加吗？"
+      },
+      {
+        "B": "是的，欢迎所有人，公众发言环节7点开始。"
+      },
+      {
+        "A": "我怎么报名发言？"
+      },
+      {
+        "B": "在门口的签到表上写下您的名字就行。"
+      },
+      {
+        "A": "每人发言有时间限制吗？"
+      },
+      {
+        "B": "有，每人三分钟，为了保证进度。"
+      }
+    ],
+    "key_phrases": [
+      "open to all residents = 向所有居民开放",
+      "public comment = 公众发言环节",
+      "sign-up sheet = 签到/报名表"
+    ],
+    "tip": "想在市政厅会议上发言，提前准备好三分钟内能说清楚的要点，时间一到通常会被打断。",
+    "examples": [
+      "How do I sign up to speak tonight?（我今晚怎么报名发言）",
+      "Is there a time limit?（有时间限制吗）",
+      "Can I submit a written comment instead?（我能提交书面意见代替吗）"
+    ]
+  },
+  {
+    "day": 239,
+    "scene": "🏠 申请住房补贴",
+    "dialogue": [
+      {
+        "A": "I'd like to apply for housing assistance."
+      },
+      {
+        "B": "Sure, this program is based on household income. What's your family size?"
+      },
+      {
+        "A": "It's just me and my spouse."
+      },
+      {
+        "B": "Okay, I'll need your last two pay stubs and ID."
+      },
+      {
+        "A": "How long is the waiting list usually?"
+      },
+      {
+        "B": "It varies by area, sometimes several months."
+      }
+    ],
+    "translation": [
+      {
+        "A": "我想申请住房补贴。"
+      },
+      {
+        "B": "好的，这个项目是按家庭收入审核的，您家几口人？"
+      },
+      {
+        "A": "就我和我配偶两个人。"
+      },
+      {
+        "B": "好的，我需要您最近两张工资单和身份证件。"
+      },
+      {
+        "A": "候补名单一般要等多久？"
+      },
+      {
+        "B": "因地区而异，有时候要等几个月。"
+      }
+    ],
+    "key_phrases": [
+      "housing assistance = 住房补贴",
+      "household income = 家庭收入",
+      "waiting list = 候补名单"
+    ],
+    "tip": "申请住房补贴材料要齐全（收入证明、身份证件），资料不全是候补被耽误的最常见原因。",
+    "examples": [
+      "What documents do I need to apply?（申请需要哪些材料）",
+      "Is this based on income?（这个是按收入审核的吗）",
+      "How often do I need to reapply?（我需要多久重新申请一次）"
+    ]
+  },
+  {
+    "day": 240,
+    "scene": "♻️ 垃圾/回收新规咨询",
+    "dialogue": [
+      {
+        "A": "I got a notice saying our recycling rules changed, is that true?"
+      },
+      {
+        "B": "Yes, starting next month, glass goes in a separate bin."
+      },
+      {
+        "A": "What about cardboard boxes, do they need to be flattened?"
+      },
+      {
+        "B": "Yes, please flatten them so they fit properly."
+      },
+      {
+        "A": "Where can I get the new bin?"
+      },
+      {
+        "B": "We'll be delivering them to every household this week."
+      }
+    ],
+    "translation": [
+      {
+        "A": "我收到通知说回收规则变了，是真的吗？"
+      },
+      {
+        "B": "是的，从下个月开始，玻璃要单独放一个桶。"
+      },
+      {
+        "A": "那纸箱呢，需要压扁吗？"
+      },
+      {
+        "B": "是的，请把它们压扁，这样才能放得下。"
+      },
+      {
+        "A": "新的垃圾桶去哪里领？"
+      },
+      {
+        "B": "我们这周会给每户人家送过去。"
+      }
+    ],
+    "key_phrases": [
+      "recycling rules changed = 回收规则变了",
+      "a separate bin = 一个单独的桶",
+      "flatten them = 把它们压扁"
+    ],
+    "tip": "社区垃圾分类规则经常更新，收到通知信最好仔细看一眼，分错类有的地方会被拒收。",
+    "examples": [
+      "Which bin does this go in?（这个应该放哪个桶）",
+      "Do I need to rinse containers before recycling?（回收前容器需要冲洗吗）",
+      "When does the new rule take effect?（新规则什么时候生效）"
+    ]
+  },
+  {
+    "day": 241,
+    "scene": "🎉 预订餐厅包场办聚会",
+    "dialogue": [
+      {
+        "A": "We're hoping to book a private section for about 25 people."
+      },
+      {
+        "B": "We can do that. Is this for a specific occasion?"
+      },
+      {
+        "A": "Yes, it's a retirement celebration."
+      },
+      {
+        "B": "Nice, we can set up a private menu or let guests order individually."
+      },
+      {
+        "A": "A set menu sounds easier for a group this size."
+      },
+      {
+        "B": "I'll send you three menu options to choose from."
+      }
+    ],
+    "translation": [
+      {
+        "A": "我们想预订一个大概25人的包场区域。"
+      },
+      {
+        "B": "可以的，是为了什么特殊场合吗？"
+      },
+      {
+        "A": "是的，是退休庆祝会。"
+      },
+      {
+        "B": "挺好的，我们可以安排一个套餐菜单，或者让客人自己点。"
+      },
+      {
+        "A": "这么多人的话，套餐菜单感觉更方便。"
+      },
+      {
+        "B": "我会给您发三种套餐方案供选择。"
+      }
+    ],
+    "key_phrases": [
+      "book a private section = 预订一个包场区域",
+      "a set menu = 一套固定菜单",
+      "for a specific occasion = 为了特殊场合"
+    ],
+    "tip": "订大桌或包场一定提前问清楚是否有最低消费和套餐选项，省得当天临时加价。",
+    "examples": [
+      "Is there a minimum spend for private events?（包场有最低消费吗）",
+      "Can we customize the menu?（我们能定制菜单吗）",
+      "How far in advance should we book?（我们应该提前多久预订）"
+    ]
+  },
+  {
+    "day": 242,
+    "scene": "🥗 说明食物过敏与饮食禁忌",
+    "dialogue": [
+      {
+        "A": "Before we order, I should mention I have a shellfish allergy."
+      },
+      {
+        "B": "Thanks for telling me, I'll let the kitchen know."
+      },
+      {
+        "A": "Also, my friend here doesn't eat pork for religious reasons."
+      },
+      {
+        "B": "Noted, I'll point out which dishes contain pork."
+      },
+      {
+        "A": "We really appreciate it."
+      },
+      {
+        "B": "Of course, let me know if you have any other questions."
+      }
+    ],
+    "translation": [
+      {
+        "A": "点餐前我得说一下，我对贝类过敏。"
+      },
+      {
+        "B": "谢谢告诉我，我会通知厨房。"
+      },
+      {
+        "A": "另外，我这位朋友因为宗教原因不吃猪肉。"
+      },
+      {
+        "B": "记下了，我会标出哪些菜含猪肉。"
+      },
+      {
+        "A": "真的很感谢。"
+      },
+      {
+        "B": "不客气，有其他问题随时跟我说。"
+      }
+    ],
+    "key_phrases": [
+      "shellfish allergy = 贝类过敏",
+      "for religious reasons = 出于宗教原因",
+      "let the kitchen know = 通知厨房"
+    ],
+    "tip": "有过敏或饮食禁忌，点餐前主动说清楚，比吃到一半才发现问题安全得多。",
+    "examples": [
+      "I have a severe nut allergy.（我对坚果严重过敏）",
+      "Is this dish vegetarian?（这道菜是素的吗）",
+      "Can the kitchen leave out the dairy?（厨房能不加乳制品吗）"
+    ]
+  },
+  {
+    "day": 243,
+    "scene": "📱 投诉外卖质量问题",
+    "dialogue": [
+      {
+        "A": "I just got my delivery, but half the order is missing."
+      },
+      {
+        "B": "I'm so sorry about that. Let me check what happened."
+      },
+      {
+        "A": "Also, the food that did arrive was cold."
+      },
+      {
+        "B": "I understand, I'll issue a refund for the missing items and a credit for the inconvenience."
+      },
+      {
+        "A": "I appreciate that, thank you."
+      },
+      {
+        "B": "You're welcome, it should reflect in a few minutes."
+      }
+    ],
+    "translation": [
+      {
+        "A": "我刚收到外卖，但订单少了一半。"
+      },
+      {
+        "B": "真的很抱歉，我来查一下是怎么回事。"
+      },
+      {
+        "A": "另外，到的那部分食物也是凉的。"
+      },
+      {
+        "B": "理解，我会对缺少的部分退款，并额外给您一些补偿优惠。"
+      },
+      {
+        "A": "太感谢了。"
+      },
+      {
+        "B": "不客气，几分钟内就会到账。"
+      }
+    ],
+    "key_phrases": [
+      "half the order is missing = 订单少了一半",
+      "issue a refund = 办理退款",
+      "a credit for the inconvenience = 对造成不便的补偿"
+    ],
+    "tip": "外卖出问题时，客服常问「缺了什么/有什么问题」，具体说清楚能更快拿到退款或补偿。",
+    "examples": [
+      "Part of my order is missing.（我的订单少了一部分）",
+      "Can I get a refund for this?（这个能退款吗）",
+      "The food arrived cold.（食物送到时是凉的）"
+    ]
+  },
+  {
+    "day": 244,
+    "scene": "👋 接待来访的外国朋友",
+    "dialogue": [
+      {
+        "A": "Welcome! How was your flight?"
+      },
+      {
+        "B": "Long, but good. Thanks so much for having me."
+      },
+      {
+        "A": "Of course! Are you hungry, or would you like to rest first?"
+      },
+      {
+        "B": "I'd love to eat something local if that's okay."
+      },
+      {
+        "A": "Perfect, I know a great place nearby."
+      },
+      {
+        "B": "I can't wait, I've heard so much about the food here."
+      }
+    ],
+    "translation": [
+      {
+        "A": "欢迎！飞行怎么样？"
+      },
+      {
+        "B": "挺长的，不过还不错。真的很感谢你们邀请我。"
+      },
+      {
+        "A": "当然！你饿了吗，还是想先休息一下？"
+      },
+      {
+        "B": "如果方便的话，我想先吃点当地的东西。"
+      },
+      {
+        "A": "没问题，我知道附近有个不错的地方。"
+      },
+      {
+        "B": "太期待了，我早就听说这里的美食了。"
+      }
+    ],
+    "key_phrases": [
+      "thanks for having me = 谢谢邀请/招待我",
+      "something local = 当地特色食物",
+      "I can't wait = 我等不及了/很期待"
+    ],
+    "tip": "接待外国朋友时主动给出选项（吃东西还是先休息），比问「你想做什么」更容易让客人放松决定。",
+    "examples": [
+      "Make yourself at home.（就当自己家一样，别拘束）",
+      "Is there anything you'd like to try while you're here?（你来这边有什么想体验的吗）",
+      "Let me know if you need anything.（有需要随时告诉我）"
+    ]
+  },
+  {
+    "day": 245,
+    "scene": "📖 主持读书会讨论",
+    "dialogue": [
+      {
+        "A": "Let's go around and share our first impressions of the book."
+      },
+      {
+        "B": "I found the main character hard to like at first."
+      },
+      {
+        "A": "Interesting, did that change by the end?"
+      },
+      {
+        "B": "Yes, actually, her choices made more sense in context."
+      },
+      {
+        "A": "Great point. Does anyone disagree with that?"
+      },
+      {
+        "B": "I still think her decision in chapter nine was unjustified."
+      }
+    ],
+    "translation": [
+      {
+        "A": "我们轮流分享一下对这本书的第一印象吧。"
+      },
+      {
+        "B": "我一开始觉得主角挺难让人喜欢的。"
+      },
+      {
+        "A": "有意思，到结尾时这个感觉变了吗？"
+      },
+      {
+        "B": "变了，其实放在上下文里看，她的选择更说得通了。"
+      },
+      {
+        "A": "说得好。有人不同意这个看法吗？"
+      },
+      {
+        "B": "我还是觉得她在第九章的决定说不过去。"
+      }
+    ],
+    "key_phrases": [
+      "first impressions of ~ = 对～的第一印象",
+      "made more sense in context = 放在上下文里更说得通",
+      "does anyone disagree = 有人不同意吗"
+    ],
+    "tip": "主持读书会时多用开放式问题（Does anyone disagree?）比直接评判更能带动讨论。",
+    "examples": [
+      "What did you think of the ending?（你觉得结局怎么样）",
+      "Can you say more about that?（能多说说这个吗）",
+      "Let's hear a different perspective.（我们听听不同的看法）"
+    ]
+  },
+  {
+    "day": 246,
+    "scene": "🥂 陀生人聚会破冰闲聊",
+    "dialogue": [
+      {
+        "A": "I don't think we've met, I'm Alex."
+      },
+      {
+        "B": "Nice to meet you, I'm Jamie. How do you know the host?"
+      },
+      {
+        "A": "We used to work together. What about you?"
+      },
+      {
+        "B": "Old college roommates, actually."
+      },
+      {
+        "A": "No way, small world. What do you do now?"
+      },
+      {
+        "B": "I'm in marketing, you?"
+      }
+    ],
+    "translation": [
+      {
+        "A": "我们应该还没见过，我叫Alex。"
+      },
+      {
+        "B": "很高兴认识你，我叫Jamie。你和主人是怎么认识的？"
+      },
+      {
+        "A": "我们以前一起共事过。你呢？"
+      },
+      {
+        "B": "其实是大学室友。"
+      },
+      {
+        "A": "真巧，世界真小。你现在做什么工作？"
+      },
+      {
+        "B": "我做市场营销，你呢？"
+      }
+    ],
+    "key_phrases": [
+      "I don't think we've met = 我们应该还没见过（破冰开场白）",
+      "how do you know the host? = 你和主人是怎么认识的",
+      "small world = 世界真小"
+    ],
+    "tip": "“How do you know the host?” 是聚会破冰最万能的一句，自然又不会冷场。",
+    "examples": [
+      "What brings you here tonight?（今晚什么风把你吹来了）",
+      "Have you been to one of these before?（你以前参加过这种聚会吗）",
+      "What do you do for fun?（你平时有什么爱好）"
+    ]
+  },
+  {
+    "day": 247,
+    "scene": "🥂 告别派对即兴致辞",
+    "dialogue": [
+      {
+        "A": "Can I have everyone's attention for a quick toast?"
+      },
+      {
+        "B": "Of course, go ahead!"
+      },
+      {
+        "A": "I just want to say how much this team has meant to me."
+      },
+      {
+        "B": "We'll miss you so much around here."
+      },
+      {
+        "A": "Thank you, really, to all of you for the support over the years."
+      },
+      {
+        "B": "To an amazing colleague and friend, cheers!"
+      }
+    ],
+    "translation": [
+      {
+        "A": "大家能稍微听我讲几句祝酒词吗？"
+      },
+      {
+        "B": "当然，你说吧！"
+      },
+      {
+        "A": "我就想说，这个团队对我意义真的很大。"
+      },
+      {
+        "B": "我们会非常想念你的。"
+      },
+      {
+        "A": "真的很感谢大家这些年的支持。"
+      },
+      {
+        "B": "敬一位了不起的同事和朋友，干杯！"
+      }
+    ],
+    "key_phrases": [
+      "can I have everyone's attention = 大家能听我说几句吗",
+      "mean a lot to me = 对我意义重大",
+      "cheers! = 干杯！"
+    ],
+    "tip": "即兴致辞不用太长，说清楚「感谢+具体的回忆/感受」就足够真诚动人。",
+    "examples": [
+      "I just want to say a few words.（我想说几句话）",
+      "It's been an honor working with you all.（和大家共事是我的荣幸）",
+      "Let's raise a glass to new beginnings.（让我们为新的开始干杯）"
+    ]
+  },
+  {
+    "day": 248,
+    "scene": "🏠 和朋友讨论要不要合租",
+    "dialogue": [
+      {
+        "A": "I've been thinking, maybe we should split a place together."
+      },
+      {
+        "B": "That would definitely cut our rent in half."
+      },
+      {
+        "A": "Right, but we'd need to talk about how we split chores and bills."
+      },
+      {
+        "B": "True, and what happens if one of us wants to move out early."
+      },
+      {
+        "A": "Good point, maybe we should put it all in writing."
+      },
+      {
+        "B": "Agreed, that'll save us from awkward conversations later."
+      }
+    ],
+    "translation": [
+      {
+        "A": "我在想，我们要不要合租一个地方。"
+      },
+      {
+        "B": "那样确实能把房租砍一半。"
+      },
+      {
+        "A": "对，不过我们得谈好家务和账单怎么分。"
+      },
+      {
+        "B": "没错，还有万一有人提前想搬走怎么办。"
+      },
+      {
+        "A": "说得对，也许我们该把这些都写下来。"
+      },
+      {
+        "B": "同意，这样以后就不用尴尬地去谈这些了。"
+      }
+    ],
+    "key_phrases": [
+      "split a place together = 合租一个地方",
+      "split chores and bills = 分摊家务和账单",
+      "put it all in writing = 把这些都写下来（白纸黑字）"
+    ],
+    "tip": "合租前把钱、家务、提前搬走的规则都写清楚，比全靠「口头默契」能避免很多以后的矛盾。",
+    "examples": [
+      "How should we split utilities?（水电费我们该怎么分）",
+      "What if someone needs to break the lease?（如果有人需要提前退租怎么办）",
+      "Let's put the agreement in writing.（我们把协议写下来吧）"
+    ]
+  },
+  {
+    "day": 249,
+    "scene": "🏕️ 组织多人出游分工",
+    "dialogue": [
+      {
+        "A": "Let's divide up the trip planning so no one's overwhelmed."
+      },
+      {
+        "B": "Sounds good, I can handle booking the cabin."
+      },
+      {
+        "A": "I'll take care of groceries and meal planning."
+      },
+      {
+        "B": "I can look into activities and trail maps."
+      },
+      {
+        "A": "Perfect, and someone should track the shared expenses."
+      },
+      {
+        "B": "I'll set up a spreadsheet for that."
+      }
+    ],
+    "translation": [
+      {
+        "A": "我们把这次旅行的计划分一下工，免得一个人忙不过来。"
+      },
+      {
+        "B": "好主意，我可以负责订小木屋。"
+      },
+      {
+        "A": "我来负责买菜和安排吃饭。"
+      },
+      {
+        "B": "我可以研究一下活动和徒步路线图。"
+      },
+      {
+        "A": "好，还需要有人记录大家共同的花销。"
+      },
+      {
+        "B": "我来建一个表格记这个。"
+      }
+    ],
+    "key_phrases": [
+      "divide up the planning = 把计划分工",
+      "no one's overwhelmed = 没有人会忙不过来",
+      "track the shared expenses = 记录共同的花销"
+    ],
+    "tip": "多人出游提前用表格分好任务和花销记录，能避免行程中临时手忙脚乱和事后算账的尴尬。",
+    "examples": [
+      "Who's in charge of booking?（谁负责订房/订票）",
+      "Let's split up the tasks.（我们把任务分一下吧）",
+      "I'll keep track of what everyone owes.（我来记一下每个人该付多少）"
+    ]
+  },
+  {
+    "day": 250,
+    "scene": "💝 感谢房东/邻居帮忙照看",
+    "dialogue": [
+      {
+        "A": "Thank you so much for watering my plants while I was away."
+      },
+      {
+        "B": "Of course, happy to help! How was your trip?"
+      },
+      {
+        "A": "Amazing, thank you. I brought you something small from my trip."
+      },
+      {
+        "B": "Oh, you didn't have to do that!"
+      },
+      {
+        "A": "I wanted to, I really appreciate you looking out for me."
+      },
+      {
+        "B": "Anytime, let me know if you ever need anything."
+      }
+    ],
+    "translation": [
+      {
+        "A": "真的很感谢你在我外出时帮忙浇花。"
+      },
+      {
+        "B": "当然，很乐意帮忙！你的旅行怎么样？"
+      },
+      {
+        "A": "太棒了，谢谢。我给你带了点旅行的小礼物。"
+      },
+      {
+        "B": "哦，你不用这么客气的！"
+      },
+      {
+        "A": "我是真心想送的，很感谢你一直照顾着我。"
+      },
+      {
+        "B": "随时都可以，以后有需要就跟我说。"
+      }
+    ],
+    "key_phrases": [
+      "watering my plants = 帮忙浇花",
+      "you didn't have to do that = 你不用这么客气",
+      "looking out for me = 照顾/惦记着我"
+    ],
+    "tip": "邻居帮忙照看家里，带个小礼物当面道谢，比单纯说一句谢谢更让人记住这份情谊。",
+    "examples": [
+      "I really owe you one.（我真的欠你一个人情）",
+      "Let me know if you ever need a favor.（你以后有需要帮忙的也尽管说）",
+      "This is just a small token of appreciation.（这只是个小小的心意）"
+    ]
+  },
+  {
+    "day": 251,
+    "scene": "🌐 跨时区远程会议协调",
+    "dialogue": [
+      {
+        "A": "Can we find a time that works for both our time zones?"
+      },
+      {
+        "B": "My team is 12 hours ahead, so mornings are tough for them."
+      },
+      {
+        "A": "What if we rotate who takes the early call each week?"
+      },
+      {
+        "B": "That seems fair, let's alternate between our teams."
+      },
+      {
+        "A": "Great, I'll send a calendar invite with both time zones listed."
+      },
+      {
+        "B": "Perfect, that'll help avoid any confusion."
+      }
+    ],
+    "translation": [
+      {
+        "A": "我们能找个两边时区都合适的时间吗？"
+      },
+      {
+        "B": "我的团队比我们早12小时，所以早上对他们来说很难配合。"
+      },
+      {
+        "A": "那我们每周轮流让一方承担早会怎么样？"
+      },
+      {
+        "B": "这样挺公平的，我们两个团队轮流吧。"
+      },
+      {
+        "A": "好，我发日历邀请时会把两个时区都标出来。"
+      },
+      {
+        "B": "好的，这样就不会搞混了。"
+      }
+    ],
+    "key_phrases": [
+      "work for both time zones = 两个时区都合适",
+      "rotate who takes the call = 轮流承担（早/晚）会",
+      "both time zones listed = 两个时区都标出来"
+    ],
+    "tip": "跨时区会议安排，主动提出「轮流承担不方便时段」比让固定一方一直吃亏更能维持长期合作关系。",
+    "examples": [
+      "Can we alternate the meeting time?（我们能轮流换会议时间吗）",
+      "What time zone should I list this in?（我应该用哪个时区标注这个）",
+      "Let's find a time that's fair for everyone.（我们找个对大家都公平的时间吧）"
+    ]
+  },
+  {
+    "day": 252,
+    "scene": "🤝 工作中跨文化沟通误会澄清",
+    "dialogue": [
+      {
+        "A": "I wanted to check in, I think there might be a misunderstanding."
+      },
+      {
+        "B": "Sure, what's on your mind?"
+      },
+      {
+        "A": "In my culture, silence in a meeting often means agreement, not disagreement."
+      },
+      {
+        "B": "Ah, that explains it, I assumed you weren't on board."
+      },
+      {
+        "A": "Exactly, I actually support the plan, I just didn't speak up."
+      },
+      {
+        "B": "Thanks for clarifying, I'll ask more directly next time."
+      }
+    ],
+    "translation": [
+      {
+        "A": "我想跟你确认一下，我觉得可能有个误会。"
+      },
+      {
+        "B": "好，你想说什么？"
+      },
+      {
+        "A": "在我的文化里，会议上保持沉默常常代表同意，而不是不同意。"
+      },
+      {
+        "B": "啊，这就说得通了，我还以为你不赞成呢。"
+      },
+      {
+        "A": "没错，我其实是支持这个方案的，只是没开口说。"
+      },
+      {
+        "B": "谢谢你说清楚，下次我会更直接地问你。"
+      }
+    ],
+    "key_phrases": [
+      "there might be a misunderstanding = 可能有个误会",
+      "in my culture = 在我的文化里",
+      "didn't speak up = 没有开口说出来"
+    ],
+    "tip": "跨文化沟通里很多误会来自对「沉默/直接程度」的不同理解，主动解释文化背景比猜测更有效。",
+    "examples": [
+      "I want to make sure we're on the same page.（我想确认我们理解一致）",
+      "That's not quite what I meant.（我的意思不完全是那样）",
+      "Can I clarify something?（我能澄清一下吗）"
+    ]
+  },
+  {
+    "day": 253,
+    "scene": "🦝 给新同事做入职培训",
+    "dialogue": [
+      {
+        "A": "Welcome to the team! Let's go over how things work here."
+      },
+      {
+        "B": "Thanks, I'm excited to get started."
+      },
+      {
+        "A": "First, here's how we track tasks and communicate updates."
+      },
+      {
+        "B": "Got it, is there a document I should reference?"
+      },
+      {
+        "A": "Yes, I'll share our onboarding guide after this."
+      },
+      {
+        "B": "Perfect, feel free to let me know if I'm doing something wrong."
+      }
+    ],
+    "translation": [
+      {
+        "A": "欢迎加入团队！我们来过一遍这里的工作方式。"
+      },
+      {
+        "B": "谢谢，我很期待开始工作。"
+      },
+      {
+        "A": "首先，这是我们追踪任务和同步进展的方式。"
+      },
+      {
+        "B": "明白了，有什么文档我可以参考吗？"
+      },
+      {
+        "A": "有，这之后我会分享我们的入职指南给你。"
+      },
+      {
+        "B": "太好了，如果我哪里做得不对，随时跟我说。"
+      }
+    ],
+    "key_phrases": [
+      "go over how things work = 过一遍工作方式",
+      "track tasks and communicate updates = 追踪任务和同步进展",
+      "feel free to let me know = 随时告诉我（没关系）"
+    ],
+    "tip": "带新人时先给出「追踪任务+沟通方式」的整体框架，比零散讲细节更容易让对方快速上手。",
+    "examples": [
+      "Let me walk you through our process.（我带你过一遍我们的流程）",
+      "Don't hesitate to ask questions.（有问题尽管问）",
+      "Here's who to reach out to for ~.（关于～可以联系这个人）"
+    ]
+  },
+  {
+    "day": 254,
+    "scene": "😕 委媉提出对不公平对待的担忧",
+    "dialogue": [
+      {
+        "A": "I wanted to raise something I've been noticing lately."
+      },
+      {
+        "B": "Of course, go ahead."
+      },
+      {
+        "A": "I've felt like my ideas get overlooked more than others' in meetings."
+      },
+      {
+        "B": "I appreciate you telling me, can you give me an example?"
+      },
+      {
+        "A": "Sure, last week my proposal wasn't acknowledged until someone else repeated it."
+      },
+      {
+        "B": "That's fair feedback, I'll be more mindful of that going forward."
+      }
+    ],
+    "translation": [
+      {
+        "A": "我想跟你提一下最近注意到的一件事。"
+      },
+      {
+        "B": "好，你说吧。"
+      },
+      {
+        "A": "我感觉在会议上我的想法比别人的更容易被忽视。"
+      },
+      {
+        "B": "谢谢你愿意告诉我，能举个具体例子吗？"
+      },
+      {
+        "A": "可以，上周我提的方案没人回应，直到别人重复了一遍才被认可。"
+      },
+      {
+        "B": "这个反馈很中肯，以后我会更注意这一点。"
+      }
+    ],
+    "key_phrases": [
+      "raise something = 提出一件事",
+      "get overlooked = 被忽视",
+      "fair feedback = 中肯的反馈"
+    ],
+    "tip": "提出被不公平对待的担忧时，举一个具体事例（而不是笼统地说「总是」）更容易被认真对待。",
+    "examples": [
+      "I wanted to bring something to your attention.（我想提醒你注意一件事）",
+      "Can I share some feedback with you?（我能给你一些反馈吗）",
+      "I'd appreciate it if ~ could change going forward.（希望以后～能有所改变）"
+    ]
+  },
+  {
+    "day": 255,
+    "scene": "🏠 申请灵活办公/调整工时",
+    "dialogue": [
+      {
+        "A": "I'd like to request a more flexible schedule going forward."
+      },
+      {
+        "B": "Sure, what are you thinking?"
+      },
+      {
+        "A": "I'd like to work from home two days a week."
+      },
+      {
+        "B": "That should be workable, as long as your deliverables stay on track."
+      },
+      {
+        "A": "Absolutely, I can send weekly updates to confirm."
+      },
+      {
+        "B": "Let's try it for a month and check back in."
+      }
+    ],
+    "translation": [
+      {
+        "A": "我想申请以后更灵活的工作安排。"
+      },
+      {
+        "B": "好的，你是怎么想的？"
+      },
+      {
+        "A": "我想每周在家办公两天。"
+      },
+      {
+        "B": "应该可行，只要你的工作成果能跟上进度。"
+      },
+      {
+        "A": "当然，我可以每周发进展更新来确认。"
+      },
+      {
+        "B": "我们先试一个月，再回头看看效果。"
+      }
+    ],
+    "key_phrases": [
+      "request a flexible schedule = 申请灵活的工作安排",
+      "as long as ~ stays on track = 只要～能跟上进度",
+      "check back in = 回头再看看效果",
+      "deliverables = 工作成果"
+    ],
+    "tip": "申请灵活工时时主动提出「怎么证明不影响产出」（比如周报）会让上级更容易点头。",
+    "examples": [
+      "Would it be possible to adjust my hours?（有没有可能调整我的工作时间）",
+      "I'd like to propose a trial period.（我想提议先试行一段时间）",
+      "I'll make sure this doesn't affect my output.（我会确保这不影响我的产出）"
+    ]
+  },
+  {
+    "day": 256,
+    "scene": "🤝 行业会议社交networking自我介绍",
+    "dialogue": [
+      {
+        "A": "Hi, I don't think we've met, I'm Sam from DataFlow."
+      },
+      {
+        "B": "Nice to meet you, I'm Priya. What brings you to this conference?"
+      },
+      {
+        "A": "I'm mainly here to learn more about AI in logistics."
+      },
+      {
+        "B": "That's actually my area, we should grab coffee sometime."
+      },
+      {
+        "A": "I'd love that, here's my card."
+      },
+      {
+        "B": "Great, I'll follow up this week."
+      }
+    ],
+    "translation": [
+      {
+        "A": "你好，我们应该没见过，我是DataFlow的Sam。"
+      },
+      {
+        "B": "很高兴认识你，我是Priya。你这次来参加这个会议主要是为了什么？"
+      },
+      {
+        "A": "我主要是来了解AI在物流行业的应用的。"
+      },
+      {
+        "B": "那正好是我的领域，我们改天可以一起喝杯咖啡聊聊。"
+      },
+      {
+        "A": "太好了，这是我的名片。"
+      },
+      {
+        "B": "好，我这周会联系你。"
+      }
+    ],
+    "key_phrases": [
+      "what brings you to ~? = 你是为了什么来～的",
+      "that's actually my area = 那正好是我的领域",
+      "I'll follow up = 我会跟进联系"
+    ],
+    "tip": "行业会议社交时，问「What brings you here?」既自然又能快速找到共同话题，比直接推销自己更有效。",
+    "examples": [
+      "What's your focus these days?（你最近主要在关注什么方向）",
+      "Let's stay in touch.（我们保持联系吧）",
+      "Can I connect with you on LinkedIn?（我能加你LinkedIn吗）"
+    ]
+  },
+  {
+    "day": 257,
+    "scene": "📝 写年度自我评估总结",
+    "dialogue": [
+      {
+        "A": "I'm working on my self-assessment, do you have any tips?"
+      },
+      {
+        "B": "Focus on specific achievements with measurable impact."
+      },
+      {
+        "A": "Should I mention areas I struggled with too?"
+      },
+      {
+        "B": "Yes, but frame them as what you learned and how you'll improve."
+      },
+      {
+        "A": "That makes sense, I'll revise my draft with that in mind."
+      },
+      {
+        "B": "Sounds good, send it over if you want a second look."
+      }
+    ],
+    "translation": [
+      {
+        "A": "我在写年度自我评估，你有什么建议吗？"
+      },
+      {
+        "B": "重点写具体的成果，最好是能量化影响的那种。"
+      },
+      {
+        "A": "我也应该提一下我做得不够好的地方吗？"
+      },
+      {
+        "B": "应该提，但要把它们写成「学到了什么」「以后怎么改进」。"
+      },
+      {
+        "A": "有道理，我会按这个思路改一下我的草稿。"
+      },
+      {
+        "B": "挺好，改完了想让我再看一眼的话就发给我。"
+      }
+    ],
+    "key_phrases": [
+      "measurable impact = 可量化的影响",
+      "frame them as ~ = 把它们表述成～",
+      "a second look = 再看一眼（帮忙复核）"
+    ],
+    "tip": "年度自评写弱项时用「学到了什么+怎么改进」的框架，比单纯承认缺点更显得成熟、有行动力。",
+    "examples": [
+      "Can you give me feedback on this draft?（能帮我看看这份草稿吗）",
+      "I want to highlight this achievement.（我想重点突出这个成就）",
+      "How should I phrase this part?（这部分我该怎么措辞）"
+    ]
+  },
+  {
+    "day": 258,
+    "scene": "⏰ 婉拒不合理的赶工deadline",
+    "dialogue": [
+      {
+        "A": "We need this delivered by Friday instead of next week."
+      },
+      {
+        "B": "I want to be upfront, that timeline isn't realistic without cutting corners."
+      },
+      {
+        "A": "Is there anything that could make Friday work?"
+      },
+      {
+        "B": "If we reduce scope or get another person to help, maybe."
+      },
+      {
+        "A": "Let's discuss reducing scope then."
+      },
+      {
+        "B": "That works, I'll outline what we can realistically finish by Friday."
+      }
+    ],
+    "translation": [
+      {
+        "A": "我们需要把交付时间从下周提前到周五。"
+      },
+      {
+        "B": "我想坦白说，这个时间线如果不偷工减料是不现实的。"
+      },
+      {
+        "A": "有什么办法能让周五可行吗？"
+      },
+      {
+        "B": "如果缩小范围，或者多加一个人帮忙，也许可以。"
+      },
+      {
+        "A": "那我们来讨论一下缩小范围吧。"
+      },
+      {
+        "B": "可以，我会列出到周五之前现实能完成的部分。"
+      }
+    ],
+    "key_phrases": [
+      "I want to be upfront = 我想坦白说",
+      "without cutting corners = 不偷工减料的情况下",
+      "reduce scope = 缩小（任务）范围"
+    ],
+    "tip": "婉拒不合理deadline时，不要只说「做不到」，而是提出「什么条件下能做到」，更容易被接受。",
+    "examples": [
+      "That timeline would require cutting corners.（那个时间线会迫使我们偷工减料）",
+      "Can we revisit the scope instead?（我们能不能重新讨论一下范围）",
+      "I want to set realistic expectations.（我想设定现实的预期）"
+    ]
+  },
+  {
+    "day": 259,
+    "scene": "⚠️ 向上级汇报项目风险预警",
+    "dialogue": [
+      {
+        "A": "I wanted to flag a risk before it becomes a bigger issue."
+      },
+      {
+        "B": "Go ahead, what's going on?"
+      },
+      {
+        "A": "Our main vendor is running two weeks behind schedule."
+      },
+      {
+        "B": "That's concerning, do we have a backup plan?"
+      },
+      {
+        "A": "I'm already reaching out to an alternative vendor, just in case."
+      },
+      {
+        "B": "Good thinking, keep me posted on both fronts."
+      }
+    ],
+    "translation": [
+      {
+        "A": "我想提前预警一个风险，免得它变成更大的问题。"
+      },
+      {
+        "B": "你说，发生什么了？"
+      },
+      {
+        "A": "我们主要的供应商进度已经落后两周了。"
+      },
+      {
+        "B": "这确实让人担心，我们有备用方案吗？"
+      },
+      {
+        "A": "我已经在联系另一个备用供应商，以防万一。"
+      },
+      {
+        "B": "想得周到，两边的进展都随时告诉我。"
+      }
+    ],
+    "key_phrases": [
+      "flag a risk = 预警一个风险",
+      "running behind schedule = 进度落后",
+      "a backup plan = 备用方案"
+    ],
+    "tip": "向上级汇报坏消息时，带上「已经在做的应对措施」能大幅减少对方的焦虑和追问。",
+    "examples": [
+      "I wanted to raise this early.（我想提前提出这个问题）",
+      "Here's what we're doing to mitigate it.（这是我们正在采取的缓解措施）",
+      "I'll keep you updated as this develops.（事情有进展我会随时更新你）"
+    ]
+  },
+  {
+    "day": 260,
+    "scene": "👋 离职后保持职场人脉联系",
+    "dialogue": [
+      {
+        "A": "I wanted to let you know I'm leaving the company next month."
+      },
+      {
+        "B": "Oh wow, congratulations! Where are you headed?"
+      },
+      {
+        "A": "A new role at a startup, really excited about it."
+      },
+      {
+        "B": "That's great, let's definitely stay in touch."
+      },
+      {
+        "A": "Absolutely, I'll connect with you on LinkedIn."
+      },
+      {
+        "B": "Sounds good, wishing you the best in the new role."
+      }
+    ],
+    "translation": [
+      {
+        "A": "我想告诉你，我下个月要离开公司了。"
+      },
+      {
+        "B": "哦天呐，恭喜你！你要去哪里？"
+      },
+      {
+        "A": "去一家创业公司做新职位，挺期待的。"
+      },
+      {
+        "B": "太好了，我们一定要保持联系。"
+      },
+      {
+        "A": "当然，我会在LinkedIn上加你。"
+      },
+      {
+        "B": "好，祝你在新职位上一切顺利。"
+      }
+    ],
+    "key_phrases": [
+      "I'm leaving the company = 我要离开公司了",
+      "stay in touch = 保持联系",
+      "wishing you the best = 祝你一切顺利"
+    ],
+    "tip": "离职消息最好先私下告诉关系好的同事，再正式宣布，同时主动加LinkedIn，人脉是长期资产。",
+    "examples": [
+      "It's been a pleasure working with you.（和你共事很愉快）",
+      "Let's keep in touch.（我们保持联系吧）",
+      "Don't be a stranger.（别断了联系/常联系）"
+    ]
   }
 ]
