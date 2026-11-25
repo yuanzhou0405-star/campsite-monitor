@@ -11341,5 +11341,2205 @@
       "Should we evacuate now?（我们现在要疏散吗）",
       "I'll meet you at the assembly point.（我们在集合点碰头）"
     ]
+  },
+  {
+    "day": 181,
+    "scene": "📱 取消流媒体订阅",
+    "dialogue": [
+      {
+        "A": "Thanks for calling support, how can I help?"
+      },
+      {
+        "B": "Hi, I'd like to cancel my subscription, please."
+      },
+      {
+        "A": "Sure, can I ask what's the reason for canceling?"
+      },
+      {
+        "B": "I just don't watch it enough to justify the cost."
+      },
+      {
+        "A": "Understood. I've canceled it — you'll still have access until the end of this billing cycle."
+      },
+      {
+        "B": "Great, that works. Thank you."
+      }
+    ],
+    "translation": [
+      {
+        "A": "感谢致电客服，有什么可以帮您？"
+      },
+      {
+        "B": "你好，我想取消我的订阅。"
+      },
+      {
+        "A": "好的，方便问一下取消的原因吗？"
+      },
+      {
+        "B": "就是看得不多，感觉不值这个钱。"
+      },
+      {
+        "A": "明白了，已经帮您取消了——这个账单周期结束前还能继续使用。"
+      },
+      {
+        "B": "好的，没问题，谢谢。"
+      }
+    ],
+    "key_phrases": [
+      "I'd like to cancel ~ = 我想取消～（礼貌提出要求的万能句）",
+      "can I ask what's the reason for ~? = 方便问一下～的原因吗",
+      "you'll still have access until ~ = 在～之前你还能继续使用"
+    ],
+    "tip": "取消订阅时客服常会先问原因（retention 话术），直接说真实理由、礼貌坚持即可，不必解释太多。",
+    "examples": [
+      "I'd like to cancel my gym membership.（我想取消我的健身房会员）",
+      "Can I ask what's the reason for the delay?（方便问一下延迟的原因吗）",
+      "You'll still have access until your trial ends.（你的试用期结束前还能继续使用）"
+    ]
+  },
+  {
+    "day": 182,
+    "scene": "🏠 智能家居设备报修",
+    "dialogue": [
+      {
+        "A": "Hi, my smart thermostat isn't connecting to the app anymore."
+      },
+      {
+        "B": "Sorry to hear that. Have you tried restarting the device?"
+      },
+      {
+        "A": "Yeah, I unplugged it and plugged it back in, still nothing."
+      },
+      {
+        "B": "Okay, let's try resetting it to factory settings and re-pairing it."
+      },
+      {
+        "A": "How do I do that?"
+      },
+      {
+        "B": "Hold the button on the side for ten seconds until the light blinks blue."
+      }
+    ],
+    "translation": [
+      {
+        "A": "你好，我的智能温控器连不上App了。"
+      },
+      {
+        "B": "抱歉听到这个情况，您试过重启设备吗？"
+      },
+      {
+        "A": "试过了，拔了插头重新插上，还是不行。"
+      },
+      {
+        "B": "好的，我们试试恢复出厂设置然后重新配对。"
+      },
+      {
+        "A": "要怎么操作？"
+      },
+      {
+        "B": "按住侧面的按钮十秒钟，直到指示灯闪蓝色。"
+      }
+    ],
+    "key_phrases": [
+      "~ isn't connecting to ~ = ～连不上～（描述设备故障）",
+      "Have you tried ~ing? = 你试过～吗（客服排查常用句型）",
+      "reset it to factory settings = 恢复出厂设置"
+    ],
+    "tip": "报修智能设备时，先说清楚具体症状（连不上/没反应/一直重启），客服能更快定位问题。",
+    "examples": [
+      "My router isn't connecting to the internet.（我的路由器连不上网）",
+      "Have you tried turning it off and on again?（你试过关机重启吗）",
+      "Let's reset it to factory settings.（我们恢复一下出厂设置）"
+    ]
+  },
+  {
+    "day": 183,
+    "scene": "🔐 账号异常登录处理",
+    "dialogue": [
+      {
+        "A": "I just got an alert that someone logged into my account from another state."
+      },
+      {
+        "B": "Okay, let's secure it right away. Was that login you?"
+      },
+      {
+        "A": "No, it definitely wasn't me."
+      },
+      {
+        "B": "I'll log out all other sessions and you should reset your password immediately."
+      },
+      {
+        "A": "Should I also turn on two-factor authentication?"
+      },
+      {
+        "B": "Yes, I'd strongly recommend that — it'll prevent this from happening again."
+      }
+    ],
+    "translation": [
+      {
+        "A": "我刚收到提醒，说有人从别的州登录了我的账号。"
+      },
+      {
+        "B": "好的，我们马上处理。那次登录是您本人吗？"
+      },
+      {
+        "A": "不是，绝对不是我。"
+      },
+      {
+        "B": "我会把其他所有登录会话都退出，您需要立刻重置密码。"
+      },
+      {
+        "A": "我是不是也该开启双重验证？"
+      },
+      {
+        "B": "是的，强烈建议您开启——这样可以防止再次发生。"
+      }
+    ],
+    "key_phrases": [
+      "I got an alert that ~ = 我收到提醒说～",
+      "log out all other sessions = 退出所有其他登录会话",
+      "turn on two-factor authentication = 开启双重验证"
+    ],
+    "tip": "账号异常时先说 'that wasn't me' 确认身份，再要求 reset password 和 two-factor authentication，这是处理账号安全问题的标准三步。",
+    "examples": [
+      "That login wasn't me — can you secure my account?（那次登录不是我，能帮我保护一下账号吗）",
+      "I'd like to reset my password right away.（我想立刻重置密码）",
+      "Can you help me turn on two-factor authentication?（能帮我开启双重验证吗）"
+    ]
+  },
+  {
+    "day": 184,
+    "scene": "💻 线上课程平台问题",
+    "dialogue": [
+      {
+        "A": "Hi, I enrolled in a course but the videos won't load at all."
+      },
+      {
+        "B": "I'm sorry about that. Which browser are you using?"
+      },
+      {
+        "A": "Chrome, but I also tried Safari and it's the same issue."
+      },
+      {
+        "B": "Let's try clearing your cache, that usually fixes playback issues."
+      },
+      {
+        "A": "I did that already, still buffering endlessly."
+      },
+      {
+        "B": "In that case, I'll escalate this to our tech team and follow up within 24 hours."
+      }
+    ],
+    "translation": [
+      {
+        "A": "你好，我报名了一门课，但视频完全加载不出来。"
+      },
+      {
+        "B": "很抱歉遇到这个问题，您用的是哪个浏览器？"
+      },
+      {
+        "A": "Chrome，不过我也试了Safari，一样的问题。"
+      },
+      {
+        "B": "我们试试清一下缓存，这通常能解决播放问题。"
+      },
+      {
+        "A": "已经清过了，还是一直在缓冲。"
+      },
+      {
+        "B": "这样的话，我会把问题上报给技术团队，24小时内给您跟进。"
+      }
+    ],
+    "key_phrases": [
+      "~ won't load at all = ～完全加载不出来",
+      "clear your cache = 清除缓存",
+      "escalate this to our tech team = 把问题上报给技术团队"
+    ],
+    "tip": "报IT问题时按顺序说：症状 → 已经试过的方法 → 结果，这样客服不会让你重复无效的步骤。",
+    "examples": [
+      "The page won't load at all on my end.（这个页面在我这边完全打不开）",
+      "I already tried clearing the cache.（我已经试过清缓存了）",
+      "Can you escalate this to a specialist?（能帮我上报给专员吗）"
+    ]
+  },
+  {
+    "day": 185,
+    "scene": "📹 视频会议软件故障",
+    "dialogue": [
+      {
+        "A": "Sorry everyone, my screen share isn't working."
+      },
+      {
+        "B": "Try leaving the meeting and rejoining — that usually fixes it."
+      },
+      {
+        "A": "Okay, rejoining now... still can't share my screen."
+      },
+      {
+        "B": "Do you have the right permissions? Check the host settings."
+      },
+      {
+        "A": "Oh, I see — I need to request permission from the host first."
+      },
+      {
+        "B": "That's it. I'll approve it now, go ahead and try again."
+      }
+    ],
+    "translation": [
+      {
+        "A": "抱歉各位，我的屏幕共享用不了。"
+      },
+      {
+        "B": "试试退出会议再重新加入，通常能解决。"
+      },
+      {
+        "A": "好的，正在重新加入……还是不能共享屏幕。"
+      },
+      {
+        "B": "你有相应的权限吗？看看主持人设置那边。"
+      },
+      {
+        "A": "哦，我明白了——我需要先向主持人申请权限。"
+      },
+      {
+        "B": "就是这个问题，我现在批准，你再试一次。"
+      }
+    ],
+    "key_phrases": [
+      "my screen share isn't working = 我的屏幕共享用不了",
+      "leave the meeting and rejoin = 退出会议再重新加入",
+      "request permission from the host = 向主持人申请权限"
+    ],
+    "tip": "线上会议卡顿/故障应对，先确认能否被听到，再给出具体方案，避免全场尴尬沉默。",
+    "examples": [
+      "Sorry, my audio isn't working, can everyone hear me now?（抱歉我的音频有问题，现在大家能听到我吗）",
+      "Let me leave and rejoin the meeting.（我退出会议再重新加入一下）",
+      "Can you grant me screen-share permission?（能给我屏幕共享权限吗）"
+    ]
+  },
+  {
+    "day": 186,
+    "scene": "☁️ 云存储空间不足/共享问题",
+    "dialogue": [
+      {
+        "A": "I keep getting a message that my cloud storage is full."
+      },
+      {
+        "B": "You can either delete old files or upgrade to a bigger plan."
+      },
+      {
+        "A": "How much more storage would I get if I upgrade?"
+      },
+      {
+        "B": "The next plan gives you 2TB for about ten dollars a month."
+      },
+      {
+        "A": "That sounds reasonable. Can you also help me share a folder with my coworker?"
+      },
+      {
+        "B": "Sure, just enter their email and I'll set the sharing permissions."
+      }
+    ],
+    "translation": [
+      {
+        "A": "我一直收到提示说云存储空间满了。"
+      },
+      {
+        "B": "您可以删除旧文件，或者升级到更大的套餐。"
+      },
+      {
+        "A": "如果升级的话能多出多少空间？"
+      },
+      {
+        "B": "下一档套餐是2TB，大概每月十美元。"
+      },
+      {
+        "A": "这个价格还算合理。能不能也帮我把一个文件夹分享给同事？"
+      },
+      {
+        "B": "当然，输入他们的邮箱就行，我来设置共享权限。"
+      }
+    ],
+    "key_phrases": [
+      "my cloud storage is full = 我的云存储空间满了",
+      "upgrade to a bigger plan = 升级到更大的套餐",
+      "set the sharing permissions = 设置共享权限"
+    ],
+    "tip": "谈云服务升级时，先问清楚 'how much more' 和具体价格，再决定是否升级，避免被动默认升到最贵档。",
+    "examples": [
+      "My inbox storage is full.（我的邮箱存储空间满了）",
+      "I'd like to upgrade to a bigger plan.（我想升级到更大的套餐）",
+      "Can you set the sharing permissions for this folder?（能帮这个文件夹设置共享权限吗）"
+    ]
+  },
+  {
+    "day": 187,
+    "scene": "💻 二手电子产品议价",
+    "dialogue": [
+      {
+        "A": "Hi, is the laptop still available? I saw it listed for $600."
+      },
+      {
+        "B": "Yes, it's still available."
+      },
+      {
+        "A": "Would you take $500 for it? I noticed the battery health is at 85%."
+      },
+      {
+        "B": "I could do $550, it's barely used and comes with the original charger."
+      },
+      {
+        "A": "Okay, $550 works for me. Can we meet somewhere public?"
+      },
+      {
+        "B": "Sure, how about the coffee shop near the mall tomorrow afternoon?"
+      }
+    ],
+    "translation": [
+      {
+        "A": "你好，这台笔记本还在卖吗？我看标价是600美元。"
+      },
+      {
+        "B": "是的，还在卖。"
+      },
+      {
+        "A": "500美元可以吗？我注意到电池健康度是85%。"
+      },
+      {
+        "B": "550可以，基本没怎么用过，还带原装充电器。"
+      },
+      {
+        "A": "好的，550我可以接受。我们能约在公共场所见面吗？"
+      },
+      {
+        "B": "当然，明天下午商场附近那家咖啡店怎么样？"
+      }
+    ],
+    "key_phrases": [
+      "Is ~ still available? = ～还在卖吗（二手交易开场）",
+      "Would you take $~ for it? = ～美元可以吗（砍价句型）",
+      "meet somewhere public = 约在公共场所见面"
+    ],
+    "tip": "线上二手交易议价时，提一个具体理由（比如电池健康度）会比单纯喊低价更有说服力，也更容易谈成。",
+    "examples": [
+      "Is this item still available?（这个东西还在卖吗）",
+      "Would you take $30 for it?（30美元可以吗）",
+      "Can we meet somewhere public to do the exchange?（我们能约在公共场所交易吗）"
+    ]
+  },
+  {
+    "day": 188,
+    "scene": "🤖 和同事讨论用AI工具协作",
+    "dialogue": [
+      {
+        "A": "Have you tried using AI to draft the first version of this report?"
+      },
+      {
+        "B": "Yeah, it saves me a ton of time, but I still double-check all the numbers."
+      },
+      {
+        "A": "Same here. I mostly use it for brainstorming and outlines."
+      },
+      {
+        "B": "Makes sense. Do you think it's reliable enough for client-facing content?"
+      },
+      {
+        "A": "I'd say it's a good starting point, but it still needs a human review pass."
+      },
+      {
+        "B": "Agreed. Let's set that as our team's standard workflow."
+      }
+    ],
+    "translation": [
+      {
+        "A": "你有没有试过用AI来起草这份报告的初稿？"
+      },
+      {
+        "B": "有，确实省了不少时间，不过我还是会把所有数字都核对一遍。"
+      },
+      {
+        "A": "我也是，我主要用它来头脑风暴和列提纲。"
+      },
+      {
+        "B": "有道理。你觉得它对客户端内容来说够靠谱吗？"
+      },
+      {
+        "A": "我觉得作为起点挺好，但还是需要人工再审一遍。"
+      },
+      {
+        "B": "同意，那我们就把这个定成团队的标准流程吧。"
+      }
+    ],
+    "key_phrases": [
+      "draft the first version of ~ = 起草～的初稿",
+      "a good starting point = 一个不错的起点",
+      "needs a human review pass = 需要人工再审一遍"
+    ],
+    "tip": "讨论AI协作工作流时，用 'starting point' 和 'review pass' 这类说法，既肯定工具的价值，也说明人工把关的必要性，很适合职场沟通。",
+    "examples": [
+      "This draft is a good starting point.（这份草稿是个不错的起点）",
+      "It still needs a human review pass before we send it.（发出去之前还需要人工再审一遍）",
+      "Let's make that our standard workflow.（我们就把这个定成标准流程吧）"
+    ]
+  },
+  {
+    "day": 189,
+    "scene": "🚫 取消免费试用订阅",
+    "dialogue": [
+      {
+        "A": "Hi, I signed up for the free trial and I'd like to cancel before it charges me."
+      },
+      {
+        "B": "No problem, when does your trial end?"
+      },
+      {
+        "A": "Tomorrow, I believe. I just haven't had time to use it."
+      },
+      {
+        "B": "I've canceled it now. You won't be charged, and you'll keep access until midnight tonight."
+      },
+      {
+        "A": "Perfect, thank you for the quick help."
+      },
+      {
+        "B": "Of course, feel free to sign up again anytime."
+      }
+    ],
+    "translation": [
+      {
+        "A": "你好，我注册了免费试用，想在扣费前取消。"
+      },
+      {
+        "B": "没问题，您的试用什么时候到期？"
+      },
+      {
+        "A": "我记得是明天，就是一直没时间用。"
+      },
+      {
+        "B": "已经帮您取消了，不会扣费，今晚午夜前您还能继续使用。"
+      },
+      {
+        "A": "太好了，谢谢你这么快帮我处理。"
+      },
+      {
+        "B": "不客气，欢迎您随时再回来注册。"
+      }
+    ],
+    "key_phrases": [
+      "cancel before it charges me = 在扣费前取消",
+      "when does your trial end? = 你的试用什么时候到期",
+      "you won't be charged = 您不会被扣费"
+    ],
+    "tip": "取消免费试用时，直接说 'before it charges me'，客服会优先确认退款/扣费状态，沟通效率更高。",
+    "examples": [
+      "I'd like to cancel before the trial ends.（我想在试用结束前取消）",
+      "When does my subscription renew?（我的订阅什么时候续费）",
+      "Will I be charged if I cancel today?（如果我今天取消会被扣费吗）"
+    ]
+  },
+  {
+    "day": 190,
+    "scene": "📵 处理骚扰电话/可疑短信",
+    "dialogue": [
+      {
+        "A": "I've been getting these spam calls every day claiming to be the IRS."
+      },
+      {
+        "B": "That's definitely a scam — the IRS never calls demanding payment over the phone."
+      },
+      {
+        "A": "I figured. Should I just block the number?"
+      },
+      {
+        "B": "Yes, and you can also report it to your carrier so they can flag it for others."
+      },
+      {
+        "A": "Good idea. I also got a suspicious text asking me to click a link."
+      },
+      {
+        "B": "Don't click it — just delete it or report it as spam."
+      }
+    ],
+    "translation": [
+      {
+        "A": "我最近每天都接到自称是IRS（国税局）的骚扰电话。"
+      },
+      {
+        "B": "那肯定是诈骗——IRS从来不会打电话要求你立刻付款。"
+      },
+      {
+        "A": "我也这么想。我是不是应该直接拉黑这个号码？"
+      },
+      {
+        "B": "是的，你也可以向运营商举报，这样他们能帮其他人也标记这个号码。"
+      },
+      {
+        "A": "好主意。我还收到一条可疑短信，让我点一个链接。"
+      },
+      {
+        "B": "别点那个链接，直接删掉或者标记为垃圾短信就行。"
+      }
+    ],
+    "key_phrases": [
+      "That's definitely a scam = 那肯定是诈骗",
+      "block the number = 拉黑这个号码",
+      "report it as spam = 标记为垃圾信息"
+    ],
+    "tip": "识破诈骗电话的关键判断句是 'never calls demanding payment'——任何要求你立刻付款或点链接的陌生来电/短信，先当成诈骗处理，再求证。",
+    "examples": [
+      "That email is definitely a scam.（那封邮件肯定是诈骗）",
+      "I'm going to block this number.（我要拉黑这个号码）",
+      "I reported the message as spam.（我把这条信息标记成垃圾信息了）"
+    ]
+  },
+  {
+    "day": 191,
+    "scene": "⚖️ 预约移民律师咨询",
+    "dialogue": [
+      {
+        "A": "Hi, I'd like to schedule a consultation about my visa status."
+      },
+      {
+        "B": "Sure, is this a first-time consultation or a follow-up?"
+      },
+      {
+        "A": "First time. I have some questions about switching visa categories."
+      },
+      {
+        "B": "Got it. The initial consultation is 30 minutes and costs $150."
+      },
+      {
+        "A": "That works. What documents should I bring?"
+      },
+      {
+        "B": "Bring your passport, current visa approval notice, and any correspondence from USCIS."
+      }
+    ],
+    "translation": [
+      {
+        "A": "你好，我想预约一个关于我签证状态的咨询。"
+      },
+      {
+        "B": "好的，请问是第一次咨询还是复诊？"
+      },
+      {
+        "A": "第一次，我想问一些关于转换签证类别的问题。"
+      },
+      {
+        "B": "明白了，初次咨询是30分钟，费用150美元。"
+      },
+      {
+        "A": "可以。我应该带哪些材料来？"
+      },
+      {
+        "B": "带上您的护照、现有签证批准通知书，以及任何来自移民局的往来文件。"
+      }
+    ],
+    "key_phrases": [
+      "schedule a consultation about ~ = 预约关于～的咨询",
+      "switching visa categories = 转换签证类别",
+      "any correspondence from USCIS = 任何来自移民局的往来文件"
+    ],
+    "tip": "预约律师咨询时提前说明具体问题类型（比如转换签证类别），对方能更快安排合适时长和收费标准。",
+    "examples": [
+      "I'd like to schedule a consultation about my case.（我想预约一个关于我案子的咨询）",
+      "What documents should I bring to the appointment?（我应该带哪些材料来预约面谈）",
+      "Is this covered under the initial consultation fee?（这个包含在初次咨询费里吗）"
+    ]
+  },
+  {
+    "day": 192,
+    "scene": "📋 准备签证续签材料",
+    "dialogue": [
+      {
+        "A": "My visa is expiring in three months — what do I need to prepare for renewal?"
+      },
+      {
+        "B": "You'll need your employment verification letter, recent pay stubs, and your current I-94."
+      },
+      {
+        "A": "Should I start the renewal process now, or is it too early?"
+      },
+      {
+        "B": "Now is actually a good time — processing can take several months."
+      },
+      {
+        "A": "Do I need a new photo for this application?"
+      },
+      {
+        "B": "Yes, it needs to meet the current passport photo requirements."
+      }
+    ],
+    "translation": [
+      {
+        "A": "我的签证三个月后到期——续签需要准备什么材料？"
+      },
+      {
+        "B": "您需要准备工作证明信、近期工资单，以及现在的I-94表格。"
+      },
+      {
+        "A": "我现在就开始办续签手续，会不会太早？"
+      },
+      {
+        "B": "现在其实是个好时机——审理流程可能要几个月。"
+      },
+      {
+        "A": "这次申请需要重新拍照吗？"
+      },
+      {
+        "B": "需要，照片要符合现行的护照照片要求。"
+      }
+    ],
+    "key_phrases": [
+      "~ is expiring in ~ = ～将在～后到期",
+      "employment verification letter = 工作证明信",
+      "processing can take several months = 审理流程可能要几个月"
+    ],
+    "tip": "签证续签类材料准备，记住三件套：工作证明、工资单、现有身份文件（I-94），大多数续签都会要求这几样。",
+    "examples": [
+      "My passport is expiring in six months.（我的护照六个月后到期）",
+      "I need an employment verification letter for my application.（我申请需要一份工作证明信）",
+      "How long does the processing usually take?（审理流程通常要多久）"
+    ]
+  },
+  {
+    "day": 193,
+    "scene": "📬 处理移民局来信/补件通知",
+    "dialogue": [
+      {
+        "A": "I just received a letter from USCIS asking for additional evidence."
+      },
+      {
+        "B": "Okay, let's take a look. What exactly are they requesting?"
+      },
+      {
+        "A": "They want more proof of my employer-employee relationship."
+      },
+      {
+        "B": "That's a common RFE for this visa type. We can submit an updated support letter."
+      },
+      {
+        "A": "What's the deadline to respond?"
+      },
+      {
+        "B": "You have 90 days from the date on the notice — we'll aim to submit well before that."
+      }
+    ],
+    "translation": [
+      {
+        "A": "我刚收到移民局一封信，要求补充材料。"
+      },
+      {
+        "B": "好的，我们来看看，他们具体要求什么？"
+      },
+      {
+        "A": "他们想要更多证明我和雇主之间雇佣关系的材料。"
+      },
+      {
+        "B": "这种签证类型的补件通知很常见，我们可以提交一份更新的证明信。"
+      },
+      {
+        "A": "回复的截止日期是什么时候？"
+      },
+      {
+        "B": "从通知书上的日期算起有90天——我们会争取提前提交。"
+      }
+    ],
+    "key_phrases": [
+      "asking for additional evidence = 要求补充材料",
+      "proof of ~ relationship = ～关系的证明",
+      "the deadline to respond = 回复的截止日期"
+    ],
+    "tip": "收到移民局补件通知（RFE）时先确认两件事：具体要补什么材料，以及截止日期，不要自己瞎猜，交给律师逐条对照回复。",
+    "examples": [
+      "They're asking for additional evidence of my work history.（他们要求补充我工作经历的证明材料）",
+      "What's the deadline to respond to this notice?（回复这份通知的截止日期是什么时候）",
+      "We submitted it well before the deadline.（我们在截止日期前提前提交了）"
+    ]
+  },
+  {
+    "day": 194,
+    "scene": "🗽 入籍面试准备",
+    "dialogue": [
+      {
+        "A": "My naturalization interview is scheduled for next month — how should I prepare?"
+      },
+      {
+        "B": "Review your N-400 application carefully, since they'll ask about everything on it."
+      },
+      {
+        "A": "Should I study the civics questions too?"
+      },
+      {
+        "B": "Yes, and practice reading and writing a simple English sentence as well."
+      },
+      {
+        "A": "What should I bring on the day of the interview?"
+      },
+      {
+        "B": "Bring your green card, passport, and the interview notice itself."
+      }
+    ],
+    "translation": [
+      {
+        "A": "我的入籍面试定在下个月——我该怎么准备？"
+      },
+      {
+        "B": "仔细复习你的N-400申请表，他们会问表格上的所有内容。"
+      },
+      {
+        "A": "公民常识题也需要复习吗？"
+      },
+      {
+        "B": "需要，还要练习读写一个简单的英语句子。"
+      },
+      {
+        "A": "面试当天我需要带什么？"
+      },
+      {
+        "B": "带上你的绿卡、护照，还有面试通知书本身。"
+      }
+    ],
+    "key_phrases": [
+      "naturalization interview = 入籍面试",
+      "review your application carefully = 仔细复习你的申请表",
+      "the interview notice = 面试通知书"
+    ],
+    "tip": "入籍面试三大准备重点：N-400表格内容、公民常识题（civics test）、简单的英语读写测试，三样都要准备到。",
+    "examples": [
+      "My interview is scheduled for next Tuesday.（我的面试定在下周二）",
+      "I need to review my application carefully.（我需要仔细复习我的申请表）",
+      "Don't forget to bring the interview notice.（别忘了带上面试通知书）"
+    ]
+  },
+  {
+    "day": 195,
+    "scene": "⚖️ 申请陪审团义务豁免",
+    "dialogue": [
+      {
+        "A": "I received a jury duty summons, but I have a major deadline that week."
+      },
+      {
+        "B": "You can request a postponement — most courts allow one without much hassle."
+      },
+      {
+        "A": "How do I do that?"
+      },
+      {
+        "B": "Just fill out the form on the back of the summons and mail it in before the date."
+      },
+      {
+        "A": "Can I also request a full exemption instead?"
+      },
+      {
+        "B": "Exemptions are harder to get — a postponement is usually the easier route."
+      }
+    ],
+    "translation": [
+      {
+        "A": "我收到了一份陪审团传票，但那一周我有个很重要的截止日期。"
+      },
+      {
+        "B": "你可以申请延期，大多数法院都允许延期，不会太麻烦。"
+      },
+      {
+        "A": "该怎么申请？"
+      },
+      {
+        "B": "填写传票背面的表格，在规定日期前寄回去就行。"
+      },
+      {
+        "A": "我能申请完全豁免吗？"
+      },
+      {
+        "B": "豁免会更难批准——申请延期通常是更简单的办法。"
+      }
+    ],
+    "key_phrases": [
+      "jury duty summons = 陪审团传票",
+      "request a postponement = 申请延期",
+      "request a full exemption = 申请完全豁免"
+    ],
+    "tip": "陪审团传票如果时间冲突，优先选 'postponement'（延期）而不是直接申请 'exemption'（豁免），前者批准率高得多。",
+    "examples": [
+      "I need to request a postponement for this date.（我需要申请把这个日期延期）",
+      "Is there a form I need to fill out?（有没有需要填写的表格）",
+      "I'd like to request an exemption.（我想申请豁免）"
+    ]
+  },
+  {
+    "day": 196,
+    "scene": "🏛️ 小额法庭纠纷调解",
+    "dialogue": [
+      {
+        "A": "I'm filing a small claims case against my former landlord for my deposit."
+      },
+      {
+        "B": "Okay, do you have documentation of the damage and the original lease?"
+      },
+      {
+        "A": "Yes, I have photos and the signed lease agreement."
+      },
+      {
+        "B": "Good, that'll strengthen your case. The filing fee is usually under $100."
+      },
+      {
+        "A": "Will there be a chance to settle before the actual hearing?"
+      },
+      {
+        "B": "Often yes — many cases get resolved through mediation beforehand."
+      }
+    ],
+    "translation": [
+      {
+        "A": "我要对前房东提起小额索赔诉讼，要回我的押金。"
+      },
+      {
+        "B": "好的，您有损坏情况和原始租约的证明材料吗？"
+      },
+      {
+        "A": "有，我有照片，还有签过字的租约。"
+      },
+      {
+        "B": "很好，这能让您的案子更有力。立案费用一般不到100美元。"
+      },
+      {
+        "A": "正式开庭前有没有机会先和解？"
+      },
+      {
+        "B": "通常是有的——很多案子会在开庭前通过调解解决。"
+      }
+    ],
+    "key_phrases": [
+      "filing a small claims case = 提起小额索赔诉讼",
+      "strengthen your case = 让你的案子更有力",
+      "resolved through mediation = 通过调解解决"
+    ],
+    "tip": "小额法庭索赔最关键的是证据——照片、合同、往来邮件都要留存，证据越完整，调解阶段就越容易谈成。",
+    "examples": [
+      "I'm filing a small claims case against the contractor.（我要对承包商提起小额索赔诉讼）",
+      "Do you have documentation to support your claim?（你有能支持你诉求的材料吗）",
+      "The case was resolved through mediation.（这个案子通过调解解决了）"
+    ]
+  },
+  {
+    "day": 197,
+    "scene": "✍️ 文件公证",
+    "dialogue": [
+      {
+        "A": "Hi, I need this power of attorney document notarized."
+      },
+      {
+        "B": "Sure, do you have a valid photo ID with you?"
+      },
+      {
+        "A": "Yes, here's my driver's license."
+      },
+      {
+        "B": "Great. Please sign the document in front of me, not before."
+      },
+      {
+        "A": "Okay, got it. How much is the notary fee?"
+      },
+      {
+        "B": "It's $15 per signature in this state."
+      }
+    ],
+    "translation": [
+      {
+        "A": "你好，我需要把这份授权委托书做公证。"
+      },
+      {
+        "B": "好的，您带了有效的带照片证件吗？"
+      },
+      {
+        "A": "带了，这是我的驾照。"
+      },
+      {
+        "B": "很好。请在我面前签这份文件，不要提前签。"
+      },
+      {
+        "A": "好的，明白了。公证费是多少？"
+      },
+      {
+        "B": "这个州是每个签名15美元。"
+      }
+    ],
+    "key_phrases": [
+      "get ~ notarized = 把～做公证",
+      "a valid photo ID = 有效的带照片证件",
+      "sign the document in front of me = 在我面前签这份文件"
+    ],
+    "tip": "公证最重要的规矩：文件一定要在公证员面前当场签字，提前签过的文件公证员会拒绝公证。",
+    "examples": [
+      "I need this form notarized.（我需要把这份表格做公证）",
+      "Do you have a valid photo ID?（你有有效的带照片证件吗）",
+      "Please don't sign it until I'm here to witness it.（在我到场见证之前请不要签字）"
+    ]
+  },
+  {
+    "day": 198,
+    "scene": "🏠 租房合同纠纷协商",
+    "dialogue": [
+      {
+        "A": "I noticed you're charging me a fee that wasn't in our original lease."
+      },
+      {
+        "B": "Let me check — can you point out which section you're referring to?"
+      },
+      {
+        "A": "There's nothing about a pet fee in the signed agreement."
+      },
+      {
+        "B": "You're right, I apologize for the confusion. I'll remove that charge."
+      },
+      {
+        "A": "Thank you, I'd also like that confirmed in writing."
+      },
+      {
+        "B": "Of course, I'll send you an updated statement by email today."
+      }
+    ],
+    "translation": [
+      {
+        "A": "我注意到你们收了一笔费用，但我们原来的租约里没有这一项。"
+      },
+      {
+        "B": "我查一下——您能指出是哪一条吗？"
+      },
+      {
+        "A": "签过字的协议里完全没有提到宠物费。"
+      },
+      {
+        "B": "您说得对，抱歉造成这个误会，我会把这笔费用去掉。"
+      },
+      {
+        "A": "谢谢，我还想要一份书面确认。"
+      },
+      {
+        "B": "没问题，我今天就通过邮件给您发一份更新后的账单。"
+      }
+    ],
+    "key_phrases": [
+      "charging me a fee that wasn't in ~ = 收了一笔不在～里的费用",
+      "point out which section = 指出是哪一条",
+      "I'd like that confirmed in writing = 我想要一份书面确认"
+    ],
+    "tip": "租房费用有争议时，直接引用合同条款（'not in our original lease'）比单纯抱怨更有效，最后一定要求书面确认，口头承诺不算数。",
+    "examples": [
+      "This charge wasn't in our original agreement.（这笔费用不在我们原来的协议里）",
+      "Can you point out where it says that?（你能指出是哪里写的吗）",
+      "I'd like that in writing, please.（麻烦给我一份书面确认）"
+    ]
+  },
+  {
+    "day": 199,
+    "scene": "🚔 交通罚单上诉听证",
+    "dialogue": [
+      {
+        "A": "I'd like to contest this parking ticket — I think it was issued in error."
+      },
+      {
+        "B": "Okay, what's your reason for disputing it?"
+      },
+      {
+        "A": "The sign was blocked by a tree, so I couldn't see the restriction."
+      },
+      {
+        "B": "Do you have photos showing that?"
+      },
+      {
+        "A": "Yes, I took pictures right after I got the ticket."
+      },
+      {
+        "B": "Good, attach those to your appeal form and we'll schedule a hearing."
+      }
+    ],
+    "translation": [
+      {
+        "A": "我想申诉这张停车罚单——我觉得这是误开的。"
+      },
+      {
+        "B": "好的，您申诉的理由是什么？"
+      },
+      {
+        "A": "那个标志被一棵树挡住了，我根本看不到限停规定。"
+      },
+      {
+        "B": "您有照片能证明这一点吗？"
+      },
+      {
+        "A": "有，我拿到罚单之后马上拍了照片。"
+      },
+      {
+        "B": "很好，把照片附在申诉表格上，我们会安排一个听证。"
+      }
+    ],
+    "key_phrases": [
+      "contest this ~ ticket = 申诉这张～罚单",
+      "issued in error = 误开的",
+      "attach those to your appeal form = 把照片附在申诉表格上"
+    ],
+    "tip": "申诉交通罚单时，'issued in error'（误开）加上现场照片证据是最有说服力的组合，没有证据的口头申诉很难成功。",
+    "examples": [
+      "I'd like to contest this ticket.（我想申诉这张罚单）",
+      "I believe this was issued in error.（我认为这是误开的）",
+      "I have photos to support my appeal.（我有照片能支持我的申诉）"
+    ]
+  },
+  {
+    "day": 200,
+    "scene": "📜 咨询遗嘱与授权书",
+    "dialogue": [
+      {
+        "A": "I'd like to set up a basic will and a power of attorney for healthcare."
+      },
+      {
+        "B": "Sure. Do you already know who you'd like to name as your beneficiaries?"
+      },
+      {
+        "A": "Yes, my spouse and my two kids."
+      },
+      {
+        "B": "And for healthcare decisions, who would you want making those on your behalf?"
+      },
+      {
+        "A": "My spouse, with my sister as a backup."
+      },
+      {
+        "B": "Got it, I'll draft both documents and send them for your review."
+      }
+    ],
+    "translation": [
+      {
+        "A": "我想办一份基础遗嘱，再加一份医疗事务的授权委托书。"
+      },
+      {
+        "B": "好的，您已经想好要指定谁作为受益人了吗？"
+      },
+      {
+        "A": "想好了，是我的配偶和两个孩子。"
+      },
+      {
+        "B": "那医疗决定方面，您希望谁来代您做决定？"
+      },
+      {
+        "A": "我的配偶，我姐姐作为备选。"
+      },
+      {
+        "B": "明白了，我会起草这两份文件，发给您审阅。"
+      }
+    ],
+    "key_phrases": [
+      "set up a basic will = 办一份基础遗嘱",
+      "power of attorney for healthcare = 医疗事务授权委托书",
+      "making those on your behalf = 代你做决定"
+    ],
+    "tip": "遗嘱和授权委托书咨询时，律师最先问的通常是 beneficiaries（受益人）和医疗决定代理人，提前想好人选能让咨询更高效。",
+    "examples": [
+      "I'd like to set up a basic will.（我想办一份基础遗嘱）",
+      "Who would you like to name as your beneficiary?（你想指定谁作为受益人）",
+      "I'll draft the document and send it for your review.（我会起草这份文件并发给你审阅）"
+    ]
+  },
+  {
+    "day": 201,
+    "scene": "👨‍👩‍👧 参加家长会",
+    "dialogue": [
+      {
+        "A": "Thanks for coming in. Overall, your daughter is doing really well in class."
+      },
+      {
+        "B": "That's great to hear. Is there anything she could improve on?"
+      },
+      {
+        "A": "She could participate a bit more during group discussions."
+      },
+      {
+        "B": "I see. Is there anything we can do at home to encourage that?"
+      },
+      {
+        "A": "Maybe just asking her open-ended questions about her day could help."
+      },
+      {
+        "B": "That's a good idea. We'll definitely try that."
+      }
+    ],
+    "translation": [
+      {
+        "A": "感谢您过来。总体来说，您女儿在课堂上表现得很不错。"
+      },
+      {
+        "B": "太好了。有什么她可以再改进的地方吗？"
+      },
+      {
+        "A": "小组讨论的时候她可以再多参与一些。"
+      },
+      {
+        "B": "明白了，我们在家里能做些什么来鼓励她吗？"
+      },
+      {
+        "A": "也许可以多问她一些开放式的问题，聊聊她这一天过得怎么样。"
+      },
+      {
+        "B": "这个主意不错，我们一定会试试。"
+      }
+    ],
+    "key_phrases": [
+      "is doing really well in ~ = 在～表现得很不错",
+      "could improve on ~ = 可以在～上再改进",
+      "anything we can do at home = 我们在家里能做些什么"
+    ],
+    "tip": "家长会沟通时，老师给出建议后，接一句 'anything we can do at home?'（我们在家能做什么），能让谈话从评价转向具体行动。",
+    "examples": [
+      "He's doing really well in math this year.（他今年数学表现得很不错）",
+      "Is there anything she could improve on?（有什么她可以改进的地方吗）",
+      "Is there anything we can do at home to help?（我们在家能做些什么来帮忙吗）"
+    ]
+  },
+  {
+    "day": 202,
+    "scene": "📧 给孩子写请假条/邮件老师",
+    "dialogue": [
+      {
+        "A": "Hi Mrs. Carter, I wanted to let you know my son will be out sick tomorrow."
+      },
+      {
+        "B": "Thanks for letting me know. I hope he feels better soon."
+      },
+      {
+        "A": "Could you let me know if he misses anything important?"
+      },
+      {
+        "B": "Of course, I'll send home the worksheet and notes from today."
+      },
+      {
+        "A": "I really appreciate it."
+      },
+      {
+        "B": "No problem at all, take care of him."
+      }
+    ],
+    "translation": [
+      {
+        "A": "您好Carter老师，想跟您说一声，我儿子明天会因为生病请假。"
+      },
+      {
+        "B": "谢谢您告诉我，希望他能早点好起来。"
+      },
+      {
+        "A": "如果他错过了什么重要内容，能麻烦您告诉我一下吗？"
+      },
+      {
+        "B": "当然可以，我会把今天的作业单和笔记让他带回家。"
+      },
+      {
+        "A": "真的很感谢。"
+      },
+      {
+        "B": "不客气，好好照顾他。"
+      }
+    ],
+    "key_phrases": [
+      "will be out sick tomorrow = 明天会因为生病请假",
+      "let me know if he misses anything = 如果他错过什么麻烦告诉我",
+      "I really appreciate it = 真的很感谢"
+    ],
+    "tip": "给老师写请假邮件，格式很简单：说明缺勤原因+时间，再加一句 'let me know if he misses anything important'，显得负责又周到。",
+    "examples": [
+      "My daughter will be out sick today.（我女儿今天因为生病请假）",
+      "Could you let me know what she missed?（能告诉我她错过了什么吗）",
+      "Thank you so much for understanding.（非常感谢您的理解）"
+    ]
+  },
+  {
+    "day": 203,
+    "scene": "🎨 报名孩子课外班",
+    "dialogue": [
+      {
+        "A": "Hi, I'd like to sign my daughter up for the Saturday art class."
+      },
+      {
+        "B": "Great choice! How old is she?"
+      },
+      {
+        "A": "She just turned six."
+      },
+      {
+        "B": "Perfect, that class is for ages 5 to 8. It runs ten weeks starting next month."
+      },
+      {
+        "A": "Do I need to bring any supplies?"
+      },
+      {
+        "B": "No need, all materials are included in the fee."
+      }
+    ],
+    "translation": [
+      {
+        "A": "你好，我想给我女儿报周六的美术班。"
+      },
+      {
+        "B": "很好的选择！她几岁了？"
+      },
+      {
+        "A": "她刚满六岁。"
+      },
+      {
+        "B": "刚好合适，这个班是5到8岁的孩子，从下个月开始，一共十周。"
+      },
+      {
+        "A": "我需要自己带材料吗？"
+      },
+      {
+        "B": "不用，所有材料都包含在费用里了。"
+      }
+    ],
+    "key_phrases": [
+      "sign my daughter up for ~ = 给我女儿报～",
+      "that class is for ages ~ = 这个班是～岁的孩子",
+      "all materials are included = 所有材料都包含在内"
+    ],
+    "tip": "给孩子报课外班，除了价格，一定要问清楚年龄段(age range)和周期(how many weeks)，这两项决定孩子能不能跟上进度。",
+    "examples": [
+      "I'd like to sign him up for swim lessons.（我想给他报游泳课）",
+      "What age range is this class for?（这个班适合什么年龄段）",
+      "Is anything included in the fee?（费用里包含什么吗）"
+    ]
+  },
+  {
+    "day": 204,
+    "scene": "🧒 处理孩子在校的小冲突",
+    "dialogue": [
+      {
+        "A": "I wanted to talk to you about something that happened on the playground."
+      },
+      {
+        "B": "Of course, what happened?"
+      },
+      {
+        "A": "Your son and another student had a disagreement that got a little physical."
+      },
+      {
+        "B": "I'm sorry to hear that. Is everyone okay?"
+      },
+      {
+        "A": "Yes, nobody was hurt, but we did separate them and talked it through."
+      },
+      {
+        "B": "Thank you for handling it calmly. I'll talk to him about it at home too."
+      }
+    ],
+    "translation": [
+      {
+        "A": "我想跟您聊聊操场上发生的一件事。"
+      },
+      {
+        "B": "好的，发生什么了？"
+      },
+      {
+        "A": "您儿子和另一个学生有点小摩擦，动了一下手。"
+      },
+      {
+        "B": "很抱歉听到这个。大家都没事吧？"
+      },
+      {
+        "A": "都没事，没人受伤，不过我们把他们分开了，也聊开了。"
+      },
+      {
+        "B": "谢谢您冷静处理，我回家也会跟他好好聊聊。"
+      }
+    ],
+    "key_phrases": [
+      "had a disagreement that got a little physical = 有点小摩擦动了下手",
+      "Is everyone okay? = 大家都没事吧",
+      "handled it calmly = 冷静地处理了"
+    ],
+    "tip": "被老师告知孩子在校冲突，先问 'Is everyone okay?'（大家都没事吧）再了解细节，这是得体又关心的第一反应。",
+    "examples": [
+      "They had a small disagreement at recess.（他们课间休息时有点小摩擦）",
+      "Is everyone okay?（大家都没事吧）",
+      "I'll talk to him about it at home.（我回家会跟他聊聊这件事）"
+    ]
+  },
+  {
+    "day": 205,
+    "scene": "🎂 组织孩子生日会邀请",
+    "dialogue": [
+      {
+        "A": "We're planning a birthday party for our son on the 14th, would your daughter like to come?"
+      },
+      {
+        "B": "That sounds fun, let me check with her. What time should she arrive?"
+      },
+      {
+        "A": "Anytime after 2 PM is great, it'll run until about 5."
+      },
+      {
+        "B": "Got it. Is there anything specific she should bring?"
+      },
+      {
+        "A": "No need to bring anything, just come ready to have fun!"
+      },
+      {
+        "B": "Perfect, we'll be there. Thanks for inviting her."
+      }
+    ],
+    "translation": [
+      {
+        "A": "我们准备在14号给儿子办个生日会，你女儿愿意来吗？"
+      },
+      {
+        "B": "听起来不错，我问问她。她应该几点到比较合适？"
+      },
+      {
+        "A": "下午两点以后随时都可以，活动大概持续到五点。"
+      },
+      {
+        "B": "明白了，她需要带什么特定的东西吗？"
+      },
+      {
+        "A": "不用带什么，开心来玩就好！"
+      },
+      {
+        "B": "太好了，我们会到的，谢谢邀请她。"
+      }
+    ],
+    "key_phrases": [
+      "we're planning a birthday party for ~ = 我们准备给～办生日会",
+      "anytime after ~ is great = ～以后随时都可以",
+      "come ready to have fun = 开心来玩就好"
+    ],
+    "tip": "邀请孩子参加生日会，说清楚时间段（几点到几点）和是否需要带东西，家长回复起来会更方便。",
+    "examples": [
+      "We're planning a small gathering this weekend.（我们这周末准备办个小聚会）",
+      "Anytime after noon works for us.（中午以后随时都可以）",
+      "You don't need to bring anything.（不用带任何东西）"
+    ]
+  },
+  {
+    "day": 206,
+    "scene": "🩺 确认孩子的医保与学校健康表",
+    "dialogue": [
+      {
+        "A": "I need to submit my son's health form before the school year starts."
+      },
+      {
+        "B": "Sure, does he have an up-to-date physical and immunization record?"
+      },
+      {
+        "A": "Yes, he had his checkup last month, I just need the paperwork from the doctor."
+      },
+      {
+        "B": "Great, once you have that, just fill out this form and bring it to the front office."
+      },
+      {
+        "A": "Is there a deadline for submitting it?"
+      },
+      {
+        "B": "Yes, it needs to be turned in by the first day of school."
+      }
+    ],
+    "translation": [
+      {
+        "A": "开学前我需要提交我儿子的健康表格。"
+      },
+      {
+        "B": "好的，他有最新的体检和疫苗接种记录吗？"
+      },
+      {
+        "A": "有，他上个月刚做了体检，我只需要医生那边的文件。"
+      },
+      {
+        "B": "很好，拿到那些材料之后，填好这张表格交到前台办公室就行。"
+      },
+      {
+        "A": "提交有截止日期吗？"
+      },
+      {
+        "B": "有，必须在开学第一天之前交上来。"
+      }
+    ],
+    "key_phrases": [
+      "an up-to-date physical and immunization record = 最新的体检和疫苗接种记录",
+      "fill out this form = 填好这张表格",
+      "turned in by ~ = 必须在～之前交上来"
+    ],
+    "tip": "学校健康表最常要求两样：physical（体检报告）和 immunization record（疫苗记录），开学前提前跟儿科医生约好体检，避免临时抓瞎。",
+    "examples": [
+      "Does he have an up-to-date immunization record?（他有最新的疫苗接种记录吗）",
+      "When does this need to be turned in?（这个需要什么时候交上来）",
+      "I'll fill out the form and send it over.（我会填好表格发过去）"
+    ]
+  },
+  {
+    "day": 207,
+    "scene": "👶 和保姆/托管沟通需求",
+    "dialogue": [
+      {
+        "A": "I wanted to go over our daughter's schedule before you start next week."
+      },
+      {
+        "B": "Sure, what time does she usually nap?"
+      },
+      {
+        "A": "Around 1 PM, for about two hours. She also has a mild nut allergy."
+      },
+      {
+        "B": "Good to know, I'll make sure to avoid that completely."
+      },
+      {
+        "A": "If anything comes up, just call or text me, I'm available all day."
+      },
+      {
+        "B": "Sounds good, I'll keep you updated throughout the day too."
+      }
+    ],
+    "translation": [
+      {
+        "A": "下周你开始之前，我想先跟你过一遍我女儿的日常安排。"
+      },
+      {
+        "B": "好的，她通常几点午睡？"
+      },
+      {
+        "A": "大概下午一点，睡两个小时左右。她还对坚果有轻微过敏。"
+      },
+      {
+        "B": "了解了，我会完全避开坚果类食物。"
+      },
+      {
+        "A": "有任何情况随时打电话或发信息给我，我一整天都有空。"
+      },
+      {
+        "B": "好的，我也会随时跟你汇报情况。"
+      }
+    ],
+    "key_phrases": [
+      "go over ~'s schedule = 过一遍～的日常安排",
+      "has a mild ~ allergy = 对～有轻微过敏",
+      "keep you updated = 随时跟你汇报情况"
+    ],
+    "tip": "和保姆/托管交接时，务必明确说出孩子的过敏信息（allergy），这是安全第一条，不要觉得不好意思重复强调。",
+    "examples": [
+      "Let's go over her daily schedule.（我们来过一遍她的日常安排）",
+      "She has a mild allergy to peanuts.（她对花生有轻微过敏）",
+      "I'll keep you updated throughout the day.（我会一整天随时跟你汇报情况）"
+    ]
+  },
+  {
+    "day": 208,
+    "scene": "🍽️ 安排家庭聚会",
+    "dialogue": [
+      {
+        "A": "Should we host Thanksgiving this year, or go to your parents' place?"
+      },
+      {
+        "B": "Let's host it, it's been a while since everyone's been to our house."
+      },
+      {
+        "A": "Good idea. I'll handle the turkey if you take care of the sides."
+      },
+      {
+        "B": "Deal. Should we also invite your sister's family?"
+      },
+      {
+        "A": "Yes, let's check with them about dietary restrictions too."
+      },
+      {
+        "B": "I'll send everyone a message this weekend to confirm."
+      }
+    ],
+    "translation": [
+      {
+        "A": "我们今年感恩节是在家里办，还是去你父母那边？"
+      },
+      {
+        "B": "我们在家办吧，大家好久没来我们家了。"
+      },
+      {
+        "A": "好主意，我负责烤火鸡，你负责配菜怎么样？"
+      },
+      {
+        "B": "成交。要不要也邀请你妹妹一家？"
+      },
+      {
+        "A": "好，也顺便问一下他们有没有饮食禁忌。"
+      },
+      {
+        "B": "我这周末给大家发消息确认一下。"
+      }
+    ],
+    "key_phrases": [
+      "host ~ this year = 今年办～这个活动",
+      "take care of the sides = 负责配菜",
+      "dietary restrictions = 饮食禁忌"
+    ],
+    "tip": "家庭聚会分工用 'I'll handle ~ if you take care of ~' 这个句型，把任务对半分配，说得清楚又不显得计较。",
+    "examples": [
+      "Should we host the party this year?（今年我们来办这个聚会吗）",
+      "I'll handle dessert if you take care of drinks.（我负责甜点，你负责饮料）",
+      "Do they have any dietary restrictions?（他们有什么饮食禁忌吗）"
+    ]
+  },
+  {
+    "day": 209,
+    "scene": "🧓 接待来访的祖辈长辈",
+    "dialogue": [
+      {
+        "A": "My parents are visiting next month and will be staying for three weeks."
+      },
+      {
+        "B": "That's wonderful! Have you looked into their visa requirements?"
+      },
+      {
+        "A": "Yes, they already have their visitor visas sorted out."
+      },
+      {
+        "B": "Great. Do they need anything special while they're here, like medication?"
+      },
+      {
+        "A": "My dad takes blood pressure medicine, so I'll need to find a local pharmacy."
+      },
+      {
+        "B": "Good thinking, better to have that figured out before they arrive."
+      }
+    ],
+    "translation": [
+      {
+        "A": "我父母下个月要来探亲，会待三个星期。"
+      },
+      {
+        "B": "太好了！他们的签证手续都办妥了吗？"
+      },
+      {
+        "A": "办妥了，访问签证已经弄好了。"
+      },
+      {
+        "B": "很好。他们在这边期间有什么特殊需要吗，比如药物？"
+      },
+      {
+        "A": "我爸爸要吃降压药，所以我得提前找好附近的药店。"
+      },
+      {
+        "B": "想得周到，最好在他们到之前就安排好。"
+      }
+    ],
+    "key_phrases": [
+      "visiting next month = 下个月要来探亲",
+      "visa requirements = 签证手续",
+      "find a local pharmacy = 找好附近的药店"
+    ],
+    "tip": "接待长辈来访，提前安排好的清单里最容易被忽略的是“常用药在本地怎么补”，入境前就该问清楚、找好附近药店。",
+    "examples": [
+      "My parents are visiting next month.（我父母下个月要来探亲）",
+      "Have you looked into the visa requirements?（你了解过签证手续了吗）",
+      "I need to find a local pharmacy for his medication.（我需要找个附近的药店配他的药）"
+    ]
+  },
+  {
+    "day": 210,
+    "scene": "💰 和配偶商量家庭开支",
+    "dialogue": [
+      {
+        "A": "I think we should revisit our monthly budget, groceries have gotten expensive."
+      },
+      {
+        "B": "Agreed. Should we cut back on eating out instead?"
+      },
+      {
+        "A": "That makes sense, maybe limit it to once a week."
+      },
+      {
+        "B": "What about the kids' activities? Are we over budget there too?"
+      },
+      {
+        "A": "A little, but I don't want to cut those, they're worth it."
+      },
+      {
+        "B": "Fair enough, let's adjust the eating-out budget and leave that as is."
+      }
+    ],
+    "translation": [
+      {
+        "A": "我觉得我们该重新看看每月的预算了，买菜越来越贵了。"
+      },
+      {
+        "B": "同意，那我们是不是该减少外出吃饭的次数？"
+      },
+      {
+        "A": "有道理，也许限制到每周一次。"
+      },
+      {
+        "B": "孩子的课外活动那块呢？那边是不是也超预算了？"
+      },
+      {
+        "A": "有一点，但我不想削减那部分，我觉得值得。"
+      },
+      {
+        "B": "也有道理，那我们就调整外食预算，那部分维持不变。"
+      }
+    ],
+    "key_phrases": [
+      "revisit our monthly budget = 重新看看每月的预算",
+      "cut back on ~ = 减少～（的开销）",
+      "over budget = 超预算"
+    ],
+    "tip": "夫妻谈家庭开支，用 'cut back on' 而不是 'cut'，语气更温和，表示“减少”而不是“完全砍掉”，更容易达成一致。",
+    "examples": [
+      "We should revisit our monthly budget.（我们该重新看看每月的预算了）",
+      "Let's cut back on eating out.（我们减少一下外出吃饭的次数吧）",
+      "We're a little over budget this month.（我们这个月有点超预算）"
+    ]
+  },
+  {
+    "day": 211,
+    "scene": "🏥 请家庭医生转诊专科",
+    "dialogue": [
+      {
+        "A": "I've been having knee pain for a few weeks, can you refer me to a specialist?"
+      },
+      {
+        "B": "Sure, let's take a look first. Does it hurt when you bend it?"
+      },
+      {
+        "A": "Yes, especially going up and down stairs."
+      },
+      {
+        "B": "I'll refer you to an orthopedist. Do you have a preference for location?"
+      },
+      {
+        "A": "Somewhere close to my office would be great."
+      },
+      {
+        "B": "I'll send the referral and their office should call you within a few days."
+      }
+    ],
+    "translation": [
+      {
+        "A": "我膝盖疼了好几个星期了，能帮我转诊到专科吗？"
+      },
+      {
+        "B": "好的，我们先看一下。弯曲的时候疼吗？"
+      },
+      {
+        "A": "疼，尤其是上下楼梯的时候。"
+      },
+      {
+        "B": "我会把你转诊给骨科医生，对诊所位置有什么偏好吗？"
+      },
+      {
+        "A": "靠近我公司的话就太好了。"
+      },
+      {
+        "B": "我把转诊单发过去，他们诊所应该几天内会打电话给你。"
+      }
+    ],
+    "key_phrases": [
+      "refer me to a specialist = 转诊给专科医生",
+      "does it hurt when you ~? = ～的时候疼吗",
+      "send the referral = 发送转诊单"
+    ],
+    "tip": "跟家庭医生要转诊，直接说症状+持续时间（'for a few weeks'），再提具体请求（refer me to a specialist），比笼统地说“不舒服”更有效率。",
+    "examples": [
+      "Can you refer me to a specialist?（能帮我转诊到专科吗）",
+      "It hurts when I bend my knee.（我弯膝盖的时候会疼）",
+      "Do you have a preference for location?（你对位置有什么偏好吗）"
+    ]
+  },
+  {
+    "day": 212,
+    "scene": "📋 向保险公司申请提前授权",
+    "dialogue": [
+      {
+        "A": "Hi, I'm calling to check on the status of a pre-authorization request."
+      },
+      {
+        "B": "Sure, can you give me the reference number from your doctor's office?"
+      },
+      {
+        "A": "Yes, it's AUTH-20481."
+      },
+      {
+        "B": "Thanks, I see it here. It's still under review and should be decided within five business days."
+      },
+      {
+        "A": "What happens if it gets denied?"
+      },
+      {
+        "B": "You'd have the right to file an appeal, and we'd send you instructions for that."
+      }
+    ],
+    "translation": [
+      {
+        "A": "你好，我想咨询一下提前授权申请的进度。"
+      },
+      {
+        "B": "好的，能给我一下您医生诊所那边的参考编号吗？"
+      },
+      {
+        "A": "可以，是AUTH-20481。"
+      },
+      {
+        "B": "谢谢，我这边查到了。还在审核中，五个工作日内应该会有结果。"
+      },
+      {
+        "A": "如果被拒绝了会怎样？"
+      },
+      {
+        "B": "您有权提起申诉，我们会给您寄送相关的操作说明。"
+      }
+    ],
+    "key_phrases": [
+      "check on the status of ~ = 查一下～的进度",
+      "still under review = 还在审核中",
+      "file an appeal = 提起申诉"
+    ],
+    "tip": "询问保险 pre-authorization（提前授权）进度时，先准备好参考编号（reference/auth number），客服能更快查到你的案子。",
+    "examples": [
+      "I'm calling to check on the status of my claim.（我打电话来查一下我理赔的进度）",
+      "It's still under review.（还在审核中）",
+      "How do I file an appeal?（我该怎么提起申诉）"
+    ]
+  },
+  {
+    "day": 213,
+    "scene": "💻 远程视频问诊",
+    "dialogue": [
+      {
+        "A": "Hi doctor, thanks for seeing me over video today."
+      },
+      {
+        "B": "Of course, what's been going on?"
+      },
+      {
+        "A": "I've had a sore throat and mild fever since yesterday."
+      },
+      {
+        "B": "Any difficulty breathing or swallowing?"
+      },
+      {
+        "A": "No, just some discomfort when I swallow."
+      },
+      {
+        "B": "Sounds like a common throat infection. I'll send a prescription to your pharmacy."
+      }
+    ],
+    "translation": [
+      {
+        "A": "您好医生，谢谢您今天通过视频给我看诊。"
+      },
+      {
+        "B": "没问题，最近是什么情况？"
+      },
+      {
+        "A": "从昨天开始喉咙痛，还有点低烧。"
+      },
+      {
+        "B": "有没有呼吸困难或者吞咽困难？"
+      },
+      {
+        "A": "没有，就是吞咽的时候有点不舒服。"
+      },
+      {
+        "B": "听起来像是常见的咽喉感染，我会把处方发到你的药房。"
+      }
+    ],
+    "key_phrases": [
+      "thanks for seeing me over video = 谢谢您通过视频给我看诊",
+      "what's been going on? = 最近是什么情况",
+      "send a prescription to your pharmacy = 把处方发到你的药房"
+    ],
+    "tip": "视频问诊开场直接说症状加上起病时间（'since yesterday'），医生能更快判断病情严重程度，不用反复追问。",
+    "examples": [
+      "I've had a headache since this morning.（我从今早开始头疼）",
+      "Any difficulty breathing?（有呼吸困难吗）",
+      "I'll send the prescription to your pharmacy.（我会把处方发到你的药房）"
+    ]
+  },
+  {
+    "day": 214,
+    "scene": "💊 续开处方药",
+    "dialogue": [
+      {
+        "A": "Hi, I'm almost out of my prescription and need a refill."
+      },
+      {
+        "B": "Sure, which medication is it for?"
+      },
+      {
+        "A": "It's the one for my blood pressure, I only have a few days left."
+      },
+      {
+        "B": "I'll send the refill request to your doctor for approval today."
+      },
+      {
+        "A": "How long does that usually take?"
+      },
+      {
+        "B": "Usually one to two business days, we'll text you once it's ready."
+      }
+    ],
+    "translation": [
+      {
+        "A": "你好，我的处方药快吃完了，需要续方。"
+      },
+      {
+        "B": "好的，是哪种药呢？"
+      },
+      {
+        "A": "是我降血压的那种，只剩几天的量了。"
+      },
+      {
+        "B": "我今天就把续方申请发给你的医生审批。"
+      },
+      {
+        "A": "这个通常要多久？"
+      },
+      {
+        "B": "通常一到两个工作日，准备好了我们会发短信通知你。"
+      }
+    ],
+    "key_phrases": [
+      "almost out of my prescription = 处方药快吃完了",
+      "need a refill = 需要续方",
+      "send the refill request = 发送续方申请"
+    ],
+    "tip": "续处方药最好提前几天打电话，说清楚 'only have a few days left'，避免审批流程来不及导致断药。",
+    "examples": [
+      "I'm almost out of my medication.（我的药快吃完了）",
+      "I need a refill on my prescription.（我需要续一下处方）",
+      "How long does the refill usually take?（续方通常要多久）"
+    ]
+  },
+  {
+    "day": 215,
+    "scene": "📄 体检报告出来后向医生追问细节",
+    "dialogue": [
+      {
+        "A": "I saw my lab results online, but I don't fully understand one of the numbers."
+      },
+      {
+        "B": "No problem, which value are you asking about?"
+      },
+      {
+        "A": "The one for my cholesterol — it says it's slightly above the normal range."
+      },
+      {
+        "B": "It's mildly elevated, nothing urgent, but worth keeping an eye on."
+      },
+      {
+        "A": "Is there anything I should change in my diet?"
+      },
+      {
+        "B": "Cutting back on fried foods and getting more fiber would help."
+      }
+    ],
+    "translation": [
+      {
+        "A": "我在网上看到我的化验结果了，但有一项数值我不太明白。"
+      },
+      {
+        "B": "没问题，您问的是哪一项？"
+      },
+      {
+        "A": "是胆固醇那一项——显示比正常范围稍微高一点。"
+      },
+      {
+        "B": "是轻度偏高，不算紧急，但值得留意。"
+      },
+      {
+        "A": "我饮食上有什么需要调整的吗？"
+      },
+      {
+        "B": "减少油炸食物，多摄入一些膳食纤维会有帮助。"
+      }
+    ],
+    "key_phrases": [
+      "I don't fully understand ~ = 我不太明白～",
+      "slightly above the normal range = 比正常范围稍微高一点",
+      "worth keeping an eye on = 值得留意"
+    ],
+    "tip": "追问体检报告细节，直接指出具体项目（'the one for my cholesterol'），医生能针对性解释，比笼统问“这个报告正常吗”更高效。",
+    "examples": [
+      "I don't fully understand this result.（我不太明白这项结果）",
+      "Is this slightly above the normal range?（这个是不是比正常范围稍微高一点）",
+      "Is there anything I should change?（我有什么需要调整的吗）"
+    ]
+  },
+  {
+    "day": 216,
+    "scene": "🏋️ 预约物理治疗",
+    "dialogue": [
+      {
+        "A": "My doctor referred me for physical therapy for my shoulder."
+      },
+      {
+        "B": "Great, let's get you scheduled. Do you have the referral with you?"
+      },
+      {
+        "A": "Yes, I have it right here."
+      },
+      {
+        "B": "Perfect. We have openings on Tuesdays and Thursdays, which works better?"
+      },
+      {
+        "A": "Thursdays work better for my schedule."
+      },
+      {
+        "B": "Great, I've booked you for this Thursday at 3 PM."
+      }
+    ],
+    "translation": [
+      {
+        "A": "我的医生把我转诊去做肩膀的物理治疗。"
+      },
+      {
+        "B": "好的，我们来帮您安排时间。您带转诊单了吗？"
+      },
+      {
+        "A": "带了，就在这里。"
+      },
+      {
+        "B": "很好，我们周二和周四有空档，哪个时间更适合您？"
+      },
+      {
+        "A": "周四对我的日程来说更合适。"
+      },
+      {
+        "B": "好的，我给您预约了这周四下午三点。"
+      }
+    ],
+    "key_phrases": [
+      "referred me for physical therapy = 把我转诊去做物理治疗",
+      "we have openings on ~ = 我们在～有空档",
+      "works better for my schedule = 对我的日程来说更合适"
+    ],
+    "tip": "预约物理治疗等后续专科时，带好转诊单（referral），前台会直接核对，省去反复核实的时间。",
+    "examples": [
+      "I was referred for physical therapy.（我被转诊去做物理治疗）",
+      "Which day works better for you?（哪天对您来说更合适）",
+      "I've booked you for Thursday at 3 PM.（我给您预约了周四下午三点）"
+    ]
+  },
+  {
+    "day": 217,
+    "scene": "🧠 心理咨询初次电话沟通",
+    "dialogue": [
+      {
+        "A": "Hi, I'm looking to start therapy, do you have any openings?"
+      },
+      {
+        "B": "Yes, we do. Is there a particular issue you'd like to focus on?"
+      },
+      {
+        "A": "Mostly work-related stress and trouble sleeping."
+      },
+      {
+        "B": "Understood. Would you prefer in-person sessions or video calls?"
+      },
+      {
+        "A": "Video calls would be more convenient for me."
+      },
+      {
+        "B": "No problem, I can schedule your first session for next Monday evening."
+      }
+    ],
+    "translation": [
+      {
+        "A": "你好，我想开始接受心理咨询，你们有空档吗？"
+      },
+      {
+        "B": "有的。有什么特别想聚焦的问题吗？"
+      },
+      {
+        "A": "主要是工作压力和睡眠问题。"
+      },
+      {
+        "B": "明白了，您更倾向于面对面还是视频通话？"
+      },
+      {
+        "A": "视频通话对我来说更方便。"
+      },
+      {
+        "B": "没问题，我可以帮您把第一次咨询安排在下周一晚上。"
+      }
+    ],
+    "key_phrases": [
+      "looking to start therapy = 想开始接受心理咨询",
+      "a particular issue you'd like to focus on = 特别想聚焦的问题",
+      "would be more convenient for me = 对我来说更方便"
+    ],
+    "tip": "第一次联系心理咨询师，简单说清楚想聚焦的问题类型（压力/睡眠/关系等）就够了，不需要在电话里详细展开，留到正式咨询时再说。",
+    "examples": [
+      "I'm looking to start therapy.（我想开始接受心理咨询）",
+      "Mostly stress and anxiety.（主要是压力和焦虑）",
+      "Video calls would be more convenient for me.（视频通话对我更方便）"
+    ]
+  },
+  {
+    "day": 218,
+    "scene": "🦷 确认牙科保险额度",
+    "dialogue": [
+      {
+        "A": "Before I schedule this procedure, can you check what my insurance covers?"
+      },
+      {
+        "B": "Sure, let me pull up your plan. It looks like you have $1,500 left for this year."
+      },
+      {
+        "A": "Does that cover the full cost of the procedure?"
+      },
+      {
+        "B": "It covers about 80%, so you'd owe around $200 out of pocket."
+      },
+      {
+        "A": "That works for me, let's go ahead and schedule it."
+      },
+      {
+        "B": "Great, I'll get you on the calendar for next week."
+      }
+    ],
+    "translation": [
+      {
+        "A": "在安排这个治疗之前，能帮我查一下我的保险能报销多少吗？"
+      },
+      {
+        "B": "可以，我查一下您的保单。看起来您今年还剩1500美元的额度。"
+      },
+      {
+        "A": "这能覆盖整个治疗的费用吗？"
+      },
+      {
+        "B": "能覆盖大概80%，所以您自己大概要付200美元。"
+      },
+      {
+        "A": "这个我能接受，那就安排吧。"
+      },
+      {
+        "B": "好的，我帮您安排在下周。"
+      }
+    ],
+    "key_phrases": [
+      "what my insurance covers = 我的保险能报销多少",
+      "left for this year = 今年还剩的额度",
+      "out of pocket = 自费部分"
+    ],
+    "tip": "牙科/医疗治疗前先问 'what my insurance covers' 和 'out of pocket' 金额，避免治疗完才发现自己要付一大笔钱。",
+    "examples": [
+      "Can you check what my insurance covers?（能帮我查一下我的保险能报销多少吗）",
+      "How much would I owe out of pocket?（我自己大概要付多少）",
+      "Let's go ahead and schedule it.（那我们就安排吧）"
+    ]
+  },
+  {
+    "day": 219,
+    "scene": "⚠️ 告知医护人员药物过敏史",
+    "dialogue": [
+      {
+        "A": "Before we start, do you have any known drug allergies?"
+      },
+      {
+        "B": "Yes, I'm allergic to penicillin — it gives me a rash."
+      },
+      {
+        "A": "Thanks for letting me know, I'll note that in your chart."
+      },
+      {
+        "B": "I also had a bad reaction to a sulfa drug once."
+      },
+      {
+        "A": "Got it, we'll avoid both of those when prescribing anything today."
+      },
+      {
+        "B": "I appreciate you double-checking."
+      }
+    ],
+    "translation": [
+      {
+        "A": "开始之前，您有没有已知的药物过敏？"
+      },
+      {
+        "B": "有，我对青霉素过敏——会起皮疹。"
+      },
+      {
+        "A": "谢谢您告诉我，我会记录在您的病历里。"
+      },
+      {
+        "B": "我还对一种磺胺类药物有过不良反应。"
+      },
+      {
+        "A": "明白了，我们今天开药会避开这两种。"
+      },
+      {
+        "B": "谢谢你仔细核对。"
+      }
+    ],
+    "key_phrases": [
+      "any known drug allergies? = 已知的药物过敏",
+      "allergic to ~ = 对～过敏",
+      "had a bad reaction to ~ = 对～有过不良反应"
+    ],
+    "tip": "告知药物过敏史时，不仅要说过敏的药名，也要补充一句具体反应（'it gives me a rash'），帮助医生判断过敏的严重程度。",
+    "examples": [
+      "I'm allergic to penicillin.（我对青霉素过敏）",
+      "It gives me a rash.（它会让我起皮疹）",
+      "I had a bad reaction to that medication once.（我以前对那种药有过不良反应）"
+    ]
+  },
+  {
+    "day": 220,
+    "scene": "💪 和物理治疗师汇报康复训练进度",
+    "dialogue": [
+      {
+        "A": "How has the home exercise program been going?"
+      },
+      {
+        "B": "Pretty well, I've been doing the stretches every day like you suggested."
+      },
+      {
+        "A": "Great. Any pain or discomfort during the exercises?"
+      },
+      {
+        "B": "A little stiffness at first, but it's gotten easier each week."
+      },
+      {
+        "A": "That's a good sign of progress. Let's increase the reps slightly starting today."
+      },
+      {
+        "B": "Sounds good, I'm ready to try that."
+      }
+    ],
+    "translation": [
+      {
+        "A": "家庭训练计划进行得怎么样？"
+      },
+      {
+        "B": "挺不错的，我每天都按您说的做了拉伸。"
+      },
+      {
+        "A": "很好，做训练的时候有疼痛或不舒服吗？"
+      },
+      {
+        "B": "一开始有点僵硬，但每周都在变得容易一些。"
+      },
+      {
+        "A": "这是进步的好迹象，从今天开始我们稍微增加一点次数。"
+      },
+      {
+        "B": "好的，我准备好试试了。"
+      }
+    ],
+    "key_phrases": [
+      "how has ~ been going? = ～进行得怎么样",
+      "a good sign of progress = 进步的好迹象",
+      "increase the reps slightly = 稍微增加一点次数"
+    ],
+    "tip": "向物理治疗师汇报进度，按“做没做+有没有不适+变化趋势”三步说清楚，治疗师能更快判断是否该调整训练量。",
+    "examples": [
+      "How has your recovery been going?（你的恢复情况怎么样）",
+      "It's gotten easier each week.（每周都在变得容易一些）",
+      "That's a good sign of progress.（这是进步的好迹象）"
+    ]
   }
 ]
